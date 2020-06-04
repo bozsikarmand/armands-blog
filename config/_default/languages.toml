@@ -1,0 +1,13 @@
+[en]
+  title = "Hugo Zzo Theme"
+  languageName = "English"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/en"
+
+[hu]
+  title = "Hugo Zzo Theme"
+  languageName = "Magyar"
+  weight = 2
+  languagedir = "ltr"
+  contentdir = "content/hu"
