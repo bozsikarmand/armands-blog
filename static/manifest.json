@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zzo theme",
-  "short_name": "Hugo Zzo theme",
+  "name": "Armand's Blog",
+  "short_name": "Blog",
   "version": "1.0.0",
   "default_locale": "en",
   "description": "Hugo blog theme with rich features",
-  "start_url": "https://themes.gohugo.io/theme/hugo-theme-zzo/",
+  "start_url": "https://armands.blog/",
   "icons": [
     {
       "src": "favicon/android-icon-36x36.png",
