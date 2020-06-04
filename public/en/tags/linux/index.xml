@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>linux on Hugo Zzo Theme</title>
+    <link>https://armands.blog/en/tags/linux/</link>
+    <description>Recent content in linux on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
+    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 17 Oct 2016 19:51:58 +0000</lastBuildDate>
+    
+        <atom:link href="https://armands.blog/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>How to configure Brother HL-2135W over wifi in adhoc mode</title>
+        <link>https://armands.blog/en/posts/how-to-configure-brother-hl-2135w-over-wifi-in-adhoc-mode/</link>
+        <pubDate>Mon, 17 Oct 2016 19:51:58 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Mon, 17 Oct 2016 19:51:58 +0000</atom:modified>
+        <guid>https://armands.blog/en/posts/how-to-configure-brother-hl-2135w-over-wifi-in-adhoc-mode/</guid>
+        <description>In case you would like to avoid using the pre-built driver package provided by Brother please do the following in order to configure the printer on a secure wifi network:
+  Find an OS which is capable of creating ad-hoc network (current version of Ubuntu will suffice)
+  Find a compatible USB wifi stick (e.g.: ASUS USB-N13)
+  Do a factory reset on the printer. (To do this please refer to the user manual)</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>brother</category>
+            
+          
+            
+              <category>hl-2135w</category>
+            
+          
+            
+              <category>linux</category>
+            
+          
+            
+              <category>ubuntu</category>
+            
+          
+            
+              <category>wifi</category>
+            
+          
+        
+        
+          
+            
+              <category>How-to</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

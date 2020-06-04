@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Study on Hugo Zzo Theme</title>
+    <link>https://armands.blog/hu/categories/study/</link>
+    <description>Recent content in Study on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hu</language>
+    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
+    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 10 Sep 2015 12:26:39 +0000</lastBuildDate>
+    
+        <atom:link href="https://armands.blog/hu/categories/study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Az Ethernet szabvány áttekintése és időrendi fejlődése</title>
+        <link>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</link>
+        <pubDate>Thu, 10 Sep 2015 12:26:39 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Thu, 10 Sep 2015 12:26:39 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</guid>
+        <description>Beadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történelmi és technikai háttért figyelembe véve.
+Az Ethernet a számítógépes hálózati technológiák családjába tartozó szabvány, mely helyi (LAN) és városi méretű (WAN) hálózatok összekötésére szolgál. Az Ethernet 1980-ban került bemutatásra, majd 1983-ban vált szabvánnyá IEEE 802.3 néven. Ettől kezdve a szabvány alapjaiban nem változott, csupán mindig a kor (egyre növekvő) igényeihez igazították. Változott a maximálisan kihúzható kábelhossz két gép közt, illetve az adatátviteli sebesség is jelentősen megnőtt az idők folyamán.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Study</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

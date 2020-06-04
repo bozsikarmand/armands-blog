@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://armands.blog/hu/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/archive/_index.ko/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/about/</loc>
+    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/gallery/</loc>
+    <lastmod>2018-10-12T10:20:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/gallery/photo/</loc>
+    <lastmod>2018-10-12T10:20:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/gallery/cartoon/</loc>
+    <lastmod>2018-10-11T10:20:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/categories/</loc>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/kinai-csirke/</loc>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/</loc>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/tags/recept/</loc>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/categories/recept/</loc>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/tags/</loc>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</loc>
+    <lastmod>2015-09-10T12:26:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/categories/study/</loc>
+    <lastmod>2015-09-10T12:26:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/bleep-a-bittorrent-biztonsagos-csevegoalkalmazasa-nyilvanosan-elerhetove-valt/</loc>
+    <lastmod>2015-09-09T18:06:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/categories/hungarian/</loc>
+    <lastmod>2015-09-09T18:06:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/megjelent-a-circle-stopwatch-windows-phone-ra/</loc>
+    <lastmod>2015-09-09T18:03:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/erkeznek-a-microsoft-alkalmazasai-es-szolgaltatasai-a-cyanogen-operacios-rendszerebe/</loc>
+    <lastmod>2015-09-09T16:13:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-windows-10-korabban-kiszivargott-10056-os-verzioja-nem-frissitheto-10061-re/</loc>
+    <lastmod>2015-09-09T16:10:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-net-applications-legujabb-felmerese-a-windows-7-piaci-ternyereset-mutatja/</loc>
+    <lastmod>2015-09-09T16:08:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-microsoft-kiadta-az-ms-dos-t-lumia-telefonokra/</loc>
+    <lastmod>2015-09-09T16:05:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/microsoft-megvan-a-megoldas-a-windows-10-10049-es-verziojanak-hyper-v-anomaliaira/</loc>
+    <lastmod>2015-09-09T16:01:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/6tag-javulo-kepminoseg-a-kovetkezo-frissitesnek-koszonhetoen/</loc>
+    <lastmod>2015-09-09T15:59:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/kibovult-felirat-tamogatas-a-windows-10-video-lejatszo-alkalmazasaban/</loc>
+    <lastmod>2015-09-09T15:57:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/microsoft-band-ellatasi-nehezsegek/</loc>
+    <lastmod>2015-09-09T15:55:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-microsoft-allitolag-meg-mindig-az-az-androidos-alkalmazasok-windows-phone-on-valo-futtatasan-dolgozik/</loc>
+    <lastmod>2015-09-09T15:48:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/sound-band-hangeffektek-lejatszasa-windows-phone-on-a-microsoft-band-mozgatasaval/</loc>
+    <lastmod>2015-09-09T15:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/hamarosan-intelligens-tarcsazas-funkcioval-bovulhet-a-mobilos-windows-10/</loc>
+    <lastmod>2015-09-09T15:40:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/windows-10-a-mobilos-verzio-hamarosan-lassitott-felvetel-funkcioval-bovulhet/</loc>
+    <lastmod>2015-09-09T15:39:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/reszleges-hardveres-gyorsitassal-bovult-a-vlc-windows-phone-os-verzioja/</loc>
+    <lastmod>2015-09-09T15:37:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/microsoft-a-kalozverziot-hasznalok-is-ingyen-frissithetnek-windows-10-re/</loc>
+    <lastmod>2015-09-09T15:34:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-miband-tracker-betaverzioja-mar-mindenki-szamara-elerheto/</loc>
+    <lastmod>2015-09-09T15:32:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-cortana-erkezik-ios-re-es-androidra-is/</loc>
+    <lastmod>2015-09-09T15:30:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/tobb-mint-egymillio-visszajelzes-erkezett-eddig-a-windows-insider-kereteben-a-fejlesztokhoz/</loc>
+    <lastmod>2015-09-09T15:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/xbox-music-a-microsoft-hatalmas-akcioval-unnepli-a-pi-vilagnapjat/</loc>
+    <lastmod>2015-09-09T15:25:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-microsoft-megerositette-a-lync-skype-for-business-neven-lesz-a-jovoben-elerheto/</loc>
+    <lastmod>2015-09-06T09:02:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-battlefield-hardline-probaverzioja-elerhetove-valt-xbox-one-ra-az-ea-access-szolgaltatas-kereteben/</loc>
+    <lastmod>2015-09-06T09:00:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/egy-kulsos-alkalmazas-segitsegevel-megvaltoztathatod-a-microsoft-band-nyelvi-beallitasait/</loc>
+    <lastmod>2015-09-06T08:58:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/harmadik-feltol-szamazo-alkalmazas-keszul-a-xiaomi-miband-hez-windows-phone-ra/</loc>
+    <lastmod>2015-09-06T08:56:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/frissites-erkezett-az-xbox-one-windows-phone-os-smartglass-alkalmazasahoz/</loc>
+    <lastmod>2015-09-06T08:51:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/nehany-felhasznalo-az-office-preview-rendellenes-mukodeserol-szamolt-be-windows-10-en/</loc>
+    <lastmod>2015-09-06T08:29:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/novelte-piaci-reszesedeset-europaban-a-windows-phone/</loc>
+    <lastmod>2015-09-06T08:27:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-windows-10-ben-debutalo-directx-12-amd-es-nvidia-gpu-k-egyuttes-mukodeset-is-lehetove-teheti/</loc>
+    <lastmod>2015-09-06T08:25:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/ujabb-kepek-szivarogtak-ki-a-windows-10-mobilos-verziojarol/</loc>
+    <lastmod>2015-09-06T08:22:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/2016-ig-nem-varhato-uj-windows-server/</loc>
+    <lastmod>2015-09-06T08:20:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/windows-insider-plusz-500-000-felhasznalo-8-nap-alatt/</loc>
+    <lastmod>2015-09-06T08:17:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/hololens-elmenybeszamolo-ketelyekkel-vegyitve/</loc>
+    <lastmod>2015-09-06T08:15:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/minden-amit-megtudhattunk-a-microsoft-tegnapi-esemenyen/</loc>
+    <lastmod>2015-09-06T08:12:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/valtottam-iphone-6-ra-s-hianyozni-kezdett-a-windows-phone-8-1/</loc>
+    <lastmod>2015-09-06T08:09:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/ismet-olcsobb-az-xbox-one-az-egyesult-allamokban/</loc>
+    <lastmod>2015-09-06T08:07:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-windows-insider-program-felhasznalasi-felteteleinek-valtozasarol/</loc>
+    <lastmod>2015-09-06T08:05:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-microsoft-kiadta-januari-rendszerfrissiteset-a-surface-pro-eszkozokre/</loc>
+    <lastmod>2015-09-06T08:01:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/posts/a-windows-10-et-futtato-szamitogepek-es-telefonok-egy-idoben-erkezhetnek/</loc>
+    <lastmod>2015-09-06T07:58:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/tags/index/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/tags/index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/tags/index/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/hu/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/series/"
+                />
+  </url>
+  
+</urlset>

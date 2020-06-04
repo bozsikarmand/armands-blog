@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Hungarian on Hugo Zzo Theme</title>
+    <link>https://armands.blog/hu/categories/hungarian/</link>
+    <description>Recent content in Hungarian on Hugo Zzo Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hu</language>
+    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
+    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 09 Sep 2015 18:06:11 +0000</lastBuildDate>
+    
+        <atom:link href="https://armands.blog/hu/categories/hungarian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Bleep - a BitTorrent biztonságos csevegőalkalmazása nyilvánosan elérhetővé vált</title>
+        <link>https://armands.blog/hu/posts/bleep-a-bittorrent-biztonsagos-csevegoalkalmazasa-nyilvanosan-elerhetove-valt/</link>
+        <pubDate>Wed, 09 Sep 2015 18:06:11 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 18:06:11 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/bleep-a-bittorrent-biztonsagos-csevegoalkalmazasa-nyilvanosan-elerhetove-valt/</guid>
+        <description>A BitTorrent Inc. bejelentette, hogy a mai nappal kezdődően a Bleep névre hallgató, biztonságos üzenetküldést lehetővé tevő alkalmazás elhagyta az alfa státuszt, így számos platformon nyilvánosan is hozzáférhetővé vált, beleértve a Windowst futtató PC-ket is.
+A Bleep – melynek alfa verziója tavaly szeptemberben látott napvilágot – egy üzenetküldő applikáció mely a személyes adatok és információk védelme érdekében mellőzi a manapság oly divatos felhőszolgáltatások használatát a kommunikáció során, ehelyett a feladó és a címzett közt direkt módon történik a párbeszéd, úgy hogy annak tartalmát harmadik fél semmiképp se ismerhesse meg.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Megjelent a Circle Stopwatch Windows Phone-ra</title>
+        <link>https://armands.blog/hu/posts/megjelent-a-circle-stopwatch-windows-phone-ra/</link>
+        <pubDate>Wed, 09 Sep 2015 18:03:42 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 18:03:42 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/megjelent-a-circle-stopwatch-windows-phone-ra/</guid>
+        <description>A platform egyik legjobb alkalmazása Abban az esetben, ha egy stopper alkalmazásra lenne szükséged Windows Phone készülékeden, javasoljuk, próbáld ki a most megjelent Circle Stopwatch alkalmazást. Használata egyszerű, az alkalmazás működése gyors és a dizájn is igen minimalista. Ezen kívül a program képes a háttérben is futni, így nem kell aggódnod, Twitterezés vagy épp e-mail olvasás után is nyomon követheted az idő múlását, Nekünk személy szerint nagyon tetszik az alkalmazás és maga a külcsín is.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Érkeznek a Microsoft alkalmazásai és szolgáltatásai a Cyanogen operációs rendszerébe</title>
+        <link>https://armands.blog/hu/posts/erkeznek-a-microsoft-alkalmazasai-es-szolgaltatasai-a-cyanogen-operacios-rendszerebe/</link>
+        <pubDate>Wed, 09 Sep 2015 16:13:13 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 16:13:13 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/erkeznek-a-microsoft-alkalmazasai-es-szolgaltatasai-a-cyanogen-operacios-rendszerebe/</guid>
+        <description>A két cég egy partneri megállapodás keretében jelentette be a platform Microsoft alkalmazásokkal és szolgáltatásokkal való bővülését Az emailben érkezett bejelentésből többek közt megtudhatjuk, hogy a két cég egy olyan integráción dolgozik, mely egy egészen egyedi élményt hoz el a Cyanogen OS felhasználóinak a Bing, Skype, OneDrive, OneNote, Outlook és Microsoft Ofice használata során.
+A redmondi cég nagy erőkkel dolgozik azon, hogy rivális platformokon, iOS-en és Androidon is elérhető legyen a cég teljes szolgáltatáskínálata a legnagyszerűbb élmény mellett.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Windows 10 korábban kiszivárgott, 10056-os verziója nem frissíthető 10061-re</title>
+        <link>https://armands.blog/hu/posts/a-windows-10-korabban-kiszivargott-10056-os-verzioja-nem-frissitheto-10061-re/</link>
+        <pubDate>Wed, 09 Sep 2015 16:10:30 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 16:10:30 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-windows-10-korabban-kiszivargott-10056-os-verzioja-nem-frissitheto-10061-re/</guid>
+        <description>Windows 10 build 10061 - csak belső használatra Azok a felhasználók, akik a Windows 10 nemrég kiszivárgott 10056-os verzióját telepítették számítógépükre a frissítések keresését követően egy érdekes dologra lehetnek figyelmesek: a rendszer értesít egy letölthető, új szoftververzióról – ez lenne a 10061 - de az végül nem települ.
+Megvan a „hiba” forrása, ugyanis az említett verzió csak Microsoft alkalmazottaknak érhető el.
+Az eset kapcsán Gabriel Aul is szolgált egy kevés információval Twitter csatornáján:</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Net Applications legújabb felmérése a Windows 7 piaci térnyerését mutatja</title>
+        <link>https://armands.blog/hu/posts/a-net-applications-legujabb-felmerese-a-windows-7-piaci-ternyereset-mutatja/</link>
+        <pubDate>Wed, 09 Sep 2015 16:08:13 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 16:08:13 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-net-applications-legujabb-felmerese-a-windows-7-piaci-ternyereset-mutatja/</guid>
+        <description>Nem, ez nem áprilisi tréfa A minap a Net Applications megjelentette szokásosnak tekinthető, az operációs rendszerek piaci részesedésére vonatkozó számadatait. A márciusi fejlemények a Windows 7 számára világszerte kedvezőnek bizonyultak, ugyanakkor a Windows 8 és 8.1 részesedése szinte végig stagnált. A Net Applications-nél elmondták (több ezer weboldal látogatottsági statisztikáját alapul véve), hogy márciusban is a Windows 7 maradt a világon leggyakrabban használt operációs rendszer, egészen pontosan 58.04% piaci részesedéssel büszkélkedhetett, mely a februári 55.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Microsoft kiadta az MS-DOS-t Lumia telefonokra</title>
+        <link>https://armands.blog/hu/posts/a-microsoft-kiadta-az-ms-dos-t-lumia-telefonokra/</link>
+        <pubDate>Wed, 09 Sep 2015 16:05:43 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 16:05:43 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-microsoft-kiadta-az-ms-dos-t-lumia-telefonokra/</guid>
+        <description>Ma a Microsoft kiadta az MS-DOS Mobile-t, mely a Lumia telefonok új operációs rendszere. Esetleg ha nem tudnád: az MS-DOS-t milliónyi személyi számítógépen használták, nagy megelégedéssel, s most itt a remek lehetőség, hogy telefonon is használhasd eme kiváló szoftvert.
+Fekete alapon fehér szöveg még sosem festett ilyen jól!  jegyezte meg Tom Messett a Microsoft Lumia marketingosztályától, a bejelentő videóban. Tekintsd is meg, az extázis garantált.  Az MS-DOS Mobile a régi, jól bevált hagyományokat követi, így minden egyes fájl vagy mappa eléréséhez a régről jól ismert parancsokat kell használnod.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Microsoft: Megvan a megoldás a Windows 10 10049-es verziójának Hyper-V anomáliáira</title>
+        <link>https://armands.blog/hu/posts/microsoft-megvan-a-megoldas-a-windows-10-10049-es-verziojanak-hyper-v-anomaliaira/</link>
+        <pubDate>Wed, 09 Sep 2015 16:01:09 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 16:01:09 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/microsoft-megvan-a-megoldas-a-windows-10-10049-es-verziojanak-hyper-v-anomaliaira/</guid>
+        <description>A Microsoft ma több részletet közölt a Windows 10 legfrissebb publikus kiadásának virtualizációs képességét érintő hibáról A szoftveróriás fejlesztés alatt álló rendszerének ugyan még csak tegnap jelent meg legújabb verziója, de úgy tűnik ez a kiadás sem mentes a bosszantó hibáktól. Azon felhasználók számára, akik az operációs rendszer beépített Hyper-V virtualizációs technológiáját használnák az új rendszeren, a frissítés nem ajánlott. A redmondi cég Hyper-V programmenedzsere, Ben Armstrong sietett a felhasználók segítségére, s az MSDN blog szekciójában közölte is a virtualizációs esköz hibáját orvosló megoldást.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>6tag: Javuló képminőség a következő frissítésnek köszönhetően</title>
+        <link>https://armands.blog/hu/posts/6tag-javulo-kepminoseg-a-kovetkezo-frissitesnek-koszonhetoen/</link>
+        <pubDate>Wed, 09 Sep 2015 15:59:45 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:59:45 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/6tag-javulo-kepminoseg-a-kovetkezo-frissitesnek-koszonhetoen/</guid>
+        <description>Tegnap este a 6tag (és számos egyéb alkalmazás) fejlesztője, Rudy Huyn egy képet tett közzé Twitter csatornáján, hogy érzékeltesse az elkövetkező, 4.1-es frissítésben várható képminőség javulást 6tag 4.1 will dramatically improve image quality! See samples here! [http://t.co/exgwL0ONjY](http://t.co/exgwL0ONjY) [#windowsphone](https://twitter.com/hashtag/windowsphone?src=hash) [#wpdev](https://twitter.com/hashtag/wpdev?src=hash) — Rudy Huyn (@RudyHuyn) March 31, 2015
+A népszerű Instagram alkalmazás a jelenleg 4.0.6-os verzióhoz képest jelentős, főként a képminőséget érintő javuláson fog átesni, a megosztott kép alapján pedig a hivatalos, béta státuszú applikációhoz nem is lehet majd hasonlítani a változás mértékét.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Kibővült felirat támogatás a Windows 10 videó lejátszó alkalmazásában</title>
+        <link>https://armands.blog/hu/posts/kibovult-felirat-tamogatas-a-windows-10-video-lejatszo-alkalmazasaban/</link>
+        <pubDate>Wed, 09 Sep 2015 15:57:43 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:57:43 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/kibovult-felirat-tamogatas-a-windows-10-video-lejatszo-alkalmazasaban/</guid>
+        <description>A Windows 10 beépített video lejátszó alkalmazása több ismert feliratfájl-formátumot támogat majd. Ezt a hírt Gabriel Aul, a Windows Insider program vezetője jelentette be Twitter csatornáján keresztül
+Egy érdeklődő felirat támogatással kapcsolatos kérdésére a következőt válaszolta:
+@PaulTheAnimeFan Yes we’ll have SSA, ASS, and SRT (UTF8 unformatted). Very exciting!
+&amp;mdash; Gabriel Aul (@GabeAul) March 30, 2015  Mely annyit tesz:
+SSA, ASS és SRT támogatással (itt csak a formázatlan, UTF8 kódolású szövegeket támogatjuk) is bővül programunk.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Microsoft Band: Ellátási nehézségek</title>
+        <link>https://armands.blog/hu/posts/microsoft-band-ellatasi-nehezsegek/</link>
+        <pubDate>Wed, 09 Sep 2015 15:55:16 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:55:16 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/microsoft-band-ellatasi-nehezsegek/</guid>
+        <description>Újból hosszú a várakozási idő a Microsoft Band-re A Microsoft Band kis és közepes méretű modelljére a legtöbb online árusítónál igen sokat kell várni. Már megint. A Microsoft online áruháza azt mutatja, hogyha megrendeled az említett méretkategóriákba tartozó eszköz valamelyikét, akkor egészen május 6-ig kell várnod, hogy végül megkaphasd a rendelésed.
+Azoknak a leendő tulajdonosoknak, akiknek a nagyobb méretű a megfelelő, nem kell annyit várni – legalábbis a cég oldala szerint.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Microsoft állítólag még mindig az Androidos alkalmazások Windows Phone-on való futtatásán dolgozik</title>
+        <link>https://armands.blog/hu/posts/a-microsoft-allitolag-meg-mindig-az-az-androidos-alkalmazasok-windows-phone-on-valo-futtatasan-dolgozik/</link>
+        <pubDate>Wed, 09 Sep 2015 15:48:09 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:48:09 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-microsoft-allitolag-meg-mindig-az-az-androidos-alkalmazasok-windows-phone-on-valo-futtatasan-dolgozik/</guid>
+        <description>Egy újabb merész lépés a Microsofttól Mikor a Microsoft mobileszközöket illető jövőképére gondolunk, igen sok minden eszünkbe juthat. Többek közt az is, hogy a jövőben Android-os alkalmazások futtatására is képes lehet majd a Windows 10 okos telefonokra szánt verziója, így töltve be a jelenleg tapasztalható űrt az alkalmazások elérhetőségét, és kisebb számát tekintve.
+A Neowin cikkében fény derül a program jelenlegi állapotára, illetve a projekt előtt tornyosuló akadályokra is.
+A Neowin cikke alapján elmondható, hogy a Microsoft még mindig nagy erőkkel dolgozik egy olyan funkció megalkotásán, mellyel futtathatóvá válnak az Android-os alkalmazások Windows Phone-on.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Sound Band: hangeffektek lejátszása Windows Phone-on a Microsoft Band mozgatásával</title>
+        <link>https://armands.blog/hu/posts/sound-band-hangeffektek-lejatszasa-windows-phone-on-a-microsoft-band-mozgatasaval/</link>
+        <pubDate>Wed, 09 Sep 2015 15:42:00 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:42:00 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/sound-band-hangeffektek-lejatszasa-windows-phone-on-a-microsoft-band-mozgatasaval/</guid>
+        <description>A Sound Band egy olyan alkalmazás, ami hangeffektek lejátszását teszi lehetővé a telefonodon (naná, hogy csak Windows Phone jöhet szóba), és ehhez csak annyit kell tenned, hogy mozgatod a karodat. Persze úgy, hogy rajta van a Band. A felhasználói felület egyelőre elég kezdetleges és csak egyetlen hangzás érhető el, de úgy néz ki, komoly lehetőségek rejlenek a programban. Nézd meg magad, és győződj meg róla saját szemeddel:
+Amikor elindítod a Sound Band-et, egy puritán, csak a legszükségesebb információkra szorítkozó felületet látsz magad előtt.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Hamarosan intelligens tárcsázás funkcióval bővülhet a mobilos Windows 10</title>
+        <link>https://armands.blog/hu/posts/hamarosan-intelligens-tarcsazas-funkcioval-bovulhet-a-mobilos-windows-10/</link>
+        <pubDate>Wed, 09 Sep 2015 15:40:55 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:40:55 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/hamarosan-intelligens-tarcsazas-funkcioval-bovulhet-a-mobilos-windows-10/</guid>
+        <description>A Windows 10 ebben is változást hoz elődjéhez képest Az intelligens tárcázás a Windows Phone felhasználók által egy már igen régóta áhított funkció, melyet a Windows Phone 8.1 sem hozott el. Néha ezért visszasírom az androidos telefonom. Most képzeljétek csak el: ott amint beírtam a hívni kívánt illető nevét a tárcsázóba, a rendszer szinte azonnal kikereste a telefonkönyvből, s rányomva már hívhattam is, vagy SMS-t küldhettem a számára, vagy esetleg e-mailt.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Windows 10: a mobilos verzió hamarosan lassított felvétel funkcióval bővülhet</title>
+        <link>https://armands.blog/hu/posts/windows-10-a-mobilos-verzio-hamarosan-lassitott-felvetel-funkcioval-bovulhet/</link>
+        <pubDate>Wed, 09 Sep 2015 15:39:01 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:39:01 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/windows-10-a-mobilos-verzio-hamarosan-lassitott-felvetel-funkcioval-bovulhet/</guid>
+        <description>Új funkciók kaphatnak helyet a Windows 10 for phones kamera alkalmazásában A Snapdragon 800 processzorral szerelt, Windows Phone-t futtató telefonok tulajdonosai feltehetőleg örömmel használják a Lumia Denim frissítés által elhozott újdonságokat, de a sok új funkció mellett néhány dolgot mégsem tud készülékük. Többek közt ilyen a lassított videofelvétel lehetősége is, melyet az Apple platformja, az iOS már egy éve támogat. A WinHEC-en elhangzott információk szerint a Windows 10 ezen a téren is javulást ígér, ugyanis a Kamera alkalmazás számtalan funkcióval fog bővülni, úgy.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Részleges hardveres gyorsítással bővült a VLC Windows Phone-os verziója</title>
+        <link>https://armands.blog/hu/posts/reszleges-hardveres-gyorsitassal-bovult-a-vlc-windows-phone-os-verzioja/</link>
+        <pubDate>Wed, 09 Sep 2015 15:37:17 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:37:17 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/reszleges-hardveres-gyorsitassal-bovult-a-vlc-windows-phone-os-verzioja/</guid>
+        <description>Új funkciókkal bővült a VideoLan médialejátszója A mai napon az 1.2.0 verzióra frissült a Windows Phone áruházban, a VLC. Ugyan a változások teljes listájáról nem kaptunk még hivatalos bejelentést, az alábbi Tweet ennek ellenére sok fontos információval szolgálhat:
+VLC for Windows Phone 1.2.0 is being deployed on the store, in beta. This should bring numerous improvements and partial hardware decoding. — VideoLAN (@videolan) March 20, 2015
+A fejlesztők az üzenetben részleges hardveres gyorsításról, illetve főként hibajavításokról beszélnek az új verzió kapcsán.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Microsoft: A kalózverziót használók is ingyen frissíthetnek Windows 10-re</title>
+        <link>https://armands.blog/hu/posts/microsoft-a-kalozverziot-hasznalok-is-ingyen-frissithetnek-windows-10-re/</link>
+        <pubDate>Wed, 09 Sep 2015 15:34:33 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:34:33 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/microsoft-a-kalozverziot-hasznalok-is-ingyen-frissithetnek-windows-10-re/</guid>
+        <description>Úgy tűnik nem tréfálnak az új Windows kapcsán. A kalóz szoftverek használata elleni harcban a Microsoft egy igen merész, történelmi jelentőségű lépésre szánja el magát a Windows 10-zel. Terry Myerson a Microsoft egyik alkalmazottja azt nyilatkozta, hogy minden ügyfelük – függetlenül attól, hogy eredeti vagy esetleg illegális forrásból származó példányt futtat – jogosult lesz a Windows 10-re való ingyenes frissítésre.
+A cég döntése nyilvánvalóan a kínai és egyéb távol keleti piacok illegálisszoftver-használatának visszaszorítása érdekében történt, álljon itt példaként megint csak Kína, ahol a számítógépek kétharmadán kalóz szoftverek futnak.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A MiBand Tracker bétaverziója már mindenki számára elérhető</title>
+        <link>https://armands.blog/hu/posts/a-miband-tracker-betaverzioja-mar-mindenki-szamara-elerheto/</link>
+        <pubDate>Wed, 09 Sep 2015 15:32:16 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:32:16 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-miband-tracker-betaverzioja-mar-mindenki-szamara-elerheto/</guid>
+        <description>&amp;hellip;és végre tud angolul is! Nemrég adtunk hírt egy harmadik fél által fejlesztett alkalmazásról, mely a Xiaomi MiBand funkcióit igyekszik támogatni Windows Phone-on. A mai napon – sok egyéb fontos információ mellett – megtudtuk a fejlesztőtől, hogy az alkalmazás nyílt béta státuszba lépett, így mindenki számára tesztelhető, sőt az elérhető nyelvek száma is bővült, ennek köszönhetően végre tud az alkalmazás angolul is.
+Amennyiben részt vennél a tesztben, úgy nincs más dolgod, mint a lenti WPBetaMe linkre rákattintani.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Cortana érkezik iOS-re és Androidra is</title>
+        <link>https://armands.blog/hu/posts/a-cortana-erkezik-ios-re-es-androidra-is/</link>
+        <pubDate>Wed, 09 Sep 2015 15:30:36 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:30:36 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-cortana-erkezik-ios-re-es-androidra-is/</guid>
+        <description>A Microsoft azt tervezi, hogy elérhetővé teszi a Cortana-t az iOS és Android felhasználók számára is, egy letölthető alkalmazás formájában. Míg korábban csak feltételeztük a digitális asszisztens konkurens platformokon való megjelenését, mára ez úgy tűnik valós lehetőséggé vált – legalábbis a Reuters értesülései szerint. A Microsoft jelenleg a Cortana Windows 10-be építésével van elfoglalva, s mindez egy még szélesebb körű integrációt vetít előre, amelyből a más platformokat használókat sem kívánják kihagyni.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Több mint egymillió visszajelzés érkezett eddig a Windows Insider keretében a fejlesztőkhöz</title>
+        <link>https://armands.blog/hu/posts/tobb-mint-egymillio-visszajelzes-erkezett-eddig-a-windows-insider-kereteben-a-fejlesztokhoz/</link>
+        <pubDate>Wed, 09 Sep 2015 15:27:23 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:27:23 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/tobb-mint-egymillio-visszajelzes-erkezett-eddig-a-windows-insider-kereteben-a-fejlesztokhoz/</guid>
+        <description>A Microsoft 2014 szeptemberében indította útjára a Windows Insider programot, melybe a mai napon megérkezett az egymilliomodik visszajelzés. A forradalmi pillanat hírét a Microsoft egyik műszaki menedzsere, Gabe Aul jelentette be, aki többek közt a Windows Insider projektért is felelős.
+Wow! We just received our one millionth piece of feedback from the Feedback app! Woohoo! #WindowsInsiders
+&amp;mdash; Gabriel Aul (@GabeAul) March 14, 2015  A Windows Insider először a Windows 10 tesztelésének kezdetén kapott nagy szerepet és – az újdonság varázsa miatt – sajtóvisszhangot, majd 2015 januárjában megjelent az alkalmazás Windows Phone-ra telepíthető variánsa is.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Xbox Music: A Microsoft hatalmas akcióval ünnepli a Pi világnapját</title>
+        <link>https://armands.blog/hu/posts/xbox-music-a-microsoft-hatalmas-akcioval-unnepli-a-pi-vilagnapjat/</link>
+        <pubDate>Wed, 09 Sep 2015 15:25:22 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Wed, 09 Sep 2015 15:25:22 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/xbox-music-a-microsoft-hatalmas-akcioval-unnepli-a-pi-vilagnapjat/</guid>
+        <description>A redmondi cégnél a Pi világnapját egy igencsak rendkívüli Xbox Music akcióval tették még emlékezetesebbé. Érdemes megjegyezni, hogy maihoz hasonló 3,141592563 számjegyeknek megfelelő időpillanatban már csak száz év múlva lehet újból részünk. Természetesen aki az ilyen témákra fogékony, annak már ez önmagában nagyon különleges lehetett, de hogy az oldal profiljába jobban illeszkedő módon közelítsem meg az eseményt: az éves Xbox Music előfizetés ára több mint 66%-kal csökkent, így jelenleg 31.41 dollár a Microsoft Store oldalán.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Microsoft megerősítette: A Lync Skype for Business néven lesz a jövőben elérhető</title>
+        <link>https://armands.blog/hu/posts/a-microsoft-megerositette-a-lync-skype-for-business-neven-lesz-a-jovoben-elerheto/</link>
+        <pubDate>Sun, 06 Sep 2015 09:02:58 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 09:02:58 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-microsoft-megerositette-a-lync-skype-for-business-neven-lesz-a-jovoben-elerheto/</guid>
+        <description>A Microsoftnak egy nagy marketingstartégiai gondja van, mely most a Skype vállalati alternativáját is érinti. Ennek megoldásán ugyan dolgoznak az utóbbi időben a kommunikációs stratégia változtatásával, de ettől a hosszú idő óta fennálló probléma még nem fog egyik pillanatról a másikra megszűnni. Nem szeretném pattanásig feszíteni a kedves olvasó idegszálait, így felfedem a koncepcióban rejlő bajt: a cég bizonyos márkanevein belül totális az átláthatatlanság. A redmondi szoftveróriás azon kísérlete, hogy szoftvereihez kiemelkedő támogatást nyújtson egyrészt bevált, másrészt viszont mindeközben a termékkategóriák rendszerét (melynek tökéletesen áttekinthetőnek és egyértelműnek kellene lennie) sikerült egy igencsak ingoványos talajra vezetni, sok buktatóval.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Battlefield Hardline próbaverziója elérhetővé vált Xbox One-ra, az EA Access szolgáltatás keretében</title>
+        <link>https://armands.blog/hu/posts/a-battlefield-hardline-probaverzioja-elerhetove-valt-xbox-one-ra-az-ea-access-szolgaltatas-kereteben/</link>
+        <pubDate>Sun, 06 Sep 2015 09:00:56 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 09:00:56 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-battlefield-hardline-probaverzioja-elerhetove-valt-xbox-one-ra-az-ea-access-szolgaltatas-kereteben/</guid>
+        <description>Az EA Access előfizetéssel rendelkező Xbox One tulajdonosok számára a mai naptól elérhetővé vált a Battlefield Hardline ingyenes előzetese. Alább olvashatod a hivatalos Twitter bejelentés szövegét:
+The #BFHardline trial is now live! Start your story or hit the streets in MP. Download it now from the EA Access Hub. pic.twitter.com/SwXzCn4ZcP
+&amp;mdash; EA Access (@EAAccess) March 12, 2015  Amennyiben élünk a felkínált lehetőséggel, és letöltjük a programot, betekintést nyerhetünk a március 17-én érkező interaktív rabló pandúr harcba.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Egy külsős alkalmazás segítségével megváltoztathatod a Microsoft Band nyelvi beállításait</title>
+        <link>https://armands.blog/hu/posts/egy-kulsos-alkalmazas-segitsegevel-megvaltoztathatod-a-microsoft-band-nyelvi-beallitasait/</link>
+        <pubDate>Sun, 06 Sep 2015 08:58:36 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:58:36 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/egy-kulsos-alkalmazas-segitsegevel-megvaltoztathatod-a-microsoft-band-nyelvi-beallitasait/</guid>
+        <description>Amennyiben nem az Államokban élsz, és az anyanyelveden szeretnéd használni a Microsoft Bandedet (amit esetleg az eBay-ről rendeltél), jó híreink vannak számodra. A jelenleg 1.8-as verziónál járó Pimp My Band (sok kisebb frissítés után) ebben is segíthet a lapkák, színek, színsémák testreszabása mellett.
+A mai frissítéssel végre a felhasználói felület nyelvét is megváltoztathatod (angol, spanyol, olasz, német és francia nyelveket támogat jelenleg az alkalmazás). A beállítás a néhány hete bemutatott “finomhangolási” opciók környékén található.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Harmadik féltől számazó alkalmazás készül a Xiaomi MiBand-hez Windows Phone-ra</title>
+        <link>https://armands.blog/hu/posts/harmadik-feltol-szamazo-alkalmazas-keszul-a-xiaomi-miband-hez-windows-phone-ra/</link>
+        <pubDate>Sun, 06 Sep 2015 08:56:55 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:56:55 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/harmadik-feltol-szamazo-alkalmazas-keszul-a-xiaomi-miband-hez-windows-phone-ra/</guid>
+        <description>A Xiaomi egy nagyon érdekes, sokoldalú gyártó, mely telefonok, szoftverek, és kiegészítők gyártásával is foglalkozik, de ezek mellett milliónyi más eszközt is gyárt, kezdve a fejhallgatóktól, a viselhető eszközökön át, egészen a levegő tisztító berendezésekig. Ebben a hírben a viselhető eszközöké a főszerep, hisz nem rég egy külsős fejlesztő bejelentette, hogy hamarosan előáll egy, a MiBand-et támogató Windows Phone applikációval. A Xiaomi üdvöskéje egy alapfeladatokat ellátó, testmozgás közben használható monitorozó karperec, no persze – mivel említettem is, hogy csak alapvető feladatokat képes ellátni – ne gondoljon itt a Kedves Olvasó a Microsoft Band-hez hasonló funkciógazdagságra.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Frissítés érkezett az Xbox One Windows Phone-os SmartGlass alkalmazásához</title>
+        <link>https://armands.blog/hu/posts/frissites-erkezett-az-xbox-one-windows-phone-os-smartglass-alkalmazasahoz/</link>
+        <pubDate>Sun, 06 Sep 2015 08:51:49 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:51:49 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/frissites-erkezett-az-xbox-one-windows-phone-os-smartglass-alkalmazasahoz/</guid>
+        <description>A Microsoft pár napja frissítette Xbox One SmartGlass app-ját – egészen pontosan az v1.0.7.4 verzióra – a Windows Phone Store-ban. Ez egy kisebb frissítés, mely nem tartalmaz új funkciókat, főként a hibajavításra fókuszál.
+Az alkalmazás leírása:
+Legyél akár úton, akár otthon, az Xbox One SmartGlass alkalmazással mindig a legnagyszerűbb Xbox One élményben lehet részed. Egyszerűen csatlakozz Xbox One konzolodhoz és vezéreld azt. Kövesd kedvenc játékosaidat, és játékaidat s emeld új dimenzióba a játékkonzol nyújtotta szórakozási lehetőségeket mobileszközöd segítségével.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Néhány felhasználó az Office Preview rendellenes működéséről számolt be Windows 10-en</title>
+        <link>https://armands.blog/hu/posts/nehany-felhasznalo-az-office-preview-rendellenes-mukodeserol-szamolt-be-windows-10-en/</link>
+        <pubDate>Sun, 06 Sep 2015 08:29:20 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:29:20 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/nehany-felhasznalo-az-office-preview-rendellenes-mukodeserol-szamolt-be-windows-10-en/</guid>
+        <description>Mikor megjelent a Windows 10 technikai előzetese tisztában voltunk azzal, hogy lehetnek majd a rendszerben hibák, illetve találkozhatunk technikai nehézségekkel, anomáliákkal, így ennek tükrében határoztuk meg elvárásainkat. Az új Windows Store-t és az Office érintőfelületre optimalizált verzióját is egyaránt vártuk, de valami különöset tapasztaltunk.
+Múlt héten az új Office applikácó egyszerűen nem működött tovább. Mikor megpróbáltam elindítani akár a Word, akár a PowerPoint vagy az Excel előzetesét, egy felbukkanó hibaüzenet azt közölte velem, nemes egyszerűséggel, hogy sajnos a fent nevezett programok nem indíthatóak el.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Növelte piaci részesedését Európában a Windows Phone</title>
+        <link>https://armands.blog/hu/posts/novelte-piaci-reszesedeset-europaban-a-windows-phone/</link>
+        <pubDate>Sun, 06 Sep 2015 08:27:26 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:27:26 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/novelte-piaci-reszesedeset-europaban-a-windows-phone/</guid>
+        <description>A Kantar World Panel a mai napon megjelentette legújabb, az okostelefon piacot érintő jelentését. Mindent összevetve, Európában a Windows Phone 0,2%-os részesedés gyarapodással büszkélkedhet. Míg a Microsoft és az Apple rendszere piaci növekedést ért el, addig a Google Android-ja 2,3%-ot vesztett részesedéséből. Ugyan a főbb európai piacokon – ide tartozik Spanyolország, Olaszország és az Egyesült Királyság - a Windows Phone vesztett jelentőségéből, viszont Franciaországban, Németországban, és Ausztráliában jelentős növekedést tudhat magáénak.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Windows 10-ben debütáló DirectX 12 AMD és nVidia GPU-k együttes működését is lehetővé teheti</title>
+        <link>https://armands.blog/hu/posts/a-windows-10-ben-debutalo-directx-12-amd-es-nvidia-gpu-k-egyuttes-mukodeset-is-lehetove-teheti/</link>
+        <pubDate>Sun, 06 Sep 2015 08:25:23 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:25:23 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-windows-10-ben-debutalo-directx-12-amd-es-nvidia-gpu-k-egyuttes-mukodeset-is-lehetove-teheti/</guid>
+        <description>Egy friss pletyka szerint a DirectX Windows 10-ben debütáló, soron következő verziójával alkalom nyílhat a két legnagyobb videókártya gyártó termékeinek egy számítógépben való használatára.
+A Tom’s Hardware-nek nyilatkozó – meg nem nevezett – forrás említést tett egy Explicit Asynchronous Multi-GPU névre hallgató technológiáról, mely több grafikus processzor egyidejű használatát jelenti felhasználói- és játékprogramokban egyaránt, álljon itt példaként a Fable: Legends.
+A pontosabb megértés érdekében következzenek a cikk eredeti szerzőjének szavai:</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Újabb képek szivárogtak ki a Windows 10 mobilos verziójáról</title>
+        <link>https://armands.blog/hu/posts/ujabb-kepek-szivarogtak-ki-a-windows-10-mobilos-verziojarol/</link>
+        <pubDate>Sun, 06 Sep 2015 08:22:55 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:22:55 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/ujabb-kepek-szivarogtak-ki-a-windows-10-mobilos-verziojarol/</guid>
+        <description>Újabb, a Windows 10 telefonokra szánt verzióját bemutató képcsokor szivárgott ki, ezúttal viszont mélyebb betekintést nyerhettünk a rendszerbe. Habár az okostelefonokra telepíthető technikai előzetes már nincs olyan messze, mindig érdemes figyelni, hogy mi várhat a vállalkozó kedvű tesztelők hadára, s különösen azokra, akik már tűkön ülve várják a frissítés elérkezését.
+
+A Microsoft nem szabja át annyira a kezelőfelületet, mint az a Google tette a legutóbbi „Lollipop” kódnevű Android frissítésben a material designnal, de azért itt is akadnak említésre méltó változások, úgy, mint pl.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>2016-ig nem várható új Windows Server</title>
+        <link>https://armands.blog/hu/posts/2016-ig-nem-varhato-uj-windows-server/</link>
+        <pubDate>Sun, 06 Sep 2015 08:20:51 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:20:51 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/2016-ig-nem-varhato-uj-windows-server/</guid>
+        <description>A Microsoft tegnapi bejelentésében kihangsúlyozta, hogy 2016-ig nem várható új verzió a Server termékvonalon, azonban 2015-ben sem áll meg az élet, ugyanis előzetes tesztverziókra is számíthatnak az érdeklődők akárcsak a Windows 10 esetében. Az első előzetes az új termékből tavasszal érkezhet, a System Center Configuration Managerrel egyetemben. Alább olvasható a cég hivatalos közleményének fordítása:
+A termékek fejlesztésének előrehaladtával terveink közt szerepel előzetes verziók kiadása az év hátralévő részében, így a végleges szoftver megjelenése 2016-ban lesz esedékes.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Windows Insider: Plusz 500 000 felhasználó, 8 nap alatt</title>
+        <link>https://armands.blog/hu/posts/windows-insider-plusz-500-000-felhasznalo-8-nap-alatt/</link>
+        <pubDate>Sun, 06 Sep 2015 08:17:58 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:17:58 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/windows-insider-plusz-500-000-felhasznalo-8-nap-alatt/</guid>
+        <description>A Microsoft, Windows Insider névre hallgató programja, hatalmas népszerűségnek örvend, mi sem bizonyítja jobban a tényt, mint a vállalat Facebook oldalán megosztott kép (A fejlécben láthatjátok): Összesen már több mint 2,2 millió tesztelője van a kezdeményezésnek. Elképesztő szám, s mindez azt jelenti, hogy a Microsoft múlt heti bemutatója óta 500 000 felhasználó élt a csatlakozás lehetőségével. 23-án - 24 órával a rendezvény után - máris 173 624 új tagja volt a tesztnek, ez 1,7 millió embert jelentett.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>HoloLens élménybeszámoló - kételyekkel vegyítve</title>
+        <link>https://armands.blog/hu/posts/hololens-elmenybeszamolo-ketelyekkel-vegyitve/</link>
+        <pubDate>Sun, 06 Sep 2015 08:15:59 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:15:59 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/hololens-elmenybeszamolo-ketelyekkel-vegyitve/</guid>
+        <description>A Microsoft a tegnapelőtt megrendezett eseményén (melyről cikkeztünk is) egy váratlan és hatalmas dobással készült a Windows 10 bemutatása mellett. A cég elkalauzolta a közönséget a hologramok világába, így vezetve fel legújabb termék-koncepciójukat: a HoloLens-t, amely nem más, mint egy a Windows 10 holografikus verzióját futtató, fejen viselhető számítógép. Jobban mondva az lesz majd egyszer, ha megjelenik, ugyanis sem ennek időpontjáról nem tudtunk meg semmit, sem pedig a várható árról.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Minden amit megtudhattunk a Microsoft tegnapi eseményén</title>
+        <link>https://armands.blog/hu/posts/minden-amit-megtudhattunk-a-microsoft-tegnapi-esemenyen/</link>
+        <pubDate>Sun, 06 Sep 2015 08:12:23 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:12:23 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/minden-amit-megtudhattunk-a-microsoft-tegnapi-esemenyen/</guid>
+        <description>A lepel ugyan lehullt, az érdeklődők izgatottsága viszont kicsit sem csökkent – és úgy tűnik, jó ideig nem is fog. A Microsoft által megrendezett „Windows 10: The next chapter” névre hallgató esemény, amely Redmondban került megrendezésre, nem okozott csalódást. Az eseményt megelőzően csak találgathattunk az érinteni kívánt témákat illetően, aztán végül olyan dolgokat is bemutattak, amelyekre mi magunk sem számítottunk.
+Sok befogadásra váró új információ kápráztatta a jelenlévőket, de voltak olyan részei az előadásnak, amelyek magasan a többi fölött álltak újszerűségük okán.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Váltottam iPhone 6-ra, s hiányozni kezdett a Windows Phone 8.1</title>
+        <link>https://armands.blog/hu/posts/valtottam-iphone-6-ra-s-hianyozni-kezdett-a-windows-phone-8-1/</link>
+        <pubDate>Sun, 06 Sep 2015 08:09:16 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:09:16 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/valtottam-iphone-6-ra-s-hianyozni-kezdett-a-windows-phone-8-1/</guid>
+        <description>Több mint öt év Windows Phone használat után újból iPhone-ra váltottam, s tudjátok mi történt? Elkezdett hiányozni a Windows Phone 8.1. Igen, jól olvassátok, 20 év Microsoft termékhasználat után, feladva a Windows Phone-t, iPhone-ra váltottam. Ne értsetek félre, az iPhone egy igazán kiváló készülék, kedvelem, és ez mindinkább így lesz, ahogy napról napra egyre jobban megismerem. Elképesztő volt azzal szembesülni viszont, hogy jó pár olyan szolgáltatás nem elérhető, amely Windows Phone-on viszont gond nélkül teszi a dolgát.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Ismét olcsóbb az XBOX One az Egyesült Államokban</title>
+        <link>https://armands.blog/hu/posts/ismet-olcsobb-az-xbox-one-az-egyesult-allamokban/</link>
+        <pubDate>Sun, 06 Sep 2015 08:07:22 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:07:22 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/ismet-olcsobb-az-xbox-one-az-egyesult-allamokban/</guid>
+        <description>Az ünnepekhez közeledve a Microsoft ideiglenesen leszállította újgenerációs konzoljának árát 50 dollárral, egészen pontosan 349 dollárra. A lépés sikeresnek bizonyult, ugyanis az eladási mutatók tekintetében sikerült a rivális PlayStation 4-et maga mögé utasítania novemberben. A pozitív fogadtatásra való tekintettel még egyszer megismétlik az akciót, mely a mai naptól érhető el.
+A Microsoft az árcsökkentést az „új, kedvezményes lehetőség” jelzővel illette, ennélfogva nem lehetünk biztosak abban, hogy a jelenlegi ár állandósul-e a jövőben.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Windows Insider program felhasználási feltételeinek változásáról</title>
+        <link>https://armands.blog/hu/posts/a-windows-insider-program-felhasznalasi-felteteleinek-valtozasarol/</link>
+        <pubDate>Sun, 06 Sep 2015 08:05:29 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:05:29 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-windows-insider-program-felhasznalasi-felteteleinek-valtozasarol/</guid>
+        <description>A program iránt érdeklődők számára fontos lehet a hír, hogy a Microsoft a tegnapi nap folyamán az összes Windows Insider tagnak kiküldött levelében a felhasználási feltételek január 21-e utáni (a Windows 10 előzetesének megjelenését követő) változásáról szólt.
+Most következzék a levél fordítása:
+„Üdvözöljük minden Windows insider tagunkat! Reméljük, hasznosnak találják a programban való részvételt.
+Hamarosan még több izgalmas újdonsággal, és bejelentéssel szolgálhatunk. Addig is szerettük volna tájékoztatni tagjainkat a Windows Insider felhasználási feltételeinek jövőbeli változásáról.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Microsoft kiadta januári rendszerfrissítését a Surface Pro eszközökre</title>
+        <link>https://armands.blog/hu/posts/a-microsoft-kiadta-januari-rendszerfrissiteset-a-surface-pro-eszkozokre/</link>
+        <pubDate>Sun, 06 Sep 2015 08:01:33 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 08:01:33 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-microsoft-kiadta-januari-rendszerfrissiteset-a-surface-pro-eszkozokre/</guid>
+        <description>A Microsoft a mai napon kiadta a „Surface Pro” eszközeire vonatkozó januári rendszerfrissítéseket, melyek közül különösen a Surface Pro 3 érintett egy firmware frissítés okán, mely a kijelző, a hálózati kapcsolatok és a hangzás működésén kíván javítani. A változások listáját lásd lent.
+A frissítés „System Firmware Update – 1/15/2015” néven kereshető vissza a frissítési előzményekben.
+  A Surface Pro UEFI frissítése (v3.11.450.0) lehetővé teszi az új HD Graphics meghajtóval való együttműködést.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>A Windows 10-et futtató számítógépek és telefonok egy időben érkezhetnek</title>
+        <link>https://armands.blog/hu/posts/a-windows-10-et-futtato-szamitogepek-es-telefonok-egy-idoben-erkezhetnek/</link>
+        <pubDate>Sun, 06 Sep 2015 07:58:47 +0000</pubDate>
+        <author>hello@armands.blog (Armand Bozsik)</author>
+        <atom:modified>Sun, 06 Sep 2015 07:58:47 +0000</atom:modified>
+        <guid>https://armands.blog/hu/posts/a-windows-10-et-futtato-szamitogepek-es-telefonok-egy-idoben-erkezhetnek/</guid>
+        <description>Ez volt a Microsoft valódi célja mióta eldobta a Windows Mobile-t: Egy olyan operációs rendszer (és rendszermag) kifejlesztése mely mobil eszközökön ugyanúgy működik, mintha csak egy laptopon tenné.
+Az ötlet felvetődésekor - mely 2008-ra tehető – a Microsoft terve meglehetősen nagyravágyónak tűnt, s mint később láthattuk, a Windows 8 bevezetésével, ez a cég számára egy olyan vállalkozásnak bizonyult, melynek lehetőségeit nem sikerült teljes mértékben kiaknázniuk.
+Ahogy azt a Windows Phone-ra fejlesztők már bizonyára észrevették, lehetséges, hogy a jövőben mégis megvalósulhat a vállalat „One Windows” elképzelése.</description>
+        
+        <dc:creator>bozsikarmand</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>Hungarian</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

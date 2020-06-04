@@ -1,7 +1,7 @@
 logoText = "Armand's Blog"
 logoType = "short" # long, short
-description = "Armand's Blog."
-custom_css = []
+description = "Armand's Blog"
+custom_css = ["css/custom.css"]
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""

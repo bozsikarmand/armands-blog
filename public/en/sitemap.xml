@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://armands.blog/en/showcase/hugo/hugo-theme-zzo/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/showcase/hugo/hugo-theme-zdoc/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/article/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/book/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/misc/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/showcase/hugo/</loc>
+    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/showcase/</loc>
+    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/presentation/dir/fourth/</loc>
+    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/presentation/</loc>
+    <lastmod>2019-10-30T20:48:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/presentation/third/</loc>
+    <lastmod>2019-10-30T20:46:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/presentation/second/</loc>
+    <lastmod>2019-10-30T20:45:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/presentation/first/</loc>
+    <lastmod>2019-10-30T19:45:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/article/article_any_folder_name_1/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/book/book_any_folder_name_1/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/publication/misc/misc_any_folder_name_1/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/brother/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/hl-2135w/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/how-to-configure-brother-hl-2135w-over-wifi-in-adhoc-mode/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/how-to/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/linux/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/ubuntu/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/wifi/</loc>
+    <lastmod>2016-10-17T19:51:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/15.04/</loc>
+    <lastmod>2015-09-20T10:32:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/desktop/</loc>
+    <lastmod>2015-09-20T10:32:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/install/</loc>
+    <lastmod>2015-09-20T10:32:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/install/</loc>
+    <lastmod>2015-09-20T10:32:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/install-ubuntu-15-04-uefi-and-gpt-on-ssd/</loc>
+    <lastmod>2015-09-20T10:32:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/banana/</loc>
+    <lastmod>2015-08-10T12:15:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/banana-pi/</loc>
+    <lastmod>2015-08-10T12:15:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/home-server/</loc>
+    <lastmod>2015-08-10T12:15:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/install-android-on-banana-pi/</loc>
+    <lastmod>2015-08-10T12:15:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/pi/</loc>
+    <lastmod>2015-08-10T12:15:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/install-ubuntu-on-banana-pi/</loc>
+    <lastmod>2015-08-10T11:53:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/banana-pi-notes/</loc>
+    <lastmod>2015-08-10T11:45:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/hollow-talk/</loc>
+    <lastmod>2015-07-14T17:32:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/video/</loc>
+    <lastmod>2015-07-14T17:32:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/biztons%C3%A1gport%C3%A1l/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/categories/it-security/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/plugins/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/security/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/security-hole/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/wordpress/</loc>
+    <lastmod>2015-07-14T16:56:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/delete/</loc>
+    <lastmod>2015-07-14T16:53:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/google/</loc>
+    <lastmod>2015-07-14T16:53:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/posts/serious-programming-error-found-in-youtube/</loc>
+    <lastmod>2015-07-14T16:53:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/youtube/</loc>
+    <lastmod>2015-07-14T16:53:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/tags/index/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/tags/index/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/tags/index/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://armands.blog/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://armands.blog/hu/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://armands.blog/en/series/"
+                />
+  </url>
+  
+</urlset>
