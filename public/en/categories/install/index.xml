@@ -6,14 +6,14 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Install on Hugo Zzo Theme</title>
+    <title>Install on Blog</title>
     <link>https://armands.blog/en/categories/install/</link>
-    <description>Recent content in Install on Hugo Zzo Theme</description>
+    <description>Recent content in Install on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
     <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 20 Sep 2015 10:32:13 +0000</lastBuildDate>
     
         <atom:link href="https://armands.blog/en/categories/install/index.xml" rel="self" type="application/rss+xml" />

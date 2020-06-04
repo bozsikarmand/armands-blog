@@ -6,14 +6,14 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Series on Hugo Zzo Theme</title>
+    <title>Series on Blog</title>
     <link>https://armands.blog/hu/series/</link>
-    <description>Recent content in Series on Hugo Zzo Theme</description>
+    <description>Recent content in Series on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hu</language>
     <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
     <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     
         <atom:link href="https://armands.blog/hu/series/index.xml" rel="self" type="application/rss+xml" />
     

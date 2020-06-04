@@ -6,14 +6,14 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Hungarian on Hugo Zzo Theme</title>
+    <title>Hungarian on Blog</title>
     <link>https://armands.blog/hu/categories/hungarian/</link>
-    <description>Recent content in Hungarian on Hugo Zzo Theme</description>
+    <description>Recent content in Hungarian on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hu</language>
     <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
     <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 09 Sep 2015 18:06:11 +0000</lastBuildDate>
     
         <atom:link href="https://armands.blog/hu/categories/hungarian/index.xml" rel="self" type="application/rss+xml" />
