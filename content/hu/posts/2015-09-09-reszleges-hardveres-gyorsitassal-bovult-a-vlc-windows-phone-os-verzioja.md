@@ -36,6 +36,4 @@ Az alkalmazás az alábbi gombra kattintva letölthető, vagy a lenti QR kód ha
 
 <a href="http://apps.microsoft.com/webpdp/app/c527ff2d-b5d0-45b6-bfc3-92fb7357ef72" title="vlc" target="_blank">A VLC letöltése Windows Phone-ra</a>
 
-[![QR_VLC](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/QR_VLC1.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/QR_VLC1.jpg)
-
 __Source:__ [Windows Central](http://www.windowscentral.com/vlc-windows-phone-updated-partial-hardware-decoding-and-more)

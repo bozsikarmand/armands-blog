@@ -25,7 +25,7 @@ categories:
 
 A népszerű Instagram alkalmazás a jelenleg 4.0.6-os verzióhoz képest jelentős, főként a képminőséget érintő javuláson fog átesni, a megosztott kép alapján pedig a hivatalos, béta státuszú applikációhoz nem is lehet majd hasonlítani a változás mértékét.
 
-[![6tag-41-improvements](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/6tag-41-improvements.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/6tag-41-improvements.jpg)
+[![6tag-41-improvements](https://armands.blog/static/images/6tag-4-hero.jpg)](https://armands.blog/static/images/6tag-4-hero.jpg)
 
 A fenti képen a 6tag 4.0.6-os verziójának feldolgozási teljesítményét láthatjuk, összehasonlítva a 4.1-es verzióval. Igen csekélynek tűnik a különbség, de amit rögtön észrevehetünk az a tisztább kép, és a nagyobb képélesség, melyre a legjobb példa a képen látható ág.
 
@@ -37,6 +37,6 @@ A 6tag-et letöltheted az alábbi gombra kattintva:
 
 Illetve az alábbi QR-kód beolvasásval:
 
-[![QR_6Tag](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/QR_6Tag.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/QR_6Tag.png)
+[![QR_6Tag](https://armands.blog/static/images/QR_6Tag.png)](https://armands.blog/static/images/QR_6Tag.png)
 
 __Source:__ [Windows Central](http://www.windowscentral.com/improved-image-quality-teased-upcoming-6tag-41-update)

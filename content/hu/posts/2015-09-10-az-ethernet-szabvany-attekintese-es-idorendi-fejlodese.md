@@ -15,21 +15,21 @@ _Beadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történe
 
 Az Ethernet a számítógépes hálózati technológiák családjába tartozó szabvány, mely helyi (LAN) és városi méretű (WAN) hálózatok összekötésére szolgál. Az Ethernet 1980-ban került bemutatásra, majd 1983-ban vált szabvánnyá IEEE 802.3 néven. Ettől kezdve a szabvány alapjaiban nem változott, csupán mindig a kor (egyre növekvő) igényeihez igazították. Változott a maximálisan kihúzható kábelhossz két gép közt, illetve az adatátviteli sebesség is jelentősen megnőtt az idők folyamán.
 
-A szabvány megfelelőnek bizonyult, mely tényt az idő hivatott igazolni, ugyanis rövidesen az egyéb vezetékes technológiákat kiszorította a piacról (pl. token ring, FDDI, ARCNET). Később megjelent az igény a vezeték nélküli adattovábbításra (p. Wi-Fi) mely az IEEE 802.11 nevet kapta.
+A szabvány megfelelőnek bizonyult, mely tényt az idő hivatott igazolni, ugyanis rövidesen az egyéb vezetékes technológiákat kiszorította a piacról (pl. token ring, FDDI, ARCNET). Később megjelent az igény a vezeték nélküli adattovábbításra (pl. Wi-Fi) mely az IEEE 802.11 nevet kapta.
 
 Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlást tettek az OSI (Open Systems Interconnection - Nyílt rendszerek összekapcsolása: ez egy olyan, általánosan alkalmazható tervezet, mely a világon előforduló összes hálózatra egyaránt érvényes) fizikai rétegére vonatkozóan. Az eredeti 10BASE5 Ethernet vastag koaxiális kábelt használt, míg az újabb szabványok (802.3i (1990)-től felfelé) már csavart érpárt illetve üvegszálas optikát. Ezen változásokat természetesen az aktív hálózati eszközök is lekövették (switch-ek, HUB-ok, routerek).
 
-[caption id="attachment_331" align="aligncenter" width="300"][![koax](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/koax-300x156.gif)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/koax.gif) Koax kábel felépítése[/caption]
+[caption id="attachment_331" align="aligncenter" width="300"][![koax](https://armands.blog/static/images/koax.gif)](https://armands.blog/static/images/koax.gif) Koax kábel felépítése[/caption]
 
-[caption id="attachment_333" align="aligncenter" width="300"][![utp](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/utp-300x150.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/utp.jpg) UTP kábel felépítése[/caption]
+[caption id="attachment_333" align="aligncenter" width="300"][![utp](https://armands.blog/static/images/utp.jpg)](https://armands.blog/static/images/utp.jpg) UTP kábel felépítése[/caption]
 
-[caption id="attachment_334" align="aligncenter" width="300"][![Image191](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/Image191-300x180.gif)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/Image191.gif) Optikai kábel[/caption]
+[caption id="attachment_334" align="aligncenter" width="300"][![Image191](https://armands.blog/static/images/Image191.gif)](https://armands.blog/static/images/Image191.gif) Optikai kábel[/caption]
 
-[caption id="attachment_335" align="aligncenter" width="300"][![164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks-300x87.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks.jpg) Cisco Switch[/caption]
+[caption id="attachment_335" align="aligncenter" width="300"][![164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks](https://armands.blog/static/images/cisco-switch.jpg)](https://armands.blog/static/images/cisco-switch.jpg) Cisco Switch[/caption]
 
-[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/100_1891-300x90.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/100_1891.jpg) Cisco HUB[/caption]
+[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://armands.blog/static/images/100_1891.png)](https://armands.blog/static/images/100_1891.jpg) Cisco HUB[/caption]
 
-[caption id="attachment_337" align="aligncenter" width="300"][![Cisco-1800](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/Cisco-1800-300x197.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/Cisco-1800.jpg) Cisco Router[/caption]
+[caption id="attachment_337" align="aligncenter" width="300"][![Cisco-1800](https://armands.blog/static/images/Cisco-1800.jpg)](https://armands.blog/static/images/Cisco-1800.jpg) Cisco Router[/caption]
 
 A legelső (még szabadalmaztatás előtti, kísérleti) Ethernet szabvány 2,94 Mbit/s átvitelre volt képes, a jelenlegi leggyorsabb 100 Gbit/s-ra, míg 2017-re 400 Gbit/s-os elméleti maximumot igérnek.
 
@@ -44,14 +44,14 @@ A szabvány (és annak alapján készült eszközök) kereskedelmi megjelenése 
 Az Ethernet szabvány a Xerox PARC fejlesztette ki 1973-74 közt. A fejlesztést az ALOHAnet inspirálta, mely az egyik társszerző, Robert Metcalfe PhD munkájában is helyet kapott. Az ötlet első írásos emléke 1973 májusából való, s melyből megtudhatjuk, hogy az Ethernet elnevezés az éter angol elnevezéséből ([a]ether) származik, s melyet a következőképp definiált: „Mindenütt jelenlévő passzív közeg, mely elektromágneses hullámok továbbítására alkalmas”. 1975-ben a Xerox egy szabadalmi kérelmet nyújtott be, melyben Metcalfe-ot, David Boggs-t, Chuck Thacker-t illetve Butler Lampson-t jelölték meg a technológia kidolgozóiként. 1976-ban, miután a rendszer sikeresen összeállításra került a PARC-nél, Metcalfe és Boggs dolgozatának témája a technológia kifejlesztése lett.
 
 Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután meggyőzte a DEC-t, az Intelt illetve a Xeroxot, hogy dolgozzanak együtt, így téve az Ethernetet igazi szabvánnyá.
-<table align="center" >
-<tbody >
+<table align="center">
+<tbody>
 <tr >
 
-<td colspan="3" width="451" >**                 A szabványok áttekintése időrendben    **
+<td colspan="3" width="451">**                 A szabványok áttekintése időrendben    **
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >_Szabvány_
 </td>
@@ -62,7 +62,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >_Röviden_
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >Kisérleti
 </td>
@@ -73,7 +73,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >2,94Mbit/s, koax kábel
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >Ethernet II/DIX
 </td>
@@ -84,7 +84,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >10 Mbit/s, vastag koax
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >IEEE 802.3
 </td>
@@ -95,7 +95,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >10BASE5 - 10 Mbit/s, vastag koax
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >802.3i
 </td>
@@ -106,7 +106,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >10BASE-T, 10 Mbit/s, csavart érpár
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >802.3u
 </td>
@@ -117,7 +117,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >100BASE-T*/FX, 100 Mbit/s
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >802.3ac
 </td>
@@ -128,7 +128,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >Keretméret: 1522B
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >802.3ab
 </td>
@@ -139,7 +139,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >1000BASE-T, Gigabit Eth, csavart érpáron
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >802.3ae
 </td>
@@ -150,7 +150,7 @@ Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután
 <td width="150" >10GBASE-*, 1 GBit/s üvegszálon
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="150" >802.3af
 </td>
@@ -187,7 +187,7 @@ Az Ethernet azóta folytatja világhódító útját. Ma már – a folyamatos f
 ## Technológiai háttér
 
 
-[caption id="attachment_324" align="aligncenter" width="300"][![iso-osi-tcp](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/iso-osi-tcp-300x136.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/iso-osi-tcp.jpg) ISO/OSI/TCP[/caption]
+[caption id="attachment_324" align="aligncenter" width="300"][![iso-osi-tcp]((https://armands.blog/static/images/iso-osi-tcp.jpg)]((https://armands.blog/static/images/iso-osi-tcp.jpg) ISO/OSI/TCP[/caption]
 
 Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, azonban technológiai szempontból még nem vizsgáltuk meg. Mint korábban említettem, az Ethernet Carrier sense multiple access with collision detection-t használ (CSMA/CD – vivő érzékeléses többszörös hozzáférés, ütközés detektálással)., mely egy véletlen közeg hozzáférési protokoll.
 
@@ -244,7 +244,7 @@ Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, az
 ## Az Ethernet keret felépítése
 
 
-[![ethframe](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/ethframe-300x194.jpg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/ethframe.jpg)
+[![ethframe](https://armands.blog/static/images/ethframe.png)](https://armands.blog/static/images/ethframe.png)
 
 **Előtag**: 7B hosszú, feladata a vevőoldali szinkronizálás.
 
@@ -277,9 +277,9 @@ _Optikai:_
 ## Ethernet kábelek típusai
 
 
-<table align="center" >
-<tbody >
-<tr >
+<table align="center">
+<tbody>
+<tr>
 
 <td width="120" >Kategória
 </td>
@@ -296,7 +296,7 @@ _Optikai:_
 <td width="120" >Frekvencia
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="120" >Cat3
 </td>
@@ -313,7 +313,7 @@ _Optikai:_
 <td width="120" >16MJz
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="120" >Cat4
 </td>
@@ -330,7 +330,7 @@ _Optikai:_
 <td width="120" >20MHz
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="120" >Cat5
 </td>
@@ -347,7 +347,7 @@ _Optikai:_
 <td width="120" >100Mz
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="120" >Cat5e
 </td>
@@ -364,7 +364,7 @@ _Optikai:_
 <td width="120" >100Mhz
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="120" >Cat6
 </td>
@@ -381,7 +381,7 @@ _Optikai:_
 <td width="120" >250Mhz
 </td>
 </tr>
-<tr >
+<tr>
 
 <td width="120" >Cat7
 </td>
@@ -401,4 +401,4 @@ _Optikai:_
 </tbody>
 </table>
 
-__Sources:__ [Koax (kép - ELTE)](http://people.inf.elte.hu/reksaai/beadando/pic/koax.gif), [TP (kép - Arcania)](http://www.arcania.hu/Informatika/intro/utp.jpg), [Optikai (kép - szabilinux)](http://www.szabilinux.hu/konya/konyv/2fejezet/Image191.gif), [Cisco Switch (kép)](http://img.misco.eu/Resources/images/Modules/InformationBlocks/1210/CIS/CIS-1/164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks.jpg), [Cisco HUB (kép)](http://www.charlescrumesoftware.com/shopping/products_pictures/100_1891.jpg), [Cisco Router (kép)](http://blog.router-switch.com/wp-content/uploads/2011/11/Cisco-1800.jpg)
+__Sources:__ [Koax (kép - ELTE)](http://people.inf.elte.hu/reksaai/beadando/pic/koax.gif), [TP (kép - Arcania)](http://www.arcania.hu/Informatika/intro/utp.jpg), [Optikai (kép - szabilinux)](http://www.szabilinux.hu/konya/konyv/2fejezet/Image191.gif), [Cisco Switch (kép)](https://upload.wikimedia.org/wikipedia/commons/7/7f/Cisco_small_business_SG300-28_28-port_Gigabit_Ethernet_rackmount_switch.jpg), [Cisco HUB (kép)](https://w7.pngwing.com/pngs/675/852/png-transparent-wireless-access-points-network-switch-ethernet-hub-cisco-catalyst-port-others-computer-network-electronics-network-switch.png), [Cisco Router (kép)](http://blog.router-switch.com/wp-content/uploads/2011/11/Cisco-1800.jpg), [ISO-OSI-TCP](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/TCP-IP-ISO-REFERENCE-MODEL-COMPARISON-DIFFERENCE.jpg/800px-TCP-IP-ISO-REFERENCE-MODEL-COMPARISON-DIFFERENCE.jpg), [Ethernet Frame](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ethernet_Frame.png/640px-Ethernet_Frame.png)

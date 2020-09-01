@@ -16,7 +16,7 @@ Amennyiben nem az Államokban élsz, és az anyanyelveden szeretnéd használni
 
 A mai frissítéssel végre a felhasználói felület nyelvét is megváltoztathatod (angol, spanyol, olasz, német és francia nyelveket támogat jelenleg az alkalmazás). A beállítás a néhány hete bemutatott “finomhangolási” opciók környékén található.
 
-[![pimpband-langues](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/pimpband-langues1.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/pimpband-langues1.png)
+[![pimpband-langues](https://armands.blog/static/images/pimpband-langues1.png)](https://armands.blog/static/images/pimpband-langues1.png)
 
 A Microsoft eddig nem nyilatkozott a nemzetközi piacot érintő terveiről, de úgy tűnik, nem igazán akarnak a Microsoft Banddel más régiók felé terjeszkedni jelenleg. Az Államok vásárlóközönsége nagyon jó tesztalanynak bizonyult eddig, és ez az ottani tapasztalatok szükségesek ahhoz, hogy a későbbiekben szélesebb tömegek számára is elérhetővé váljon a termék, mint ahogy erre Joe Belfiore utalt is októberben:
 
@@ -30,6 +30,6 @@ Azok pedig, akik nem bírnak várni, hogy megkaparinthassák ezt az igen népsze
 
 <a href="http://www.windowsphone.com/s?appId=9966b6e7-bb20-4b53-9b3c-8701a271c66c" title="pimpmyband" target="_blank">A Pimp My Band letöltése Windows Phone-ra.</a>
 
-[![QR-Pimp-My-Band](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/QR-Pimp-My-Band1.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/QR-Pimp-My-Band1.png)
+[![QR-Pimp-My-Band](https://armands.blog/static/images/QR-Pimp-My-Band.png)](https://armands.blog/static/images/QR-Pimp-My-Band.png)
 
 __Source:__ [Windows Central](http://www.windowscentral.com/pimp-my-band-now-lets-you-change-language?utm_source=wpc&utm_medium=twitter)
