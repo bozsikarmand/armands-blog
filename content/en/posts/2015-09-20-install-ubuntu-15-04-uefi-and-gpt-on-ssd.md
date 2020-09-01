@@ -67,6 +67,6 @@ Then: I did not know anything about current hardware support of Ubuntu.
   12. That's all!
 
 
-Thanks for reading!c
+Thanks for reading!
 
 __Sources:__ [UEFI settings (Image)](http://www.eightforums.com/tutorials/17058-secure-boot-enable-disable-uefi-2.html), [Message (Image)](http://www.tecmint.com/wp-content/uploads/2015/04/Force-UEFI-Installation.jpeg)
