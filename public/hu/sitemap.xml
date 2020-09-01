@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://armands.blog/hu/about/</loc>
+    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://armands.blog/hu/</loc>
-    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+    <lastmod>2015-12-03T13:07:17+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,31 +20,6 @@
                 hreflang="hu"
                 href="https://armands.blog/hu/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://armands.blog/hu/archive/_index.ko/</loc>
-    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://armands.blog/hu/about/</loc>
-    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://armands.blog/hu/gallery/</loc>
-    <lastmod>2018-10-12T10:20:16+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://armands.blog/hu/gallery/photo/</loc>
-    <lastmod>2018-10-12T10:20:16+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://armands.blog/hu/gallery/cartoon/</loc>
-    <lastmod>2018-10-11T10:20:16+09:00</lastmod>
   </url>
   
   <url>
