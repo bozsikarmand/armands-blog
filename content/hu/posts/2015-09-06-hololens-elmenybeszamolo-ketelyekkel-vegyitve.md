@@ -17,7 +17,7 @@ Nekünk, újságíróknak egy exkluzív lehetőséggel is kedveskedtek: Betekint
 
 Most pedig következzenek gondolataim és élménybeszámolóm:
 
-[![HoloDemo](https://armands.blog/static/images/HoloDemo.png)](https://armands.blog/static/images/HoloDemo.png)
+[![HoloDemo](https://armands.blog/images/HoloDemo.png)](https://armands.blog/images/HoloDemo.png)
 
 
 ## Most akkor mi is ez tulajdonképpen?
@@ -35,7 +35,7 @@ A szerkezet megfelelő súlyelosztással rendelkezik, így használata kényelme
 
 „Na és mi a helyzet az üzemidővel?” – merülhet fel sokatokban a kérdés. A Microsoftnál sem tudtak pontos értékekkel szolgálni, - a demózott készüléket illetően sem - ugyanis egy nagyon új fejlesztésű hardver működteti a szemüveg funkcióit, s ez még tesztelést igényel. (A laborban a viselhető gép mellé igen brutálisan kinéző kiegészítők is jártak, erről később).
 
-[![HoloBuilder](https://armands.blog/static/images/HoloBuilder.png)](https://armands.blog/static/images/HoloBuilder.png)
+[![HoloBuilder](https://armands.blog/images/HoloBuilder.png)](https://armands.blog/images/HoloBuilder.png)
 
 
 ## Minecraft, Skype, 3D modellezés és Marsra szállás
@@ -45,7 +45,7 @@ A Microsoftnál nagyon ügyeltek a biztonságra – mint már említettem – í
 
 Az általunk kipróbált laboratóriumi HoloLens verziók jóval kevésbé voltak kiforrottak, mint a show-n bemutatott példány. Az általam próbált típusban például sok helyen láthatóak voltak a hardverelemek, illetve a működéshez viselhető számítógépek összekapcsolt rendszerére volt szükség, így igazán lenyűgöző, hogy végül sikerült a cégnek mindezt vezeték nélküli átvitellel megoldania. Hihetetlen mérnöki bravúrnak tűnik, figyelembe véve a küldendő és fogadásra váró információ elképesztő mennyiségét.
 
-[![HoloFile](https://armands.blog/static/images/HoloFile.png)](https://armands.blog/static/images/HoloFile.png)
+[![HoloFile](https://armands.blog/images/HoloFile.png)](https://armands.blog/images/HoloFile.png)
 
 A teszthez négy kipróbálható helyszín került felállításra:
 
@@ -66,13 +66,13 @@ A teszthez négy kipróbálható helyszín került felállításra:
 
 A HoloBuilder-rel szabadjára engedheted fantáziád. Akárcsak az asztali gépes vagy konzolos Minecraft-ban, itt is világokat teremthetsz – csak épp a saját szobádban, bútoraidat, polcaidat, a padlót s egyéb tereptárgyakat használva. Szerintem a falak és padok átütésének, átlyukasztásának lehetősége volt a legmeggyőzőbb a teszt alatt. Igazán magával ragadó élmény, amikor úgy érzed, mintha egy saját magad által vájt barlangban lennél, közben pedig az egész csak egy virtuális világ része. Egy másik érdekes példa: Mikor lyukat ütöttem az egyik holografikus padon, láthattam, ahogy átszűrődik a környezet fénye a keletkezett résen. A HoloLens tárgyak teljes hologramját képes leképezni, így szinte bárhová betekintést nyerhetsz vele.
 
-[![HoloSkype](https://armands.blog/static/images/HoloSkype.png)](https://armands.blog/static/images/HoloSkype.png)
+[![HoloSkype](https://armands.blog/images/HoloSkype.png)](https://armands.blog/images/HoloSkype.png)
 
 A Skype demóban egy villanykörtét cserélhettél ki, melynek módja ebben az esetben elsőre nem tűnt volna egyértelműnek, de hála az égnek akadt segítséged. Egy barátod felhívott Skype-on, s végigvezetett a csere lépésein. Az egész valahogy így zajlott: Meg kellett osztanod a látottakat partnereddel, s miután ez megvolt, már ő is tudott világodban jelöléseket létrehozni számítógépe segítségével (annak ellenére, hogy nem használt HoloLens-t). „Mely drótokat kössem most össze?” – hangzott kérdésem, mire barátom rögtön megmutatta, egy rajzolt nyíl segítségével, hogy mit tegyek. Most képzeld el John Madden-t amint épp ábrákat és kimutatásokat rajzol a falaidra és egyéb tárgyaidra. Őrület!
 
 A cég új fejlesztése mikrofonokat, hangszórókat és kamerákat is tartalmaz beépítve, így igazán zavartalan és bensőséges maradhat a Skype beszélgetés élménye, miközben minden "bent" zajlik, így nem zavarhatsz másokat.
 
-[![KoalaUSB](https://armands.blog/static/images/KoalaUSB.png)](https://armands.blog/static/images/KoalaUSB.png)
+[![KoalaUSB](https://armands.blog/images/KoalaUSB.png)](https://armands.blog/images/KoalaUSB.png)
 
 A HoloStudio-ban megtudhattuk miként építhetünk tulajdonképpen bármit (természetesen mindezt 3D-ben) a levegőben, hogy forgathatjuk készülő művünket, miként adhatunk hozzá plusz elemeket, illetve hogy méretezhetjük át az összetevőket.
 
@@ -84,7 +84,7 @@ Végezetül az OnSite egy a NASA-val és a JPL-lel való együttműködés gyüm
 
 Talán az egészben tudjátok mi tetszett a legjobban? Az, hogy nem tűnt átverésnek, szemfényvesztésnek a virtuális világ. A problémák, és feladatok melyeket a teszt során kaptunk, teljesen valóságosnak tűntek, olyanoknak melyek azonnali megoldást kívánnak, akárcsak a való életben. „Az általad látott világ megosztása Skype-on” – ez már önmagában egy olyan szolgáltatás, ami elég lenne a sikerhez, hisz az együttműködés egy teljesen új dimenzióját teremti meg, de gondolj csak a fent elhangzottakra: Monumentális Minecraft városok a szobádban, vagy például a 3D nyomtatás – akár szórakozásról, akár munkáról is legyen szó, nos… Mindkettő igen hasznosnak tűnik.
 
-[![HoloInteract](https://armands.blog/static/images/HoloInteract.png)](https://armands.blog/static/images/HoloInteract.png)
+[![HoloInteract](https://armands.blog/images/HoloInteract.png)](https://armands.blog/images/HoloInteract.png)
 
 
 ## Sok-sok felvetődő kérdés
@@ -98,7 +98,7 @@ Kérdés, hogy most ez egy Minecraft rajongóknak készülő ~299 dolláros, vag
 
 Mivel még nem tudjuk ezeket megválaszolni, így nem törhetünk pálcát teljes joggal a termék felett. A technológia lenyűgöző, hibátlan. Úgy hiszem, nagyon széles piacra tehet szert HoloLens a jövőben, az agysebészettől kezdve egészen a MMO-k piacáig. Az eddig látottak alapján, a szerkezet minden helyzetben megállhatja a helyét.
 
-[![HoloBike](https://armands.blog/static/images/HoloBike.png)](https://armands.blog/static/images/HoloBike.png)
+[![HoloBike](https://armands.blog/images/HoloBike.png)](https://armands.blog/images/HoloBike.png)
 
 A szoftveróriás fejlesztése rengeteg. a Google Glass illetve az Oculus Rift által elkövetett hibát orvosolt. A Glass viselésének megvan az a kockázata, hogy nyilvános helyen kinézhetnek miatta - vagy egyszerűen nem tolerálja ezt még a társadalom -, másrészt, ha a kettőt összevetjük, a Google eszköze funkcionalitásban igen elmaradott a Microsoft megoldásától.
 

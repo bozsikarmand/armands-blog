@@ -19,17 +19,17 @@ A szabvány megfelelőnek bizonyult, mely tényt az idő hivatott igazolni, ugya
 
 Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlást tettek az OSI (Open Systems Interconnection - Nyílt rendszerek összekapcsolása: ez egy olyan, általánosan alkalmazható tervezet, mely a világon előforduló összes hálózatra egyaránt érvényes) fizikai rétegére vonatkozóan. Az eredeti 10BASE5 Ethernet vastag koaxiális kábelt használt, míg az újabb szabványok (802.3i (1990)-től felfelé) már csavart érpárt illetve üvegszálas optikát. Ezen változásokat természetesen az aktív hálózati eszközök is lekövették (switch-ek, HUB-ok, routerek).
 
-[caption id="attachment_331" align="aligncenter" width="300"][![koax](https://armands.blog/static/images/koax.gif)](https://armands.blog/static/images/koax.gif) Koax kábel felépítése[/caption]
+[caption id="attachment_331" align="aligncenter" width="300"][![koax](https://armands.blog/images/koax.gif)](https://armands.blog/images/koax.gif) Koax kábel felépítése[/caption]
 
-[caption id="attachment_333" align="aligncenter" width="300"][![utp](https://armands.blog/static/images/utp.jpg)](https://armands.blog/static/images/utp.jpg) UTP kábel felépítése[/caption]
+[caption id="attachment_333" align="aligncenter" width="300"][![utp](https://armands.blog/images/utp.jpg)](https://armands.blog/images/utp.jpg) UTP kábel felépítése[/caption]
 
-[caption id="attachment_334" align="aligncenter" width="300"][![Image191](https://armands.blog/static/images/Image191.gif)](https://armands.blog/static/images/Image191.gif) Optikai kábel[/caption]
+[caption id="attachment_334" align="aligncenter" width="300"][![Image191](https://armands.blog/images/Image191.gif)](https://armands.blog/images/Image191.gif) Optikai kábel[/caption]
 
-[caption id="attachment_335" align="aligncenter" width="300"][![164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks](https://armands.blog/static/images/cisco-switch.jpg)](https://armands.blog/static/images/cisco-switch.jpg) Cisco Switch[/caption]
+[caption id="attachment_335" align="aligncenter" width="300"][![164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks](https://armands.blog/images/cisco-switch.jpg)](https://armands.blog/images/cisco-switch.jpg) Cisco Switch[/caption]
 
-[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://armands.blog/static/images/100_1891.png)](https://armands.blog/static/images/100_1891.jpg) Cisco HUB[/caption]
+[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://armands.blog/images/100_1891.png)](https://armands.blog/images/100_1891.jpg) Cisco HUB[/caption]
 
-[caption id="attachment_337" align="aligncenter" width="300"][![Cisco-1800](https://armands.blog/static/images/Cisco-1800.jpg)](https://armands.blog/static/images/Cisco-1800.jpg) Cisco Router[/caption]
+[caption id="attachment_337" align="aligncenter" width="300"][![Cisco-1800](https://armands.blog/images/Cisco-1800.jpg)](https://armands.blog/images/Cisco-1800.jpg) Cisco Router[/caption]
 
 A legelső (még szabadalmaztatás előtti, kísérleti) Ethernet szabvány 2,94 Mbit/s átvitelre volt képes, a jelenlegi leggyorsabb 100 Gbit/s-ra, míg 2017-re 400 Gbit/s-os elméleti maximumot igérnek.
 
@@ -187,7 +187,7 @@ Az Ethernet azóta folytatja világhódító útját. Ma már – a folyamatos f
 ## Technológiai háttér
 
 
-[caption id="attachment_324" align="aligncenter" width="300"][![iso-osi-tcp]((https://armands.blog/static/images/iso-osi-tcp.jpg)]((https://armands.blog/static/images/iso-osi-tcp.jpg) ISO/OSI/TCP[/caption]
+[caption id="attachment_324" align="aligncenter" width="300"][![iso-osi-tcp]((https://armands.blog/images/iso-osi-tcp.jpg)]((https://armands.blog/images/iso-osi-tcp.jpg) ISO/OSI/TCP[/caption]
 
 Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, azonban technológiai szempontból még nem vizsgáltuk meg. Mint korábban említettem, az Ethernet Carrier sense multiple access with collision detection-t használ (CSMA/CD – vivő érzékeléses többszörös hozzáférés, ütközés detektálással)., mely egy véletlen közeg hozzáférési protokoll.
 
@@ -244,7 +244,7 @@ Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, az
 ## Az Ethernet keret felépítése
 
 
-[![ethframe](https://armands.blog/static/images/ethframe.png)](https://armands.blog/static/images/ethframe.png)
+[![ethframe](https://armands.blog/images/ethframe.png)](https://armands.blog/images/ethframe.png)
 
 **Előtag**: 7B hosszú, feladata a vevőoldali szinkronizálás.
 

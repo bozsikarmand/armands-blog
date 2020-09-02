@@ -21,12 +21,12 @@ Az általad keltett mozgás koordinátáit a hangeffekt kiválasztása után meg
 
 Mint mindennek, ennek a programnak is van hibája, persze bár ez lehet valakinek hasznos is. A lényeg: ha másik alkalmazást nyitsz meg vagy zárolod a képernyőt, akkor elveszti a kapcsolatot a program a Banddel. Ez egyrészt kíméli az akkumulátort, másrészt viszont kissé idegesítő is a folytonos újrakapcsolódás, hiába pár másodperces művelet az egész.
 
-[![sound-band-scn](https://armands.blog/static/images/sound-band-scn.png)](https://armands.blog/static/images/sound-band-scn.png)
+[![sound-band-scn](https://armands.blog/images/sound-band-scn.png)](https://armands.blog/images/sound-band-scn.png)
 
 A Microsoft Band SDK megjelenésével remélhetőleg több külsős fejlesztő által fejlesztett alkalmazást láthatunk majd. Az eddigiek közül hogy csak néhány példát említsek: Fanband, Torch, illetve a Pimp my Band – utóbbiról [mi is adtunk hírt](http://winmagazin.hu/2015/03/egy-kulsos-alkalmazas-segitsegevel-megvaltoztathatod-a-microsoft-band-nyelvi-beallitasait/). A Sound Band ingyenesen kipróbálható a Windows Phone Store-ban, a reklámmentes teljes verzió viszont 99 cent-be kerül. Próbáld ki, és írd meg nekünk, hogy milyen effekteket hallanál szívesen a következő verzióban.
 
 <a href="http://www.windowsphone.com/s?appid=c071b9d8-7edb-4360-9d51-1fdd940a89fc" title="soundband" target="_blank">A Sound Band letöltése Windows Phone-ra</a>
 
-[![qr-sound-band](https://armands.blog/static/images/qr-sound-band.png)](https://armands.blog/static/images/qr-sound-band.png)
+[![qr-sound-band](https://armands.blog/images/qr-sound-band.png)](https://armands.blog/images/qr-sound-band.png)
 
 __Source:__ [Windows Central](http://www.windowscentral.com/sound-band-sound-effects-microsoft-band)

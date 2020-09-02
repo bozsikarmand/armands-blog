@@ -42,7 +42,7 @@ Ugye milyen egyszerű volt? Fantasztikus, hogy fejlődik a tudomány!
 
 Például ha itt beírod azt, hogy „camera.exe” akkor elindul a kamera alkalmazás, melynek három különféle módja van: ASCII, fekete-fehér és CGA. Természetesen a fejlett technológiának köszönhetően az alkalmazás támogatja a front és hátsó kamerával rendelkező készülékeket is.
 
-[![ms-dos-mobile-scn-1](https://armands.blog/static/images/ms-dos-mobile-scn-1.jpg)](https://armands.blog/static/images/ms-dos-mobile-scn-1.jpg)
+[![ms-dos-mobile-scn-1](https://armands.blog/images/ms-dos-mobile-scn-1.jpg)](https://armands.blog/images/ms-dos-mobile-scn-1.jpg)
 
 Ugyanígy az „internet.exe” pl. az Internet Explorer-t indítja el. Mielőtt az alkalmazás elindulna, a már ismerős betárcsázás hangját hallhatod. Ezenkívül természetesen akad még pár alkalmazás, melyet tesztelés alá vethetsz:
 
@@ -81,6 +81,6 @@ Az MS-DOS Mobile-t letöltheted az alábbi gombra kattintva:
 
 Illetve az alábbi QR-kód beolvasásával:
 
-[![qr-ms-dos-mobile](https://armands.blog/static/images/qr-ms-dos-mobile.png)](https://armands.blog/static/images/qr-ms-dos-mobile.png)
+[![qr-ms-dos-mobile](https://armands.blog/images/qr-ms-dos-mobile.png)](https://armands.blog/images/qr-ms-dos-mobile.png)
 
 __Source:__ [Windows Central](http://www.windowscentral.com/microsoft-launches-ms-dos-mobile)

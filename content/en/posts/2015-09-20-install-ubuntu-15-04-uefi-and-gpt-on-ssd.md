@@ -27,15 +27,15 @@ Then: I did not know anything about current hardware support of Ubuntu.
 
 	
   1. Since I was using Windows 10 I have disabled "Fast Startup", checked BitLocker is off and turned off hibernation (_powercfg /h off_).
-[![81834_bl](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_bl-300x74.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_bl.png)[![81834_powercfga](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_powercfga-251x300.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_powercfga.png)[![81834_nof](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_nof-300x211.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_nof.png)
+[![81834_bl](https://armands.blog/images/81834_bl.png)](https://armands.blog/images/81834_bl.png)[![81834_powercfga](https://armands.blog/images/81834_powercfga.png)](https://armands.blog/images/81834_powercfga.png)[![81834_nof](https://armands.blog/images/81834_nof.png)](https://armands.blog/images/81834_nof.png)
 
 	
   2. Disabled Fastboot in UEFI
-[![81834_fastboot](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_fastboot-300x225.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_fastboot.png)
+[![81834_fastboot](https://armands.blog/images/81834_fastboot.png)](https://armands.blog/images/81834_fastboot.png)
 
 	
   3. Also disabled Secure Boot (Switched to "Other OS")
-[![81834_secboot](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_secboot-300x225.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/81834_secboot.png)
+[![81834_secboot](https://armands.blog/images/81834_secboot.png)](https://armands.blog/images/81834_secboot.png)
 
 	
   4. Booted from UEFI pendrive.
@@ -51,7 +51,7 @@ Then: I did not know anything about current hardware support of Ubuntu.
 
 	
   8. Agreed the UEFI install warning
-[![Force-UEFI-Installation](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/Force-UEFI-Installation-300x225.jpeg)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/Force-UEFI-Installation.jpeg)
+[![Force-UEFI-Installation](https://armands.blog/images/Force-UEFI-Installation.jpeg)](https://armands.blog/images/Force-UEFI-Installation.jpeg)
 
 	
   9. Then the install method was the same like on a BIOS machine.
@@ -61,7 +61,7 @@ Then: I did not know anything about current hardware support of Ubuntu.
 
 	
   11. Turned volume to maximum in alsamixer for my Xonar DS in Master Front
-[![alsamixer](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/alsamixer-300x177.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/alsamixer.png)
+[![alsamixer](https://armands.blog/images/alsamixer.png)](https://armands.blog/images/alsamixer.png)
 
 	
   12. That's all!
@@ -69,4 +69,6 @@ Then: I did not know anything about current hardware support of Ubuntu.
 
 Thanks for reading!
 
-__Sources:__ [UEFI settings (Image)](http://www.eightforums.com/tutorials/17058-secure-boot-enable-disable-uefi-2.html), [Message (Image)](http://www.tecmint.com/wp-content/uploads/2015/04/Force-UEFI-Installation.jpeg)
+__Sources:__ 
+
+[Secure Boot settings (Image)](https://www.rodsbooks.com/efi-bootloaders/asus2.jpg), [Fastboot Settings (Image)](https://www.youtube.com/watch?v=xgtlF0L0TqQ), [UEFI settings (Image)](http://www.eightforums.com/tutorials/17058-secure-boot-enable-disable-uefi-2.html), [Message (Image)](http://www.tecmint.com/wp-content/uploads/2015/04/Force-UEFI-Installation.jpeg)
