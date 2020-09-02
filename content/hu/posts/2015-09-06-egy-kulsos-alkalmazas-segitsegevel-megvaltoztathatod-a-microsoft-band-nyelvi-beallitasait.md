@@ -16,7 +16,7 @@ Amennyiben nem az Államokban élsz, és az anyanyelveden szeretnéd használni
 
 A mai frissítéssel végre a felhasználói felület nyelvét is megváltoztathatod (angol, spanyol, olasz, német és francia nyelveket támogat jelenleg az alkalmazás). A beállítás a néhány hete bemutatott “finomhangolási” opciók környékén található.
 
-[![pimpband-langues](https://armands.blog/images/pimpband-langues1.png)](https://armands.blog/images/pimpband-langues1.png)
+[![pimpband-langues](https://armands.blog/images/pimpband-langues.png)](https://armands.blog/images/pimpband-langues.png)
 
 A Microsoft eddig nem nyilatkozott a nemzetközi piacot érintő terveiről, de úgy tűnik, nem igazán akarnak a Microsoft Banddel más régiók felé terjeszkedni jelenleg. Az Államok vásárlóközönsége nagyon jó tesztalanynak bizonyult eddig, és ez az ottani tapasztalatok szükségesek ahhoz, hogy a későbbiekben szélesebb tömegek számára is elérhetővé váljon a termék, mint ahogy erre Joe Belfiore utalt is októberben:
 

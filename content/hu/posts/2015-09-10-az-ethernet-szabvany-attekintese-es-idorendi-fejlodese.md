@@ -27,7 +27,7 @@ Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlás
 
 [caption id="attachment_335" align="aligncenter" width="300"][![164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks](https://armands.blog/images/cisco-switch.jpg)](https://armands.blog/images/cisco-switch.jpg) Cisco Switch[/caption]
 
-[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://armands.blog/images/100_1891.png)](https://armands.blog/images/100_1891.jpg) Cisco HUB[/caption]
+[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://armands.blog/images/100_1891.png)](https://armands.blog/images/100_1891.png) Cisco HUB[/caption]
 
 [caption id="attachment_337" align="aligncenter" width="300"][![Cisco-1800](https://armands.blog/images/Cisco-1800.jpg)](https://armands.blog/images/Cisco-1800.jpg) Cisco Router[/caption]
 
@@ -252,9 +252,9 @@ Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, az
 
 **Forrás/Célcím:** Küldő/fogadó MAC címe.
 
-**Adat: **max. 1500B
+**Adat:** max. 1500B
 
-**FCS (CRC): **ellenörzőösszeg
+**FCS (CRC):** ellenörzőösszeg
 
 
 ## Kábeltípusok

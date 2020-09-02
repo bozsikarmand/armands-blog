@@ -36,6 +36,6 @@ Egy kiváló időmérő alkalmazást kerestél Windows Phone-ra? Próbáld ki te
 
 <a href="http://www.windowsphone.com/s?appid=94685ec4-c467-451f-9cec-3ce876da3a47" title="circlestopwatch">A Circle Stopwatch letöltése Windows Phone-ra</a>
 
-[![circle stopwatch qr](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/qr-circle-stopwatch.png)](https://blog.bozsikarmand.hu/wp-content/uploads/2015/09/qr-circle-stopwatch.png)
+[![circle stopwatch qr](https://armands.blog/images/qr-circle-stopwatch.png)](https://armands.blog/images/qr-circle-stopwatch.png)
 
 __Source:__ [Windows Central](http://www.windowscentral.com/circle-stopwatch-windows-phone)

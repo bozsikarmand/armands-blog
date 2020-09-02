@@ -31,11 +31,11 @@ Then: I did not know anything about current hardware support of Ubuntu.
 
 	
   2. Disabled Fastboot in UEFI
-[![81834_fastboot](https://armands.blog/images/81834_fastboot.png)](https://armands.blog/images/81834_fastboot.png)
+[![81834_fastboot](https://armands.blog/images/81834_fastboot.jpg)](https://armands.blog/images/81834_fastboot.jpg)
 
 	
   3. Also disabled Secure Boot (Switched to "Other OS")
-[![81834_secboot](https://armands.blog/images/81834_secboot.png)](https://armands.blog/images/81834_secboot.png)
+[![81834_secboot](https://armands.blog/images/81834_secboot.jpg)](https://armands.blog/images/81834_secboot.jpg)
 
 	
   4. Booted from UEFI pendrive.

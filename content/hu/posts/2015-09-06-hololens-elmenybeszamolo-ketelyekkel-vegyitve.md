@@ -17,7 +17,7 @@ Nekünk, újságíróknak egy exkluzív lehetőséggel is kedveskedtek: Betekint
 
 Most pedig következzenek gondolataim és élménybeszámolóm:
 
-[![HoloDemo](https://armands.blog/images/HoloDemo.png)](https://armands.blog/images/HoloDemo.png)
+[![HoloDemo](https://armands.blog/images/HoloDemo.jpg)](https://armands.blog/images/HoloDemo.jpg)
 
 
 ## Most akkor mi is ez tulajdonképpen?
@@ -72,7 +72,7 @@ A Skype demóban egy villanykörtét cserélhettél ki, melynek módja ebben az 
 
 A cég új fejlesztése mikrofonokat, hangszórókat és kamerákat is tartalmaz beépítve, így igazán zavartalan és bensőséges maradhat a Skype beszélgetés élménye, miközben minden "bent" zajlik, így nem zavarhatsz másokat.
 
-[![KoalaUSB](https://armands.blog/images/KoalaUSB.png)](https://armands.blog/images/KoalaUSB.png)
+[![KoalaUSB](https://armands.blog/images/KoalaUSB.jpg)](https://armands.blog/images/KoalaUSB.jpg)
 
 A HoloStudio-ban megtudhattuk miként építhetünk tulajdonképpen bármit (természetesen mindezt 3D-ben) a levegőben, hogy forgathatjuk készülő művünket, miként adhatunk hozzá plusz elemeket, illetve hogy méretezhetjük át az összetevőket.
 
@@ -84,7 +84,7 @@ Végezetül az OnSite egy a NASA-val és a JPL-lel való együttműködés gyüm
 
 Talán az egészben tudjátok mi tetszett a legjobban? Az, hogy nem tűnt átverésnek, szemfényvesztésnek a virtuális világ. A problémák, és feladatok melyeket a teszt során kaptunk, teljesen valóságosnak tűntek, olyanoknak melyek azonnali megoldást kívánnak, akárcsak a való életben. „Az általad látott világ megosztása Skype-on” – ez már önmagában egy olyan szolgáltatás, ami elég lenne a sikerhez, hisz az együttműködés egy teljesen új dimenzióját teremti meg, de gondolj csak a fent elhangzottakra: Monumentális Minecraft városok a szobádban, vagy például a 3D nyomtatás – akár szórakozásról, akár munkáról is legyen szó, nos… Mindkettő igen hasznosnak tűnik.
 
-[![HoloInteract](https://armands.blog/images/HoloInteract.png)](https://armands.blog/images/HoloInteract.png)
+[![HoloInteract](https://armands.blog/images/HoloInteract.jpg)](https://armands.blog/images/HoloInteract.jpg)
 
 
 ## Sok-sok felvetődő kérdés
