@@ -19,17 +19,17 @@ A szabvány megfelelőnek bizonyult, mely tényt az idő hivatott igazolni, ugya
 
 Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlást tettek az OSI (Open Systems Interconnection - Nyílt rendszerek összekapcsolása: ez egy olyan, általánosan alkalmazható tervezet, mely a világon előforduló összes hálózatra egyaránt érvényes) fizikai rétegére vonatkozóan. Az eredeti 10BASE5 Ethernet vastag koaxiális kábelt használt, míg az újabb szabványok (802.3i (1990)-től felfelé) már csavart érpárt illetve üvegszálas optikát. Ezen változásokat természetesen az aktív hálózati eszközök is lekövették (switch-ek, HUB-ok, routerek).
 
-[caption id="attachment_331" align="aligncenter" width="300"][![koax](https://armands.blog/images/koax.gif)](https://armands.blog/images/koax.gif) Koax kábel felépítése[/caption]
+{{< figure src="https://armands.blog/images/koax.gif" title="Koax kábel felépítése" >}}
 
-[caption id="attachment_333" align="aligncenter" width="300"][![utp](https://armands.blog/images/utp.jpg)](https://armands.blog/images/utp.jpg) UTP kábel felépítése[/caption]
+{{< figure src="https://armands.blog/images/utp.jpg" title="UTP kábel felépítése" >}}
 
-[caption id="attachment_334" align="aligncenter" width="300"][![Image191](https://armands.blog/images/Image191.gif)](https://armands.blog/images/Image191.gif) Optikai kábel[/caption]
+{{< figure src="https://armands.blog/images/Image191.gif" title="Optikai kábel" >}}
 
-[caption id="attachment_335" align="aligncenter" width="300"][![164963-Cisco-Small-Business-24-Port-10-100-Switch-with-Gigabit-Uplinks](https://armands.blog/images/cisco-switch.jpg)](https://armands.blog/images/cisco-switch.jpg) Cisco Switch[/caption]
+{{< figure src="https://armands.blog/images/cisco-switch.jpg" title="Cisco Switch" >}}
 
-[caption id="attachment_336" align="aligncenter" width="300"][![100_1891](https://armands.blog/images/100_1891.png)](https://armands.blog/images/100_1891.png) Cisco HUB[/caption]
+{{< figure src="https://armands.blog/images/100_1891.png" title="Cisco HUB" >}}
 
-[caption id="attachment_337" align="aligncenter" width="300"][![Cisco-1800](https://armands.blog/images/Cisco-1800.jpg)](https://armands.blog/images/Cisco-1800.jpg) Cisco Router[/caption]
+{{< figure src="https://armands.blog/images/Cisco-1800.jpg" title="Cisco Router" >}}
 
 A legelső (még szabadalmaztatás előtti, kísérleti) Ethernet szabvány 2,94 Mbit/s átvitelre volt képes, a jelenlegi leggyorsabb 100 Gbit/s-ra, míg 2017-re 400 Gbit/s-os elméleti maximumot igérnek.
 
@@ -44,121 +44,121 @@ A szabvány (és annak alapján készült eszközök) kereskedelmi megjelenése 
 Az Ethernet szabvány a Xerox PARC fejlesztette ki 1973-74 közt. A fejlesztést az ALOHAnet inspirálta, mely az egyik társszerző, Robert Metcalfe PhD munkájában is helyet kapott. Az ötlet első írásos emléke 1973 májusából való, s melyből megtudhatjuk, hogy az Ethernet elnevezés az éter angol elnevezéséből ([a]ether) származik, s melyet a következőképp definiált: „Mindenütt jelenlévő passzív közeg, mely elektromágneses hullámok továbbítására alkalmas”. 1975-ben a Xerox egy szabadalmi kérelmet nyújtott be, melyben Metcalfe-ot, David Boggs-t, Chuck Thacker-t illetve Butler Lampson-t jelölték meg a technológia kidolgozóiként. 1976-ban, miután a rendszer sikeresen összeállításra került a PARC-nél, Metcalfe és Boggs dolgozatának témája a technológia kifejlesztése lett.
 
 Metcalfe 1979 nyarán elhagyta a Xeroxot, majd megalapította a 3Com-ot. Ezután meggyőzte a DEC-t, az Intelt illetve a Xeroxot, hogy dolgozzanak együtt, így téve az Ethernetet igazi szabvánnyá.
-<table align="center">
+<table class="center">
 <tbody>
-<tr >
+<tr>
 
-<td colspan="3" width="451">**                 A szabványok áttekintése időrendben    **
+<td colspan="3" width="451" class="title"><strong>A szabványok áttekintése időrendben</strong>
 </td>
 </tr>
 <tr>
 
-<td width="150" >_Szabvány_
+<td width="150" class="title"><em>Szabvány</em>
 </td>
 
-<td width="150" >_Bevezetés_
+<td width="150" class="title"><em>Bevezetés</em>
 </td>
 
-<td width="150" >_Röviden_
-</td>
-</tr>
-<tr>
-
-<td width="150" >Kisérleti
-</td>
-
-<td width="150" >1972-78
-</td>
-
-<td width="150" >2,94Mbit/s, koax kábel
+<td width="150" class="title"><em>Röviden</em>
 </td>
 </tr>
 <tr>
 
-<td width="150" >Ethernet II/DIX
+<td width="150">Kisérleti
 </td>
 
-<td width="150" >1982
+<td width="150">1972-78
 </td>
 
-<td width="150" >10 Mbit/s, vastag koax
-</td>
-</tr>
-<tr>
-
-<td width="150" >IEEE 802.3
-</td>
-
-<td width="150" >1983
-</td>
-
-<td width="150" >10BASE5 - 10 Mbit/s, vastag koax
+<td width="150">2,94Mbit/s, koax kábel
 </td>
 </tr>
 <tr>
 
-<td width="150" >802.3i
+<td width="150">Ethernet II/DIX
 </td>
 
-<td width="150" >1990
+<td width="150">1982
 </td>
 
-<td width="150" >10BASE-T, 10 Mbit/s, csavart érpár
-</td>
-</tr>
-<tr>
-
-<td width="150" >802.3u
-</td>
-
-<td width="150" >1995
-</td>
-
-<td width="150" >100BASE-T*/FX, 100 Mbit/s
+<td width="150">10 Mbit/s, vastag koax
 </td>
 </tr>
 <tr>
 
-<td width="150" >802.3ac
+<td width="150">IEEE 802.3
 </td>
 
-<td width="150" >1998
+<td width="150">1983
 </td>
 
-<td width="150" >Keretméret: 1522B
-</td>
-</tr>
-<tr>
-
-<td width="150" >802.3ab
-</td>
-
-<td width="150" >1999
-</td>
-
-<td width="150" >1000BASE-T, Gigabit Eth, csavart érpáron
+<td width="150">10BASE5 - 10 Mbit/s, vastag koax
 </td>
 </tr>
 <tr>
 
-<td width="150" >802.3ae
+<td width="150">802.3i
 </td>
 
-<td width="150" >2003
+<td width="150">1990
 </td>
 
-<td width="150" >10GBASE-*, 1 GBit/s üvegszálon
+<td width="150">10BASE-T, 10 Mbit/s, csavart érpár
 </td>
 </tr>
 <tr>
 
-<td width="150" >802.3af
+<td width="150">802.3u
 </td>
 
-<td width="150" >2003
+<td width="150">1995
 </td>
 
-<td width="150" >
+<td width="150">100BASE-T*/FX, 100 Mbit/s
+</td>
+</tr>
+<tr>
+
+<td width="150">802.3ac
+</td>
+
+<td width="150">1998
+</td>
+
+<td width="150">Keretméret: 1522B
+</td>
+</tr>
+<tr>
+
+<td width="150">802.3ab
+</td>
+
+<td width="150">1999
+</td>
+
+<td width="150">1000BASE-T, Gigabit Eth, csavart érpáron
+</td>
+</tr>
+<tr>
+
+<td width="150">802.3ae
+</td>
+
+<td width="150">2003
+</td>
+
+<td width="150">10GBASE-*, 1 GBit/s üvegszálon
+</td>
+</tr>
+<tr>
+
+<td width="150">802.3af
+</td>
+
+<td width="150">2003
+</td>
+
+<td width="150">
 
 
 Power over Ethernet
@@ -186,8 +186,7 @@ Az Ethernet azóta folytatja világhódító útját. Ma már – a folyamatos f
 
 ## Technológiai háttér
 
-
-[caption id="attachment_324" align="aligncenter" width="300"][![iso-osi-tcp]((https://armands.blog/images/iso-osi-tcp.jpg)]((https://armands.blog/images/iso-osi-tcp.jpg) ISO/OSI/TCP[/caption]
+{{< figure src="https://armands.blog/images/iso-osi-tcp.jpg" title="ISO/OSI/TCP" >}}
 
 Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, azonban technológiai szempontból még nem vizsgáltuk meg. Mint korábban említettem, az Ethernet Carrier sense multiple access with collision detection-t használ (CSMA/CD – vivő érzékeléses többszörös hozzáférés, ütközés detektálással)., mely egy véletlen közeg hozzáférési protokoll.
 
@@ -269,9 +268,9 @@ A különböző kábel típusok a külső elektromos/mágneses zavarok kivédés
 
 _Optikai:_
 
-**Egymódusú: **Egy frekvencián képes adatátvitelre, így általában rövidebb távok áthidalására alkalmazzák.
+**Egymódusú:** Egy frekvencián képes adatátvitelre, így általában rövidebb távok áthidalására alkalmazzák.
 
-**Többmódusú: **Több frekvencián képes adatátvitelre, így nagyobb távokra alkalmazható,
+**Többmódusú:** Több frekvencián képes adatátvitelre, így nagyobb távokra alkalmazható,
 
 
 ## Ethernet kábelek típusai
