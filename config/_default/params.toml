@@ -42,11 +42,10 @@ pubPaginate = 20
 # whoami
 myname = "Armand Bozsik"
 email = "hello@armands.blog"
-whoami = "Web Developer"
 bioImageUrl = "/images/whoami/avatar.png"
 useGravatar = false
 location = "Hungary"
-organization = "Student"
+organization = "Fresh Graduate"
 link = "https://armands.site"
 
 # sidebar
