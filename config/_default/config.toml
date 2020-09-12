@@ -1,6 +1,7 @@
 baseURL = "https://armands.blog"
 title = "Armand's Blog"
 theme = "armands-blog"
+publishDir = "docs"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
