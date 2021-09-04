@@ -26,4 +26,6 @@ Természetesen a mai nap legnagyobb híre az előbb már említett – whisper k
 
 Sajnos jelenleg nincs az alkalmazásból Windows Phone verzió. Azonban ha fontos számodra személyes adataid védelme a beszélgetések során, akkor biztos szívesen kipróbálnád a Bleep-et. Az alábbi gombra kattintva ezt meg is teheted.
 
+<a href="http://www.bleep.pm/" title="bleep" target="_blank">A Bleep letöltése Windowsra</a>
+
 __Source:__ [Windows Central](http://www.windowscentral.com/bittorrents-secure-messenger-bleep-gets-public-release-and-adds-ephemeral-messaging)
