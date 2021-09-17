@@ -16,5 +16,5 @@ Jelen bejegyzés keretei közt egy régebbi, még középiskolás éveim elején
 
 A dokumentumon megtalálható fordításom mellett az eredeti angol nyelvű szöveg, melyről a fordítást végeztem a versenyen, illetve összehasonlításképp Szőllősy Klára alkotása is.
 
-![A dokumentum első oldala](/images/oz_translation_page_1.jpg)
-![A dokumentum első oldala](/images/oz_translation_page_2.jpg)
+![A dokumentum első oldala](https://armands.blog/images/oz_translation_page_1.jpg)
+![A dokumentum első oldala](https://armands.blog/images/oz_translation_page_2.jpg)
