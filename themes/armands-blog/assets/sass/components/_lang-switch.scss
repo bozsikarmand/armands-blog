@@ -108,10 +108,46 @@
   }
 }
 
-// A navbar jobb szélén, a rácsból kivéve (a kereső a csíkozott keretig nyúlhat)
-.navbar > .lang-switch {
-  position: absolute;
-  right: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+// Eszköz-sáv a navbar jobb szélén: téma- és nyelvválasztó egymás mellett
+.navbar__tools {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  margin-right: 0.5rem;
+}
+
+// Hold/nap téma-váltó: mindig a CÉL ikonja látszik
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+
+  @include themify($themes) {
+    color: themed('navbar-title-color');
+  }
+
+  &:hover {
+    @include themify($themes) {
+      color: themed('navbar-title-hover-color');
+    }
+  }
+}
+
+.theme-toggle__icon {
+  display: none;
+}
+
+body.theme__dark .theme-toggle__icon--sun {
+  display: inline;
+}
+
+body.theme__monolight .theme-toggle__icon--moon {
+  display: inline;
 }

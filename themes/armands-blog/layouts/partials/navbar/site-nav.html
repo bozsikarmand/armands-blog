@@ -17,5 +17,8 @@
   {{ partial "navbar/nav-menu-mobile" . }}
   {{ partial "search/site-search" . }}
   {{ partial "navbar/nav-menu" . }}
-  {{ partial "footer/select-lang" . }}
+  <div class="navbar__tools">
+    {{ partial "navbar/select-theme-toggle" . }}
+    {{ partial "footer/select-lang" . }}
+  </div>
 </nav>
