@@ -196,3 +196,8 @@ body.theme__monolight .theme-toggle__icon--moon {
     flex: 0 0 auto;
   }
 }
+
+// A © sor egy magasságban: a caption margója ne tolja le az ikont
+.footer__bar .caption {
+  margin: 0;
+}
