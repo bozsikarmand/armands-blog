@@ -93,3 +93,15 @@
 .footer__social .lang-switch {
   margin-left: 0.5rem;
 }
+
+// Lábléc alsó sora: nyelvválasztó balra, copyright középen (a nyíllal átellenben)
+.footer__bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .footer__poweredby {
+    flex: 1;
+    text-align: center;
+  }
+}
