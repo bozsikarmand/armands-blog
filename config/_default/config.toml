@@ -13,7 +13,9 @@ buildFuture = true
 copyright = "&copy;2015-{year}, All Rights Reserved"
 timeout = 10000
 enableEmoji = true
-paginate = 13
+
+[pagination]
+  pagerSize = 13
 rssLimit = 100
 
 enableGitInfo = false
