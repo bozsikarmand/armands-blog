@@ -1,0 +1,3 @@
+[submodule "themes/armands-blog"]
+	path = themes/armands-blog
+	url = https://gitlab.com/bozsikarmand/hugo-theme-armands-blog.git

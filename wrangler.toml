@@ -5,3 +5,5 @@ compatibility_date = "2026-11-04"
 directory = "docs"
 
 # Rebuild trigger: theme submodule now public
+
+# Rebuild trigger: submodule test (theme repo is public)
