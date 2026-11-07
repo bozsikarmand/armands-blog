@@ -1,0 +1,94 @@
+# Sveltia CMS konfiguráció – armands.blog
+# Dokumentáció: https://github.com/sveltia/sveltia-cms
+
+backend:
+  name: gitlab
+  repo: bozsikarmand/armands-blog
+  branch: master
+  auth_type: implicit
+  # A GitLab OAuth alkalmazás Application ID-ja (lásd README/admin beállítás)
+  app_id: b37f5ddd051ad2054288510f84d15af4554a3231cb9d328ed5451cd01f28c155
+
+# Médiafeltöltés: Hugo static/ mappába megy, publikusan /images alatt érhető el
+media_folder: static/images
+public_folder: /images
+
+locale: hu
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: posts-hu
+    label: Posztok (Magyar)
+    folder: content/hu/posts
+    create: true
+    delete: true
+    extension: md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields:
+      - date
+      - title
+    fields:
+      - { name: title, label: Cím, widget: string }
+      - { name: date, label: Dátum, widget: datetime }
+      - { name: slug, label: "URL-rész (slug)", widget: string, required: false }
+      - { name: categories, label: Kategóriák, widget: list, required: false }
+      - { name: tags, label: Címkék, widget: list, required: false }
+      - name: author
+        label: Szerző
+        widget: string
+        default: bozsikarmand
+      - name: comments
+        label: Kommentelés engedélyezve
+        widget: boolean
+        default: true
+      - { name: link, label: "Eredeti (WordPress) URL", widget: string, required: false }
+      - name: wordpress_id
+        label: WordPress ID
+        widget: number
+        value_type: int
+        required: false
+      - name: layout
+        label: Layout
+        widget: string
+        default: post
+      - { name: body, label: Tartalom, widget: markdown }
+
+  - name: posts-en
+    label: Posts (English)
+    folder: content/en/posts
+    create: true
+    delete: true
+    extension: md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields:
+      - date
+      - title
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - { name: slug, label: "URL slug", widget: string, required: false }
+      - { name: categories, label: Categories, widget: list, required: false }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - name: author
+        label: Author
+        widget: string
+        default: bozsikarmand
+      - name: comments
+        label: Comments enabled
+        widget: boolean
+        default: true
+      - { name: link, label: "Original (WordPress) URL", widget: string, required: false }
+      - name: wordpress_id
+        label: WordPress ID
+        widget: number
+        value_type: int
+        required: false
+      - name: layout
+        label: Layout
+        widget: string
+        default: post
+      - { name: body, label: Body, widget: markdown }
