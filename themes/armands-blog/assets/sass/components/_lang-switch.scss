@@ -163,3 +163,16 @@ body.theme__monolight .theme-toggle__icon--moon {
     display: none;
   }
 }
+
+// Mobilon a téma-gomb a sávban lebeg (a kereső és a burger mellett),
+// hogy a cím ne csússzon ki – ahogy az eredeti téma is csinálta
+@media only screen and (max-width: 769px) {
+  .navbar__theme-slot {
+    position: absolute;
+    top: 0;
+    right: 5.6rem;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+  }
+}
