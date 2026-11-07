@@ -154,3 +154,10 @@ body.theme__dark .theme-toggle__icon--sun {
 body.theme__monolight .theme-toggle__icon--moon {
   display: inline;
 }
+
+// Mobilon a desktop eszköz-sáv helyett a mobil-menü ikonjai szolgálnak
+@media only screen and (max-width: 769px) {
+  .navbar__tools {
+    display: none;
+  }
+}
