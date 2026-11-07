@@ -409,3 +409,14 @@
     }
   }
 }
+
+// Fejlécbe (navbar) helyezett kereső
+.navbar > .search {
+  width: 210px;
+  margin: auto 16px auto auto;
+  margin-bottom: 0;
+
+  @media only screen and (max-width: 769px) {
+    display: none;
+  }
+}
