@@ -201,3 +201,13 @@ body.theme__monolight .theme-toggle__icon--moon {
 .footer__bar .caption {
   margin: 0;
 }
+
+// A © sorhoz igazítva: kisebb ikon-gomb a láblécben
+.footer__bar .lang-switch__btn {
+  padding: 0.2rem;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
