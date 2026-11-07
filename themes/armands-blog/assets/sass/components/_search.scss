@@ -410,15 +410,30 @@
   }
 }
 
-// Fejlécbe (navbar) helyezett kereső: a címtől a jobb oldali
-// vezérlőkig tölti a rendelkezésre álló sávot, vízszintesen középen
+// Fejlécbe (navbar) helyezett kereső. A navbar gridbe rendezve:
+// cím | kereső (kitölti a középső oszlopot) | menü – determinisztikus,
+// a kereső a címtől az oldalsáv széléig (a "csíkozott" képig) nyúlik.
+@media only screen and (min-width: 770px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+    > .navbar__brand { grid-column: 1; grid-row: 1; }
+    > .navbar__menu { grid-column: 3; grid-row: 1; }
+  }
+}
+
 .navbar > .search {
-  flex: 1 1 auto;
   width: auto;
-  // A jobb szeléig a tartalomszig széleig nyúlik (az oldalsávig –
-  // a "csíkozott" keretes képig), balon a cím mellett kezdődik
   margin: auto calc(266px + 1.25rem) auto 1rem;
   margin-bottom: 0;
+
+  @media only screen and (min-width: 770px) {
+    grid-column: 2;
+    grid-row: 1;
+  }
 
   @media only screen and (max-width: 1280px) {
     margin-right: 1rem;

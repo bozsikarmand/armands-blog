@@ -5,7 +5,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 TMP=$(mktemp -d)
-git clone --depth 1 https://gitlab.com/bozsikarmand/hugo-theme-armands-blog.git "$TMP/theme"
+git clone --depth 1 git@gitlab.com:bozsikarmand/hugo-theme-armands-blog.git "$TMP/theme"
 rsync -a --delete --exclude '.git' "$TMP/theme/" themes/armands-blog/
 rm -rf "$TMP"
 echo "OK - theme synced from fork. Commit: git add themes/armands-blog && git commit -m 'Sync theme from fork'"
