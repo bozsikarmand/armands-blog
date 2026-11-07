@@ -413,31 +413,29 @@
 // Fejlécbe (navbar) helyezett kereső. A navbar gridbe rendezve:
 // cím | kereső (kitölti a középső oszlopot) | menü – determinisztikus,
 // a kereső a címtől az oldalsáv széléig (a "csíkozott" képig) nyúlik.
+// A márka + kereső blokk oldal-középen; a kereső nagy, a csíkozott
+// keret (oldalsáv) felé ér. Menü jobbra igazítva.
 @media only screen and (min-width: 770px) {
   .navbar {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr auto auto 1fr;
     grid-template-rows: 1fr;
     align-items: center;
 
-    > .navbar__brand { grid-column: 1; grid-row: 1; }
-    > .navbar__menu { grid-column: 3; grid-row: 1; }
+    > .navbar__brand { grid-column: 2; grid-row: 1; justify-self: end; }
+    > .navbar__menu { grid-column: 4; grid-row: 1; justify-self: end; }
   }
 }
 
 .navbar > .search {
-  width: auto;
+  width: min(920px, 58vw);
   max-width: none;
-  margin: auto calc(266px + 1.25rem) auto 1rem;
+  margin: auto 1rem;
   margin-bottom: 0;
 
   @media only screen and (min-width: 770px) {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
-  }
-
-  @media only screen and (max-width: 1280px) {
-    margin-right: 1rem;
   }
 
   .input {
