@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>plugins on Blog</title>
+    <title>Plugins on Blog</title>
     <link>https://armands.blog/en/tags/plugins/</link>
-    <description>Recent content in plugins on Blog</description>
+    <description>Recent content in Plugins on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>Newfound security vulerabilities threatening WordPress users</title>
         <link>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</link>
@@ -29,8 +27,8 @@
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 16:56:03 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</guid>
-        <description>Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.
-Researchers at High-Tech Bridge in the previous weeks two WordPress plugins started to monitor closely. They did a thorough security analysis in the case of TheCartPress plugin which is made to support e-commerce and WP Photo Album Plus which is an extension especially for photo management. In both of them they found risky vulnerabilities, despite the latter received the proper fixes.</description>
+        <description>&lt;p&gt;&lt;strong&gt;Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Researchers at High-Tech Bridge in the previous weeks two WordPress plugins started to monitor closely. They did a thorough security analysis in the case of TheCartPress plugin which is made to support e-commerce and WP Photo Album Plus which is an extension especially for photo management. In both of them they found risky vulnerabilities, despite the latter received the proper fixes.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -68,8 +66,6 @@ Researchers at High-Tech Bridge in the previous weeks two WordPress plugins star
         
         
       </item>
-      
-
     
   </channel>
 </rss>

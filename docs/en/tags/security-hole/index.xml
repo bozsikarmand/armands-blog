@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>security hole on Blog</title>
+    <title>Security Hole on Blog</title>
     <link>https://armands.blog/en/tags/security-hole/</link>
-    <description>Recent content in security hole on Blog</description>
+    <description>Recent content in Security Hole on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>Newfound security vulerabilities threatening WordPress users</title>
         <link>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</link>
@@ -29,8 +27,8 @@
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 16:56:03 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</guid>
-        <description>Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.
-Researchers at High-Tech Bridge in the previous weeks two WordPress plugins started to monitor closely. They did a thorough security analysis in the case of TheCartPress plugin which is made to support e-commerce and WP Photo Album Plus which is an extension especially for photo management. In both of them they found risky vulnerabilities, despite the latter received the proper fixes.</description>
+        <description>&lt;p&gt;&lt;strong&gt;Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Researchers at High-Tech Bridge in the previous weeks two WordPress plugins started to monitor closely. They did a thorough security analysis in the case of TheCartPress plugin which is made to support e-commerce and WP Photo Album Plus which is an extension especially for photo management. In both of them they found risky vulnerabilities, despite the latter received the proper fixes.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -68,7 +66,7 @@ Researchers at High-Tech Bridge in the previous weeks two WordPress plugins star
         
         
       </item>
-      
+    
       <item>
         <title>Serious programming error found in YouTube</title>
         <link>https://armands.blog/en/posts/serious-programming-error-found-in-youtube/</link>
@@ -76,8 +74,8 @@ Researchers at High-Tech Bridge in the previous weeks two WordPress plugins star
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 16:53:48 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/serious-programming-error-found-in-youtube/</guid>
-        <description>Some days ago computer scientists have revealed a critical bug in the video streaming service of Google called YouTube and what is important to mention by the exploitation of this programming error everyone could copy comments between all of the videos without any consequences. We will show you how the security researchers found out this tricky vulnerability.
-YouTube – similarly to other web services used by a wide range of users – is a popular experiment field for those who work on revealing web security vulnerabilities.</description>
+        <description>&lt;p&gt;Some days ago computer scientists have revealed a critical bug in the video streaming service of Google called YouTube and what is important to mention by the exploitation of this programming error everyone could copy comments between all of the videos without any consequences. We will show you how the security researchers found out this tricky vulnerability.&lt;/p&gt;
+&lt;p&gt;YouTube – similarly to other web services used by a wide range of users – is a popular experiment field for those who work on revealing web security vulnerabilities. These researchers work in the hope for a bounty or fame and/or simply for gratification. Certainly a lot of white hat hackers are trying to find security holes just only to make online services safer. Two Egyptian researcher was led by curiosity when they overhauled the video sharing site&amp;rsquo;s so called function.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -119,8 +117,6 @@ YouTube – similarly to other web services used by a wide range of users – is
         
         
       </item>
-      
-
     
   </channel>
 </rss>

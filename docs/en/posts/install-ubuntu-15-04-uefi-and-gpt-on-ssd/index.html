@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1230,7 +1230,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Armand&#39;s Blog">
 
-<meta name="generator" content="Hugo 0.74.3" />
+<meta name="generator" content="Hugo 0.147.7">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1269,7 +1269,7 @@
     "datePublished": "2015-09-20T10:32:13Z",
     "dateModified": "2015-09-20T10:32:13Z",
     "url" : "https://armands.blog/en/posts/install-ubuntu-15-04-uefi-and-gpt-on-ssd/",
-    "description": "I was searching for days to answer all of my questions related to this topic, but I had no success, until I asked it on PROHARDVER!. At first: I was afraid what will …",
+    "description": "\u003cp\u003eI was searching for days to answer all of my questions related to this topic, but I had no success, until I asked it on PROHARDVER!.\u003c/p\u003e \u003cp\u003eAt first: I was afraid what will …\u003c/p\u003e",
     "keywords": ["15.04","install","ubuntu"],
     "author": {
       "@type": "Person",
@@ -1277,20 +1277,17 @@
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://armands.blog"
+      "@id": "https://armands.blog/"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Blog",
-      "url": "https://armands.blog"
+      "url": "https://armands.blog/"
     }
   }
 </script>
 
     
-  
-  
-
 
 
 
@@ -1380,6 +1377,20 @@
     
   </ul>
 </div>
+  
+
+<div class="search">
+  <span class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+  </span>
+  <input id="search" aria-label="Site Search" class="input" type="text" placeholder="Search" autocomplete="off">
+  <div id="search-results" class="dropdown">
+    <div id="search-menu" class="dropdown-menu" role="menu">
+    </div>
+  </div>
+</div>
+
+
   <div class="navbar__menu">
   
   
@@ -1450,9 +1461,9 @@
 
   <li><a href="https://armands.blog/en/tags/15.04/" class="single__tag" title="15.04">#15.04</a></li>
 
-  <li><a href="https://armands.blog/en/tags/install/" class="single__tag" title="install">#install</a></li>
+  <li><a href="https://armands.blog/en/tags/install/" class="single__tag" title="Install">#Install</a></li>
 
-  <li><a href="https://armands.blog/en/tags/ubuntu/" class="single__tag" title="ubuntu">#ubuntu</a></li>
+  <li><a href="https://armands.blog/en/tags/ubuntu/" class="single__tag" title="Ubuntu">#Ubuntu</a></li>
 
 </ul>
     </div>
@@ -1465,15 +1476,15 @@ Then: I did not know anything about current hardware support of Ubuntu.</p>
 <ol>
 <li>
 <p>Since I was using Windows 10 I have disabled &ldquo;Fast Startup&rdquo;, checked BitLocker is off and turned off hibernation (<em>powercfg /h off</em>).<br />
-<a href="https://armands.blog/images/81834_bl.png"><img src="https://armands.blog/images/81834_bl.png" alt="81834_bl" /></a><a href="https://armands.blog/images/81834_powercfga.png"><img src="https://armands.blog/images/81834_powercfga.png" alt="81834_powercfga" /></a><a href="https://armands.blog/images/81834_nof.png"><img src="https://armands.blog/images/81834_nof.png" alt="81834_nof" /></a></p>
+<a href="https://armands.blog/images/81834_bl.png"><img src="https://armands.blog/images/81834_bl.png" alt="81834_bl"></a><a href="https://armands.blog/images/81834_powercfga.png"><img src="https://armands.blog/images/81834_powercfga.png" alt="81834_powercfga"></a><a href="https://armands.blog/images/81834_nof.png"><img src="https://armands.blog/images/81834_nof.png" alt="81834_nof"></a></p>
 </li>
 <li>
 <p>Disabled Fastboot in UEFI<br />
-<a href="https://armands.blog/images/81834_fastboot.jpg"><img src="https://armands.blog/images/81834_fastboot.jpg" alt="81834_fastboot" /></a></p>
+<a href="https://armands.blog/images/81834_fastboot.jpg"><img src="https://armands.blog/images/81834_fastboot.jpg" alt="81834_fastboot"></a></p>
 </li>
 <li>
 <p>Also disabled Secure Boot (Switched to &ldquo;Other OS&rdquo;)<br />
-<a href="https://armands.blog/images/81834_secboot.jpg"><img src="https://armands.blog/images/81834_secboot.jpg" alt="81834_secboot" /></a></p>
+<a href="https://armands.blog/images/81834_secboot.jpg"><img src="https://armands.blog/images/81834_secboot.jpg" alt="81834_secboot"></a></p>
 </li>
 <li>
 <p>Booted from UEFI pendrive.</p>
@@ -1489,7 +1500,7 @@ Then: I did not know anything about current hardware support of Ubuntu.</p>
 </li>
 <li>
 <p>Agreed the UEFI install warning<br />
-<a href="https://armands.blog/images/Force-UEFI-Installation.jpeg"><img src="https://armands.blog/images/Force-UEFI-Installation.jpeg" alt="Force-UEFI-Installation" /></a></p>
+<a href="https://armands.blog/images/Force-UEFI-Installation.jpeg"><img src="https://armands.blog/images/Force-UEFI-Installation.jpeg" alt="Force-UEFI-Installation"></a></p>
 </li>
 <li>
 <p>Then the install method was the same like on a BIOS machine.</p>
@@ -1499,7 +1510,7 @@ Then: I did not know anything about current hardware support of Ubuntu.</p>
 </li>
 <li>
 <p>Turned volume to maximum in alsamixer for my Xonar DS in Master Front<br />
-<a href="https://armands.blog/images/alsamixer.png"><img src="https://armands.blog/images/alsamixer.png" alt="alsamixer" /></a></p>
+<a href="https://armands.blog/images/alsamixer.png"><img src="https://armands.blog/images/alsamixer.png" alt="alsamixer"></a></p>
 </li>
 <li>
 <p>That&rsquo;s all!</p>
@@ -1770,7 +1781,7 @@ Then: I did not know anything about current hardware support of Ubuntu.</p>
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.dc9adde7c0568fad55b1d47730c3b3629469b0aebd103d58226bee25a0736e92.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2858,7 +2869,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2015-2020, All Rights Reserved
+                    ©2015-2026, All Rights Reserved
                 
             </p>
         

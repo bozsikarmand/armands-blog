@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>Az Ethernet szabvány áttekintése és időrendi fejlődése</title>
         <link>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</link>
@@ -29,8 +27,8 @@
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Thu, 10 Sep 2015 12:26:39 +0000</atom:modified>
         <guid>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</guid>
-        <description>Beadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történelmi és technikai háttért figyelembe véve.
-Az Ethernet a számítógépes hálózati technológiák családjába tartozó szabvány, mely helyi (LAN) és városi méretű (WAN) hálózatok összekötésére szolgál. Az Ethernet 1980-ban került bemutatásra, majd 1983-ban vált szabvánnyá IEEE 802.3 néven. Ettől kezdve a szabvány alapjaiban nem változott, csupán mindig a kor (egyre növekvő) igényeihez igazították. Változott a maximálisan kihúzható kábelhossz két gép közt, illetve az adatátviteli sebesség is jelentősen megnőtt az idők folyamán.</description>
+        <description>&lt;p&gt;&lt;em&gt;Beadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történelmi és technikai háttért figyelembe véve.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Az Ethernet a számítógépes hálózati technológiák családjába tartozó szabvány, mely helyi (LAN) és városi méretű (WAN) hálózatok összekötésére szolgál. Az Ethernet 1980-ban került bemutatásra, majd 1983-ban vált szabvánnyá IEEE 802.3 néven. Ettől kezdve a szabvány alapjaiban nem változott, csupán mindig a kor (egyre növekvő) igényeihez igazították. Változott a maximálisan kihúzható kábelhossz két gép közt, illetve az adatátviteli sebesség is jelentősen megnőtt az idők folyamán.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -46,8 +44,6 @@ Az Ethernet a számítógépes hálózati technológiák családjába tartozó s
         
         
       </item>
-      
-
     
   </channel>
 </rss>

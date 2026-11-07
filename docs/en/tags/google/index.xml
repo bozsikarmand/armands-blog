@@ -20,8 +20,6 @@
     
     
     
-
-      
       <item>
         <title>Serious programming error found in YouTube</title>
         <link>https://armands.blog/en/posts/serious-programming-error-found-in-youtube/</link>
@@ -29,8 +27,8 @@
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 16:53:48 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/serious-programming-error-found-in-youtube/</guid>
-        <description>Some days ago computer scientists have revealed a critical bug in the video streaming service of Google called YouTube and what is important to mention by the exploitation of this programming error everyone could copy comments between all of the videos without any consequences. We will show you how the security researchers found out this tricky vulnerability.
-YouTube – similarly to other web services used by a wide range of users – is a popular experiment field for those who work on revealing web security vulnerabilities.</description>
+        <description>&lt;p&gt;Some days ago computer scientists have revealed a critical bug in the video streaming service of Google called YouTube and what is important to mention by the exploitation of this programming error everyone could copy comments between all of the videos without any consequences. We will show you how the security researchers found out this tricky vulnerability.&lt;/p&gt;
+&lt;p&gt;YouTube – similarly to other web services used by a wide range of users – is a popular experiment field for those who work on revealing web security vulnerabilities. These researchers work in the hope for a bounty or fame and/or simply for gratification. Certainly a lot of white hat hackers are trying to find security holes just only to make online services safer. Two Egyptian researcher was led by curiosity when they overhauled the video sharing site&amp;rsquo;s so called function.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -72,8 +70,6 @@ YouTube – similarly to other web services used by a wide range of users – is
         
         
       </item>
-      
-
     
   </channel>
 </rss>

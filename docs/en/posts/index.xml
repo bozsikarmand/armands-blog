@@ -29,10 +29,16 @@
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Mon, 17 Oct 2016 19:51:58 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/how-to-configure-brother-hl-2135w-over-wifi-in-adhoc-mode/</guid>
-        <description>In case you would like to avoid using the pre-built driver package provided by Brother please do the following in order to configure the printer on a secure wifi network:
-  Find an OS which is capable of creating ad-hoc network (current version of Ubuntu will suffice)
-  Find a compatible USB wifi stick (e.g.: ASUS USB-N13)
-  Do a factory reset on the printer. (To do this please refer to the user manual)</description>
+        <description>&lt;p&gt;In case you would like to avoid using the pre-built driver package provided by Brother please do the following in order to configure the printer on a secure wifi network:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Find an OS which is capable of creating ad-hoc network (&lt;a href=&#34;http://releases.ubuntu.com/16.04.1/ubuntu-16.04.1-desktop-amd64.iso&#34;&gt;current version of Ubuntu&lt;/a&gt; will suffice)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find a compatible USB wifi stick (e.g.: &lt;a href=&#34;https://www.amazon.com/USB-N13-Wireless-N-Adapter-802-11b-Wireless/dp/B002UVNW5W&#34;&gt;ASUS USB-N13&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do a factory reset on the printer. (To do this please refer to the user manual)&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -78,10 +84,10 @@
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Sun, 20 Sep 2015 10:32:13 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/install-ubuntu-15-04-uefi-and-gpt-on-ssd/</guid>
-        <description>I was searching for days to answer all of my questions related to this topic, but I had no success, until I asked it on PROHARDVER!.
-At first: I was afraid what will happen with the wearing level on my Samsung 830 SSD, will the partition alignment and TRIM be OK&amp;hellip;
-Then: I did not know anything about current hardware support of Ubuntu.
-A short how to how I installed Ubuntu on my system:</description>
+        <description>&lt;p&gt;I was searching for days to answer all of my questions related to this topic, but I had no success, until I asked it on PROHARDVER!.&lt;/p&gt;
+&lt;p&gt;At first: I was afraid what will happen with the wearing level on my Samsung 830 SSD, will the partition alignment and TRIM be OK&amp;hellip;&lt;br /&gt;
+Then: I did not know anything about current hardware support of Ubuntu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A short how to how I installed Ubuntu on my system:&lt;/strong&gt;&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -123,7 +129,9 @@ A short how to how I installed Ubuntu on my system:</description>
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 17:32:41 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/hollow-talk/</guid>
-        <description>   </description>
+        <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Vy7yuj-UrNI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -147,8 +155,8 @@ A short how to how I installed Ubuntu on my system:</description>
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 16:56:03 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</guid>
-        <description>Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.
-Researchers at High-Tech Bridge in the previous weeks two WordPress plugins started to monitor closely. They did a thorough security analysis in the case of TheCartPress plugin which is made to support e-commerce and WP Photo Album Plus which is an extension especially for photo management. In both of them they found risky vulnerabilities, despite the latter received the proper fixes.</description>
+        <description>&lt;p&gt;&lt;strong&gt;Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Researchers at High-Tech Bridge in the previous weeks two WordPress plugins started to monitor closely. They did a thorough security analysis in the case of TheCartPress plugin which is made to support e-commerce and WP Photo Album Plus which is an extension especially for photo management. In both of them they found risky vulnerabilities, despite the latter received the proper fixes.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         
@@ -194,8 +202,8 @@ Researchers at High-Tech Bridge in the previous weeks two WordPress plugins star
         <author>hello@armands.blog (Armand Bozsik)</author>
         <atom:modified>Tue, 14 Jul 2015 16:53:48 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/serious-programming-error-found-in-youtube/</guid>
-        <description>Some days ago computer scientists have revealed a critical bug in the video streaming service of Google called YouTube and what is important to mention by the exploitation of this programming error everyone could copy comments between all of the videos without any consequences. We will show you how the security researchers found out this tricky vulnerability.
-YouTube – similarly to other web services used by a wide range of users – is a popular experiment field for those who work on revealing web security vulnerabilities.</description>
+        <description>&lt;p&gt;Some days ago computer scientists have revealed a critical bug in the video streaming service of Google called YouTube and what is important to mention by the exploitation of this programming error everyone could copy comments between all of the videos without any consequences. We will show you how the security researchers found out this tricky vulnerability.&lt;/p&gt;
+&lt;p&gt;YouTube – similarly to other web services used by a wide range of users – is a popular experiment field for those who work on revealing web security vulnerabilities. These researchers work in the hope for a bounty or fame and/or simply for gratification. Certainly a lot of white hat hackers are trying to find security holes just only to make online services safer. Two Egyptian researcher was led by curiosity when they overhauled the video sharing site&amp;rsquo;s so called function.&lt;/p&gt;</description>
         
         <dc:creator>bozsikarmand</dc:creator>
         

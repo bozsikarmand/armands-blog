@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fe4b81a87e722d20c220a2b6ca145a3d8a2cb3ea1e89de55329ff417bdd9570.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1228,7 +1228,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="Armand&#39;s Blog">
 
-<meta name="generator" content="Hugo 0.74.3" />
+<meta name="generator" content="Hugo 0.147.7">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1267,27 +1267,24 @@
     "datePublished": "2015-09-10T12:26:39Z",
     "dateModified": "2015-09-10T12:26:39Z",
     "url" : "https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/",
-    "description": "Beadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történelmi és technikai háttért figyelembe véve. Az Ethernet a számítógépes hálózati technológiák …",
+    "description": "\u003cp\u003e\u003cem\u003eBeadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történelmi és technikai háttért figyelembe véve.\u003c/em\u003e\u003c/p\u003e \u003cp\u003eAz Ethernet a számítógépes hálózati technológiák …\u003c/p\u003e",
     "author": {
       "@type": "Person",
       "name": "bozsikarmand"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://armands.blog"
+      "@id": "https://armands.blog/"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Blog",
-      "url": "https://armands.blog"
+      "url": "https://armands.blog/"
     }
   }
 </script>
 
     
-  
-  
-
 
 
 
@@ -1377,6 +1374,20 @@
     
   </ul>
 </div>
+  
+
+<div class="search">
+  <span class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+  </span>
+  <input id="search" aria-label="Site Search" class="input" type="text" placeholder="Search" autocomplete="off">
+  <div id="search-results" class="dropdown">
+    <div id="search-menu" class="dropdown-menu" role="menu">
+    </div>
+  </div>
+</div>
+
+
   <div class="navbar__menu">
   
   
@@ -1451,40 +1462,34 @@
 <p>Az Ethernet a számítógépes hálózati technológiák családjába tartozó szabvány, mely helyi (LAN) és városi méretű (WAN) hálózatok összekötésére szolgál. Az Ethernet 1980-ban került bemutatásra, majd 1983-ban vált szabvánnyá IEEE 802.3 néven. Ettől kezdve a szabvány alapjaiban nem változott, csupán mindig a kor (egyre növekvő) igényeihez igazították. Változott a maximálisan kihúzható kábelhossz két gép közt, illetve az adatátviteli sebesség is jelentősen megnőtt az idők folyamán.</p>
 <p>A szabvány megfelelőnek bizonyult, mely tényt az idő hivatott igazolni, ugyanis rövidesen az egyéb vezetékes technológiákat kiszorította a piacról (pl. token ring, FDDI, ARCNET). Később megjelent az igény a vezeték nélküli adattovábbításra (pl. Wi-Fi) mely az IEEE 802.11 nevet kapta.</p>
 <p>Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlást tettek az OSI (Open Systems Interconnection - Nyílt rendszerek összekapcsolása: ez egy olyan, általánosan alkalmazható tervezet, mely a világon előforduló összes hálózatra egyaránt érvényes) fizikai rétegére vonatkozóan. Az eredeti 10BASE5 Ethernet vastag koaxiális kábelt használt, míg az újabb szabványok (802.3i (1990)-től felfelé) már csavart érpárt illetve üvegszálas optikát. Ezen változásokat természetesen az aktív hálózati eszközök is lekövették (switch-ek, HUB-ok, routerek).</p>
-<figure>
-    <img src="https://armands.blog/images/koax.gif"/> <figcaption>
-            <h4>Koax kábel felépítése</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/koax.gif"><figcaption>
+      <h4>Koax kábel felépítése</h4>
+    </figcaption>
 </figure>
 
-<figure>
-    <img src="https://armands.blog/images/utp.jpg"/> <figcaption>
-            <h4>UTP kábel felépítése</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/utp.jpg"><figcaption>
+      <h4>UTP kábel felépítése</h4>
+    </figcaption>
 </figure>
 
-<figure>
-    <img src="https://armands.blog/images/Image191.gif"/> <figcaption>
-            <h4>Optikai kábel</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/Image191.gif"><figcaption>
+      <h4>Optikai kábel</h4>
+    </figcaption>
 </figure>
 
-<figure>
-    <img src="https://armands.blog/images/cisco-switch.jpg"/> <figcaption>
-            <h4>Cisco Switch</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/cisco-switch.jpg"><figcaption>
+      <h4>Cisco Switch</h4>
+    </figcaption>
 </figure>
 
-<figure>
-    <img src="https://armands.blog/images/100_1891.png"/> <figcaption>
-            <h4>Cisco HUB</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/100_1891.png"><figcaption>
+      <h4>Cisco HUB</h4>
+    </figcaption>
 </figure>
 
-<figure>
-    <img src="https://armands.blog/images/Cisco-1800.jpg"/> <figcaption>
-            <h4>Cisco Router</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/Cisco-1800.jpg"><figcaption>
+      <h4>Cisco Router</h4>
+    </figcaption>
 </figure>
 
 <p>A legelső (még szabadalmaztatás előtti, kísérleti) Ethernet szabvány 2,94 Mbit/s átvitelre volt képes, a jelenlegi leggyorsabb 100 Gbit/s-ra, míg 2017-re 400 Gbit/s-os elméleti maximumot igérnek.</p>
@@ -1589,10 +1594,9 @@ A fenti táblázatban a DIX a Digital/Intel/Xerox elnevezésből származik. Eze
 <h2 id="szabványosítási-kérdések">Szabványosítási kérdések</h2>
 <p>1980 februárjában az Institute of Electrical and Electronics Engineers (IEEE) elindította a 802-es projektet mellyel a LAN-ok egységesítését kívánta elérni. A „DIX-csoport” (Gary Robinson [DEC], Phil Arst [Intel], Bob Printis [Xerox]) ekkor közszemlére bocsájtotta az ún. „kék könyvet” mely a CSMA/CD specifikációját tartalmazta, s amely később a LAN specifikáció egyik lehetséges jelöltje lett. A CSMA/CD mellett természetesen más alternatívák is szerepeltek, úgy, mint a General Motors-féle Token Bus, vagy az IBM gondozásában álló Token Ring. A felsorakoztatott technológiák és a mögöttük álló cégek erőviszonyai hamarosan vitába csaptak át a szabványosítás kérdésében. 1980 decemberében a csoport három alcsoportra bomlott, így lehetőség nyílt mindhárom technológia szabványosítására.</p>
 <h2 id="technológiai-háttér">Technológiai háttér</h2>
-<figure>
-    <img src="https://armands.blog/images/iso-osi-tcp.jpg"/> <figcaption>
-            <h4>ISO/OSI/TCP</h4>
-        </figcaption>
+<figure><img src="https://armands.blog/images/iso-osi-tcp.jpg"><figcaption>
+      <h4>ISO/OSI/TCP</h4>
+    </figcaption>
 </figure>
 
 <p>Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, azonban technológiai szempontból még nem vizsgáltuk meg. Mint korábban említettem, az Ethernet Carrier sense multiple access with collision detection-t használ (CSMA/CD – vivő érzékeléses többszörös hozzáférés, ütközés detektálással)., mely egy véletlen közeg hozzáférési protokoll.</p>
@@ -1633,7 +1637,7 @@ A fenti táblázatban a DIX a Digital/Intel/Xerox elnevezésből származik. Eze
 </li>
 </ol>
 <h2 id="az-ethernet-keret-felépítése">Az Ethernet keret felépítése</h2>
-<p><a href="https://armands.blog/images/ethframe.png"><img src="https://armands.blog/images/ethframe.png" alt="ethframe" /></a></p>
+<p><a href="https://armands.blog/images/ethframe.png"><img src="https://armands.blog/images/ethframe.png" alt="ethframe"></a></p>
 <p><strong>Előtag</strong>: 7B hosszú, feladata a vevőoldali szinkronizálás.</p>
 <p><strong>SFD</strong>: A keret fejléce, szinkronizációra alkalmas</p>
 <p><strong>Forrás/Célcím:</strong> Küldő/fogadó MAC címe.</p>
@@ -1999,7 +2003,7 @@ A fenti táblázatban a DIX a Digital/Intel/Xerox elnevezésből származik. Eze
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.dc9adde7c0568fad55b1d47730c3b3629469b0aebd103d58226bee25a0736e92.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -3097,7 +3101,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2015-2020, All Rights Reserved
+                    ©2015-2026, All Rights Reserved
                 
             </p>
         
