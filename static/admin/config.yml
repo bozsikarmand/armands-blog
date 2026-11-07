@@ -5,7 +5,7 @@ backend:
   name: gitlab
   repo: bozsikarmand/armands-blog
   branch: master
-  auth_type: implicit
+  auth_type: pkce
   # A GitLab OAuth alkalmazás Application ID-ja (lásd README/admin beállítás)
   app_id: b37f5ddd051ad2054288510f84d15af4554a3231cb9d328ed5451cd01f28c155
 
