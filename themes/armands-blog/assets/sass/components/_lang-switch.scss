@@ -82,3 +82,14 @@
     }
   }
 }
+
+// Footer-verzió: a menü felfelé nyílik (a lábléc alja alatt ne csússzon ki)
+.lang-switch--up .lang-switch__menu {
+  top: auto;
+  bottom: calc(100% + 4px);
+}
+
+// A social ikonsorban törésvonal
+.footer__social .lang-switch {
+  margin-left: 0.5rem;
+}
