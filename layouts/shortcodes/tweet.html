@@ -1,0 +1,6 @@
+{{- $id := .Get 0 -}}
+{{- if $id -}}
+<blockquote class="tweet-embed">
+  <p><a href="https://x.com/i/web/status/{{ $id }}" rel="noopener noreferrer" target="_blank">Bejegyzés megtekintése az X-en ({{ $id }})</a></p>
+</blockquote>
+{{- end -}}

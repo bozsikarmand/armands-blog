@@ -1,4 +1,4 @@
-{{ $reveal := .Site.Data.lib.reveal }}
+{{ $reveal := site.Data.lib.reveal }}
 
 {{ $reveal_style := resources.Get "lib/reveal/reveal.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $reveal_style.RelPermalink }}">
@@ -70,7 +70,7 @@
 
 <script>
   window.onload = function() {
-    {{ $reveal_options:= .Site.Data.reveal }}
+    {{ $reveal_options:= site.Data.reveal }}
     var revealOptions = JSON.parse({{ $reveal_options | jsonify }});
 
     Reveal.initialize(revealOptions);

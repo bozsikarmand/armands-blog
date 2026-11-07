@@ -1,4 +1,2 @@
-{{ if not .Site.IsServer }}
-  {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
+{{- /* Google Analytics kikapcsolva: a Hugo törölte a belső GA template-eket,
+      és az oldalhoz nincs GA-azonosító konfigurálva. */ -}}

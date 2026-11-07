@@ -16,7 +16,7 @@
           </span>
         {{ end }}
       </a>
-      {{ if not .IsNode }}
+      {{ if .IsPage }}
         <div class="pub__metas">
           {{ partial "publication/pub-meta" . }}
           {{ partial "publication/pub-tags" . }}

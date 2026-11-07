@@ -1,13 +1,13 @@
 [en]
   title = "Blog"
-  languageName = "English"
+  label = "English"
   weight = 1
   languagedir = "ltr"
   contentdir = "content/en"
 
 [hu]
   title = "Blog"
-  languageName = "Magyar"
+  label = "Magyar"
   weight = 2
   languagedir = "ltr"
   contentdir = "content/hu"

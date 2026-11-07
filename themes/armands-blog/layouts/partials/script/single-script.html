@@ -1,5 +1,5 @@
-{{ $js := .Site.Data.lib.js }}
-{{ $css := .Site.Data.lib.css }}
+{{ $js := site.Data.lib.js }}
+{{ $css := site.Data.lib.css }}
 
 {{ $clipboard := resources.Get "js/clipboard.min.js" | resources.Fingerprint }}
 <script defer src="{{ $clipboard.RelPermalink }}"></script>
@@ -484,7 +484,7 @@
 
     // ========================= flowchart.js ==========================
     if (lib && lib.includes('flowchartjs')) {
-      {{ $flowchartjs := .Site.Data.flowchartjs }}
+      {{ $flowchartjs := site.Data.flowchartjs }}
       var options = JSON.parse({{ $flowchartjs | jsonify }});
       var jsonContent = null;
 
@@ -514,7 +514,7 @@
 
     // ====================== js-sequence-diagram ======================
     if (lib && lib.includes('msc')) {
-      {{ $msc := .Site.Data.msc }}
+      {{ $msc := site.Data.msc }}
       var options = JSON.parse({{ $msc | jsonify }});
       var jsonContent = null;
 
