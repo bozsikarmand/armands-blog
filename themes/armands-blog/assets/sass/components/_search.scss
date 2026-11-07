@@ -416,12 +416,13 @@
 @media only screen and (min-width: 770px) {
   .navbar {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto auto;
     grid-template-rows: 1fr;
     align-items: center;
 
     > .navbar__brand { grid-column: 1; grid-row: 1; }
     > .navbar__menu { grid-column: 3; grid-row: 1; }
+    > .lang-switch { grid-column: 4; grid-row: 1; margin-right: 0.5rem; }
   }
 }
 
