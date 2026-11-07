@@ -3,12 +3,14 @@
 @import 'hacker';
 @import 'solarized';
 @import 'kimbie';
+@import 'monolight';
 
 @import 'darkcode';
 @import 'lightcode';
 @import 'hackercode';
 @import 'solarizedcode';
 @import 'kimbiecode';
+@import 'monolightcode';
 
 $themes: (
   dark: $dark,
@@ -16,6 +18,7 @@ $themes: (
   hacker: $hacker,  
   solarized: $solarized,
   kimbie: $kimbie,
+  monolight: $monolight,
 );
 
 $codeblock: (
@@ -24,4 +27,5 @@ $codeblock: (
   hacker: $hackercode,  
   solarized: $solarizedcode,
   kimbie: $kimbiecode,
+  monolight: $monolightcode,
 );

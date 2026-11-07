@@ -83,10 +83,12 @@
   }
 }
 
-// Footer-verzió: a menü felfelé nyílik (a lábléc alja alatt ne csússzon ki)
+// Footer-verzió: a menü felfelé ÉS befelé nyílik (ne lógjon ki a láblécen kívülre)
 .lang-switch--up .lang-switch__menu {
   top: auto;
   bottom: calc(100% + 4px);
+  right: auto;
+  left: 0;
 }
 
 // A social ikonsorban törésvonal
@@ -104,4 +106,12 @@
     flex: 1;
     text-align: center;
   }
+}
+
+// A navbar jobb szélén, a rácsból kivéve (a kereső a csíkozott keretig nyúlhat)
+.navbar > .lang-switch {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
