@@ -1,4 +1,4 @@
-$lightcode: '';
+$monolightcode: '';
 
 @if $theme_light_chroma_background == dark {
   $monolightcode: (
@@ -12,7 +12,7 @@ $lightcode: '';
     content-pre-header-color: #FCFCFA,
   );
 } @else if $theme_light_chroma_background == light {
-  $lightcode: (
+  $monolightcode: (
     content-code-color: #26a69a,
     content-pre-main-color: #607d8b,
     content-pre-color: #344952,
@@ -23,7 +23,7 @@ $lightcode: '';
     content-pre-header-color: #344952,
   );
 } @else if $theme_light_chroma_background == hacker {
-  $lightcode: (
+  $monolightcode: (
     content-code-color: #E3CD26,
     content-pre-main-color: #1FFF2A,
     content-pre-color: #d1d1d1,
@@ -34,7 +34,7 @@ $lightcode: '';
     content-pre-header-color: #FCFCFA,
   );
 } @else if $theme_light_chroma_background == solarized {
-  $lightcode: (
+  $monolightcode: (
     content-code-color: #268bd2,
     content-pre-main-color: #B58900,
     content-pre-color: #344952,
@@ -45,7 +45,7 @@ $lightcode: '';
     content-pre-header-color: #344952,
   );
 } @else if $theme_light_chroma_background == kimbie {
-  $lightcode: (
+  $monolightcode: (
     content-code-color: #f06431,
     content-pre-main-color: #dc3958,
     content-pre-color: #d3af86,
@@ -56,7 +56,7 @@ $lightcode: '';
     content-pre-border-background-color: #e3b583,
   );
 } @else {
-  $lightcode: (
+  $monolightcode: (
     content-code-color: #26a69a,
     content-pre-main-color: #607d8b,
     content-pre-color: #344952,
