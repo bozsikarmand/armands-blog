@@ -109,13 +109,16 @@
 }
 
 // Eszköz-sáv a navbar jobb szélén: téma- és nyelvválasztó egymás mellett
+// Az eszköz-sáv a navbar jobb szélén lebeg (a rácsból kivéve),
+// hogy a kereső a csíkozott keret elejéig minusz a bal oldali hézag nyúljon
 .navbar__tools {
-  grid-column: 3;
-  grid-row: 1;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
   gap: 0.15rem;
-  margin-right: 0.5rem;
 }
 
 // Hold/nap téma-váltó: mindig a CÉL ikonja látszik
