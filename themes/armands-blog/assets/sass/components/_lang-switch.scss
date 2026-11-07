@@ -187,3 +187,12 @@ body.theme__monolight .theme-toggle__icon--moon {
     display: none !important;
   }
 }
+
+// A lábléc sora egy sorban marad: ikon | © középen | nyíl jobbra
+.footer__bar {
+  flex-wrap: nowrap;
+
+  .lang-switch {
+    flex: 0 0 auto;
+  }
+}
