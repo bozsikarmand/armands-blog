@@ -18,7 +18,7 @@ enableEmoji = true
   pagerSize = 13
 rssLimit = 100
 
-enableGitInfo = false
+enableGitInfo = true
 googleAnalytics = ""
 
 [markup]

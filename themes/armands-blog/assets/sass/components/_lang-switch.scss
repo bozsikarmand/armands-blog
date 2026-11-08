@@ -76,9 +76,14 @@
 
   &.is-active {
     font-weight: 700;
+    text-decoration: underline;
 
-    @include themify($themes) {
-      color: themed('navbar-title-active-color');
+    // AAA: fehér az aktív elem (a különbség nem csak szín: vastag + aláhúzott)
+    color: #ffffff;
+
+    .theme__monolight & {
+      color: #2c2a2e;
+      background-color: #ddd6c8;
     }
   }
 }

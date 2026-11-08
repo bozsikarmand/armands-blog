@@ -5,10 +5,29 @@
     {{ partial "svgs/etc/search.svg" (dict "width" 22 "height" 22) }}
   </span>
   <input id="search" aria-label="Site Search" class="input" type="text" placeholder="{{T "search-placeholder"}}" autocomplete="off">
-  <div id="search-results" class="dropdown" role="status" aria-live="polite">
+  <div id="search-status" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="search-results" class="dropdown">
     <div id="search-menu" class="dropdown-menu" role="menu">
     </div>
   </div>
 </div>
 
-{{ end }}
+{{ end }}<script>
+(function () {
+  if (window.__searchAnnouncerInit) return;
+  window.__searchAnnouncerInit = true;
+  document.addEventListener('DOMContentLoaded', function () {
+    var menu = document.getElementById('search-menu');
+    var status = document.getElementById('search-status');
+    if (!menu || !status || !window.MutationObserver) return;
+    new MutationObserver(function () {
+      var items = menu.querySelectorAll('.dropdown-item');
+      if (!items.length) { status.textContent = ''; return; }
+      var first = items[0];
+      status.textContent = first.textContent.trim() === 'No results found'
+        ? 'No results found'
+        : items.length + ' result(s) found';
+    }).observe(menu, { childList: true, subtree: true });
+  });
+})();
+</script>
