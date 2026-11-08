@@ -104,3 +104,11 @@ a.gtt {
 .theme__monolight .footer__link {
   color: #324f56;
 }
+
+// Az html is a téma hátterét kapja: ne villanjon fehér csík
+// az oldal alatt (overscroll / lefutás)
+html {
+  @include themify($themes) {
+    background-color: themed('body-background-color');
+  }
+}
