@@ -236,9 +236,14 @@ body.theme__monolight .theme-toggle__icon--moon {
   }
 }
 
-// A menü a lebegő ikonsáv (téma+nyelv) mellé, nem alá kerül
+// A menü is a jobb szélen lebeg az ikonsáv mellett – a kereső így a teljes
+// középső oszlopot megkapja (a rácsból kivéve nincs szélesség-csökkenés)
 @media only screen and (min-width: 770px) {
   .navbar > .navbar__menu {
-    margin-right: 6.5rem;
+    position: absolute;
+    right: 7.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
   }
 }
