@@ -14,5 +14,7 @@
   languagedir = "ltr"
   contentdir = "content/hu"
   [hu.params]
-    organization = "Frissen végzett informatikus"
+    myname = "Bozsik Armand Viktor"
+    organization = "Szoftvermérnök, 5 év tapasztalattal"
     location = "Magyarország"
+    copyright = "&copy;2015-{year}, Minden jog fenntartva"

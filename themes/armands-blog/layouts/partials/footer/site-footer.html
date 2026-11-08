@@ -25,7 +25,7 @@
                         {{ $leftString | markdownify }}<a rel="license" href="{{ $.Site.Params.copyrightOptions.copyrightLink }}">{{ $.Site.Params.copyrightOptions.copyrightLinkText }}</a>{{ $rightString | markdownify }}
                     {{ end }}
                 {{ else }}
-                    {{ with $.Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+                    {{ with ($.Param "copyright" | default $.Site.Copyright) }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
                 {{ end }}
             </p>
         {{ end }}
