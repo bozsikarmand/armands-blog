@@ -4,8 +4,8 @@
     <hr />
 
     <div class="basicflex">
-        {{ range $.Param "footerLinks" }}
-            <a href="{{ .link }}" class="footer__link" target="_blank" rel="noreferrer">{{ .name }}</a>
+        {{ range .Site.Menus.footer }}
+            <a href="{{ .URL | relLangURL }}" class="footer__link">{{ .Name }}</a>
         {{ end }}
     </div>
 

@@ -1,0 +1,9 @@
+[[footer]]
+  name = "Accessibility"
+  url = "/en/accessibility/"
+  weight = 10
+
+[[footer]]
+  name = "Privacy"
+  url = "/en/privacy/"
+  weight = 20

@@ -42,7 +42,7 @@ pubPaginate = 20
 # whoami
 myname = "Armand Bozsik"
 email = "hello@armands.blog"
-bioImageUrl = "/images/whoami/avatar.png"
+bioImageUrl = "/images/whoami/avatar.jpg"
 useGravatar = false
 location = "Hungary"
 organization = "Fresh Graduate"
@@ -148,9 +148,3 @@ commento = false
   name = "twitter"
 
 
-[[footerLinks]]
-  name = "Accessibility"
-  link = "/en/accessibility/"
-[[footerLinks]]
-  name = "Akadálymentesség"
-  link = "/hu/accessibility/"

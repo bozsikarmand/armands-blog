@@ -1,0 +1,9 @@
+[[footer]]
+  name = "Akadálymentesség"
+  url = "/hu/accessibility/"
+  weight = 10
+
+[[footer]]
+  name = "Adatkezelés"
+  url = "/hu/privacy/"
+  weight = 20
