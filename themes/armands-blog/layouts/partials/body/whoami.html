@@ -26,11 +26,12 @@
       {{ T "single-writtenBy" }}
     </div>
     <div class="whoami__title">
-      {{ if $.Param "author" }}
-        {{ $.Param "author" }}
-      {{ else }}
-        {{ $.Param "myname" }}
+      {{ $authorName := ($.Param "myname") }}
+      {{ with $.Param "author" }}
+        {{ $authorName = . }}
+        {{ if eq . "bozsikarmand" }}{{ $authorName = ($.Param "myname") }}{{ end }}
       {{ end }}
+      {{ $authorName }}
     </div>
     <div class="whoami__desc">
       {{ if $.Param "authorDesc" }}

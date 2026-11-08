@@ -40,7 +40,7 @@ talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "Armand Bozsik"
+myname = "Armand Viktor Bozsik"
 email = "hello@armands.blog"
 bioImageUrl = "/images/whoami/avatar.jpg"
 useGravatar = false
