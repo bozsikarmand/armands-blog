@@ -15,6 +15,6 @@
   contentdir = "content/hu"
   [hu.params]
     myname = "Bozsik Armand Viktor"
-    organization = "Szoftvermérnök, 5 év tapasztalattal"
+    organization = "Szoftverfejlesztő · ERP, Oracle APEX, PL/SQL"
     location = "Magyarország"
     copyright = "&copy;2015-{year}, Minden jog fenntartva"

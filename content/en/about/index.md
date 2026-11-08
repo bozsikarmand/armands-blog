@@ -1,27 +1,58 @@
-+++
-title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
-type = "about"
-date = "2019-02-28"
-+++
+---
+title: About
+type: about
+---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+**Software Developer** specialising in ERP / enterprise business applications — Oracle APEX, PL/SQL, Java and C#.
 
-Hugo makes use of a variety of open source projects including:
+I build and maintain integrated enterprise systems (ERP, MES, document management) for logistics, retail and manufacturing clients, with a strong focus on **system security** and **architecture design**. In my daily work I use AI-assisted development tools (generative AI, coding agents, prompt engineering) with a critical eye, and I learn whatever the task requires.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+📄 [Download my full CV (PDF)](/downloads/Bozsik_Armand_Viktor_CV.pdf)
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+## Experience
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+**Ixenit Ltd. — Technical Consultant (PL/SQL Developer)** · Oct 2021 – present
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+Enterprise MES and ERP development with Oracle APEX, PL/SQL, JavaScript and Java. Highlights:
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+- Introduced **multi-factor authentication** and modern password management across client systems; regular security reviews
+- Designed a cross-module search spanning the whole application ecosystem
+- Built an **internationalisation (i18n) framework** for the entire platform
+- Created a security **audit logging** system for compliance and support
+- Architecture design with SSADM, turning business requirements into scalable solutions
+- Automated batch document processing and report generation
 
+**Erdőmentők Foundation — PHP Web Developer Intern** · Aug – Dec 2019
+PHP/MySQL web application supporting the foundation's animal-transport operations.
 
+**WinMagazin — Freelance Translator (EN↔HU)** · Jan – May 2015
+30+ published translations on Microsoft ecosystem and IT security topics.
 
+**Neumann János Computer Science High School — PHP Intern** · 2012 – 2015
+Multilingual, responsive WordPress site for an IKEA competition programme.
+
+## Education
+
+**University of Szeged** — Computer Science BSc, 2016–2020
+Thesis: analysis and digital transition of a bookshop system — C#, WPF, LINQ, MSSQL, full SSADM lifecycle.
+
+## Technologies
+
+- **Databases:** Oracle (PL/SQL), MySQL, MSSQL — design & query optimisation
+- **Languages:** Java, C#, JavaScript, PHP, Python, BASH
+- **Web:** Oracle APEX, HTML, CSS, Bootstrap, accessible (a11y) UI
+- **AI-assisted development:** generative AI, LLMs, AI agents, prompt engineering
+- **Security:** MFA, password management, audit logging, security reviews
+- **Tools:** Git (GitHub/GitLab/Bitbucket), Linux (Debian/Ubuntu, RHEL), JIRA, Confluence
+
+## Languages
+
+- **English** — C1 (TELC, 2016)
+- **Hungarian** — native
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/bozsikarmand/)
+- [GitHub](https://github.com/bozsikarmand) · [GitLab](https://gitlab.com/bozsikarmand)
+- [armands.site](https://armands.site) — portfolio
+- Email: [hello@armands.site](mailto:hello@armands.site)
