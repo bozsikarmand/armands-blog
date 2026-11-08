@@ -1,0 +1,81 @@
+{{- /* Kapcsolati form az about-oldalakon – a .cv Worker végpontra küld (Resend → armand@bozsik.eu) */ -}}
+<section class="contact-form-section" aria-labelledby="contact-form-title">
+  <h2 id="contact-form-title">{{ i18n "ui.contactForm" | default "Contact" }}</h2>
+  <form id="blog-contact-form" novalidate
+        data-success="{{ i18n "ui.formSuccess" | default "Message sent – thank you! I'll reply soon." }}"
+        data-error="{{ i18n "ui.formError" | default "Sending failed. Please try again." }}"
+        data-invalid="{{ i18n "ui.formInvalid" | default "Please fill in all fields with a valid email address." }}"
+        data-notconfigured="{{ i18n "ui.formNotConfigured" | default "The form is not configured yet." }}">
+    <div class="cf-row">
+      <label for="bcf-name">{{ i18n "ui.formName" | default "Name" }}</label>
+      <input type="text" id="bcf-name" name="name" autocomplete="name" required maxlength="120">
+    </div>
+    <div class="cf-row">
+      <label for="bcf-email">{{ i18n "ui.formEmail" | default "Your email address" }}</label>
+      <input type="email" id="bcf-email" name="email" autocomplete="email" required maxlength="200">
+    </div>
+    <div class="cf-row">
+      <label for="bcf-message">{{ i18n "ui.formMessage" | default "Message" }}</label>
+      <textarea id="bcf-message" name="message" rows="6" required maxlength="5000"></textarea>
+    </div>
+    <button type="submit" class="cf-submit">{{ i18n "ui.formSend" | default "Send message" }}</button>
+    <p id="bcf-status" role="status" aria-live="polite"></p>
+  </form>
+  <p class="cf-hint">{{ i18n "ui.formPrivacy" | default "Your data is only used to reply to your message." }}</p>
+</section>
+<style>
+.contact-form-section { margin-top: 2.5rem; }
+.contact-form-section .cf-row { margin-bottom: 0.8rem; }
+.contact-form-section label { display: block; font-weight: 700; margin-bottom: 0.25rem; }
+.contact-form-section input, .contact-form-section textarea {
+  width: 100%; max-width: 34rem; box-sizing: border-box;
+  padding: 0.5rem 0.65rem; font-size: 1rem; font-family: inherit;
+  border-radius: 4px;
+}
+.contact-form-section input:focus, .contact-form-section textarea:focus { outline: 2px solid currentColor; outline-offset: 1px; }
+.contact-form-section .cf-submit { font-weight: 700; padding: 0.5rem 1.2rem; border-radius: 4px; cursor: pointer; }
+.contact-form-section #bcf-status { margin-top: 0.7rem; font-weight: 600; min-height: 1.4em; }
+.contact-form-section .cf-hint { font-size: 0.85rem; opacity: 0.8; }
+</style>
+<script>
+(function () {
+  var form = document.getElementById('blog-contact-form');
+  if (!form) return;
+  var status = document.getElementById('bcf-status');
+  form.addEventListener('submit', async function (event) {
+    event.preventDefault();
+    status.textContent = '';
+    var data = {
+      name: form.name.value.trim(),
+      email: form.email.value.trim(),
+      message: form.message.value.trim()
+    };
+    if (!data.name || !data.message || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) {
+      status.textContent = form.dataset.invalid;
+      return;
+    }
+    var button = form.querySelector('button[type="submit"]');
+    button.disabled = true;
+    try {
+      var response = await fetch('https://armands.cv/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      var result = await response.json().catch(function () { return {}; });
+      if (response.ok && result.ok) {
+        status.textContent = form.dataset.success;
+        form.reset();
+      } else if (response.status === 503) {
+        status.textContent = form.dataset.notconfigured;
+      } else {
+        status.textContent = form.dataset.error;
+      }
+    } catch (e) {
+      status.textContent = form.dataset.error;
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script>

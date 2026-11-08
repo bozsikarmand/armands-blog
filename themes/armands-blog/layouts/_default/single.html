@@ -22,6 +22,7 @@
     <article class="single__contents" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
       {{ partial "body/toc" . }}
       {{ partial "abbr-content" .Content }}
+    {{ if eq .Type "about" }}{{ partial "contact-form.html" . }}{{ end }}
     </article>
     
     {{ partial "script/codeblock-script" . }}

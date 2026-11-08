@@ -18,3 +18,15 @@ other = ":date_medium"
 
 [powered-by]
 other = "Powered by <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noreferrer\">Hugo</a> and the <a href=\"https://github.com/zzossig/hugo-theme-zzo\" target=\"_blank\" rel=\"noreferrer\">Zzo theme</a>"
+
+[ui]
+  contactForm = "Contact"
+    formName = "Name"
+    formEmail = "Your email address"
+    formMessage = "Message"
+    formSend = "Send message"
+    formPrivacy = "Your data is only used to reply to your message. No storage, no newsletter."
+    formSuccess = "Message sent – thank you! I'll reply soon."
+    formError = "Sending failed. Please try again or contact me on LinkedIn."
+    formInvalid = "Please fill in all fields with a valid email address."
+    formNotConfigured = "The form is not configured yet – please use LinkedIn."

@@ -102,3 +102,15 @@ other = "NÉPSZERŰ BEJEGYZÉSEK"
 
 [powered-by]
 other = "Üzemeltetve: <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noreferrer\">Hugo</a> és a <a href=\"https://github.com/zzossig/hugo-theme-zzo\" target=\"_blank\" rel=\"noreferrer\">Zzo téma</a>"
+
+[ui]
+  contactForm = "Kapcsolat"
+    formName = "Név"
+    formEmail = "Az Ön email-címe"
+    formMessage = "Üzenet"
+    formSend = "Üzenet küldése"
+    formPrivacy = "Az adatait kizárólag a válaszhoz használom. Nincs tárolás, nincs hírlevél."
+    formSuccess = "Üzenet elküldve – köszönöm! Hamarosan válaszolok."
+    formError = "Küldés sikertelen. Próbálja újra, vagy keressen LinkedInen."
+    formInvalid = "Kérem, töltse ki minden mezőt érvényes email-címmel."
+    formNotConfigured = "Az űrlap még nincs beállítva – kérem, használja a LinkedInt."
