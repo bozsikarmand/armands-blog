@@ -13,3 +13,6 @@
   weight = 2
   languagedir = "ltr"
   contentdir = "content/hu"
+  [hu.params]
+    organization = "Frissen végzett informatikus"
+    location = "Magyarország"
