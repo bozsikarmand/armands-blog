@@ -147,3 +147,10 @@ commento = false
 [[share]]
   name = "twitter"
 
+
+[[footerLinks]]
+  name = "Accessibility"
+  link = "/en/accessibility/"
+[[footerLinks]]
+  name = "Akadálymentesség"
+  link = "/hu/accessibility/"

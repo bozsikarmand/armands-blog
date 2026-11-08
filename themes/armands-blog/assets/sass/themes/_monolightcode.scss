@@ -2,7 +2,7 @@ $monolightcode: '';
 
 @if $theme_light_chroma_background == dark {
   $monolightcode: (
-    content-code-color: #fcfcfa,
+    content-code-color: #2c5854,
     content-pre-main-color: #FFA7C4,
     content-pre-color: #eee,
     content-pre-number-color: #666,
@@ -13,12 +13,12 @@ $monolightcode: '';
   );
 } @else if $theme_light_chroma_background == light {
   $monolightcode: (
-    content-code-color: #26a69a,
-    content-pre-main-color: #607d8b,
+    content-code-color: #2c5854,
+    content-pre-main-color: #4a5a68,
     content-pre-color: #344952,
-    content-pre-number-color: #aaa,
+    content-pre-number-color: #6b6b6b,
     content-pre-background-color: #F5F2F0,
-    content-pre-border-background-color: darken(#F5F2F0, 7%),
+    content-pre-border-background-color: #b0a89c,
     content-pre-header-background-color: darken(#F5F2F0, 3%),
     content-pre-header-color: #344952,
   );

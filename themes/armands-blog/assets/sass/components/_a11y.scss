@@ -98,3 +98,9 @@ a.gtt {
   display: inline-block;
   min-height: 24px;
 }
+
+// Világos téma: lábléc-link AAA-kontrasztja a lábléc-háttéren
+.theme__monolight .footer a,
+.theme__monolight .footer__link {
+  color: #324f56;
+}

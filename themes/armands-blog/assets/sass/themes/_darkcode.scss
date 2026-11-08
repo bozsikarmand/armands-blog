@@ -5,10 +5,10 @@ $darkcode: '';
     content-code-color: #fcfcfa,
     content-pre-main-color: #FFA7C4,
     content-pre-color: #eee,
-    content-pre-number-color: #666,
+    content-pre-number-color: #8a93a5,
     content-pre-background-color: #171f2e,
     content-pre-header-background-color: darken(#011627, 1.5%),
-    content-pre-border-background-color: #3a3a3a,
+    content-pre-border-background-color: #6b7684,
     content-pre-header-color: #FCFCFA,
   );
 } @else if $theme_dark_chroma_background == light {
@@ -60,10 +60,10 @@ $darkcode: '';
     content-code-color: #fcfcfa,
     content-pre-main-color: #FFA7C4,
     content-pre-color: #eee,
-    content-pre-number-color: #666,
+    content-pre-number-color: #8a93a5,
     content-pre-background-color: #171f2e,
     content-pre-header-background-color: darken(#011627, 1.5%),
-    content-pre-border-background-color: #3a3a3a,
+    content-pre-border-background-color: #6b7684,
     content-pre-header-color: #FCFCFA,
   );
 }
