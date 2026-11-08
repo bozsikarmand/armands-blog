@@ -235,3 +235,10 @@ body.theme__monolight .theme-toggle__icon--moon {
     height: 18px;
   }
 }
+
+// A menü a lebegő ikonsáv (téma+nyelv) mellé, nem alá kerül
+@media only screen and (min-width: 770px) {
+  .navbar > .navbar__menu {
+    margin-right: 6.5rem;
+  }
+}
