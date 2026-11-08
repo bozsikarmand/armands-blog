@@ -7,7 +7,7 @@ type: about
 
 Integrált vállalati rendszereket (ERP, MES, dokumentumkezelés) fejlesztek és tartok karban logisztikai, kereskedelmi és gyártási ügyfelek számára, különös hangsúlyt fektetve a **rendszerbiztonságra** és az **architektúra-tervezésre**. A napi munkámban AI-asszisztált fejlesztőeszközöket (generatív AI, kódolási ügynökök, prompt engineering) használok kritikus szemmel, és azt tanulom meg, amit a feladat megkíván.
 
-📄 [Teljes önéletrajz letöltése (PDF)](/downloads/Bozsik_Armand_Viktor_Oneletrajz.pdf)
+📄 [Teljes önéletrajz letöltése (PDF)](https://armands.cv/downloads/Bozsik_Armand_Viktor_Oneletrajz.pdf)
 
 ## Szakmai tapasztalat
 

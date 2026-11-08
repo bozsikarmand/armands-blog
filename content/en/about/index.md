@@ -7,7 +7,7 @@ type: about
 
 I build and maintain integrated enterprise systems (ERP, MES, document management) for logistics, retail and manufacturing clients, with a strong focus on **system security** and **architecture design**. In my daily work I use AI-assisted development tools (generative AI, coding agents, prompt engineering) with a critical eye, and I learn whatever the task requires.
 
-📄 [Download my full CV (PDF)](/downloads/Bozsik_Armand_Viktor_CV.pdf)
+📄 [Download my full CV (PDF)](https://armands.cv/downloads/Bozsik_Armand_Viktor_CV.pdf)
 
 ## Experience
 
