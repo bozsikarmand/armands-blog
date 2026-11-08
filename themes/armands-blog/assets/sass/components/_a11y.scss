@@ -108,6 +108,16 @@ a.gtt {
 // Az html is a téma hátterét kapja: ne villanjon fehér csík
 // az oldal alatt (overscroll / lefutás)
 html {
+  min-height: 100%;
+
+  @include themify($themes) {
+    background-color: themed('body-background-color');
+  }
+}
+
+body {
+  min-height: 100vh;
+
   @include themify($themes) {
     background-color: themed('body-background-color');
   }
