@@ -1,0 +1,104 @@
+[search-placeholder]
+other = "Keresés"
+
+[summary-dateformat]
+other = ":date_medium"
+
+[reading-time]
+other = "perces olvasás"
+
+[tags]
+other = "Címkék"
+
+[categories]
+other = "Kategóriák"
+
+[series]
+other = "Sorozatok"
+
+[archive-dateformat]
+other = ":date_medium"
+
+[talks-dateformat]
+other = ":date_medium"
+
+[single-dateformat]
+other = ":date_long"
+
+[pub-dateformat]
+other = "2006-01-02"
+
+[resume-dateformat]
+other = ":date_medium"
+
+[single-related]
+other = "Kapcsolódó"
+
+[single-writtenBy]
+other = "ÍRTA"
+
+[toc-label]
+other = "Tartalom"
+
+[counter-site-pv]
+other = "Összes megtekintés"
+
+[counter-site-uv]
+other = "Egyedi látogató"
+
+[counter-page-pv]
+other = "megtekintés"
+
+[donate-message]
+other = "Támogasd a szerzőt"
+
+[share-message]
+other = "Megosztás"
+
+[contact-name]
+other = "Név"
+
+[contact-email]
+other = "E-mail"
+
+[contact-tel]
+other = "Telefon"
+
+[contact-file]
+other = "Fájl"
+
+[contact-message]
+other = "Üzenet"
+
+[contact-send]
+other = "Küldés"
+
+[contact-browse]
+other = "Tallózás"
+
+[tooltip-home]
+other = "Kezdőlap"
+
+[tooltip-written]
+other = "Írva"
+
+[tooltip-modified]
+other = "Módosítva"
+
+[tooltip-reading-time]
+other = "Olvasási idő"
+
+[showcase-overview]
+other = "Áttekintés"
+
+[showcase-pinned]
+other = "Kitűzve"
+
+[nojs-message]
+other = "Az oldal JavaScript-vel működik a legjobban"
+
+[posts-by-order]
+other = "NÉPSZERŰ BEJEGYZÉSEK"
+
+[powered-by]
+other = "Üzemeltetve: <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noreferrer\">Hugo</a> és a <a href=\"https://github.com/zzossig/hugo-theme-zzo\" target=\"_blank\" rel=\"noreferrer\">Zzo téma</a>"

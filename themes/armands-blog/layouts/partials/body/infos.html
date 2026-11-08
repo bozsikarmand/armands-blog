@@ -1,8 +1,8 @@
 {{ $params := .Params }}
 <div class="single__infos">
-  <time class="single__info" title="{{ i18n "tooltip-written" }}">📅&nbsp;{{ .Date.Format (i18n "single-dateformat") }} </time>
-  {{ if ne (.Date.Format (i18n "summary-dateformat")) (.Lastmod.Format (i18n "summary-dateformat")) }}
-  &nbsp;&middot;&nbsp; <time class="single__info" title="{{ i18n "tooltip-modified" }}"> 📝&nbsp;{{ .Lastmod.Format (i18n "single-dateformat") }} </time>
+  <time class="single__info" title="{{ i18n "tooltip-written" }}">📅&nbsp;{{ (time.Format (i18n "single-dateformat") .Date) }} </time>
+  {{ if ne ((time.Format (i18n "summary-dateformat") .Date)) ((time.Format (i18n "summary-dateformat") .Lastmod)) }}
+  &nbsp;&middot;&nbsp; <time class="single__info" title="{{ i18n "tooltip-modified" }}"> 📝&nbsp;{{ (time.Format (i18n "single-dateformat") .Lastmod) }} </time>
   {{ end }}
   &nbsp;&middot;&nbsp; <span class="single__info" title="{{ i18n "tooltip-reading-time" }}"> ☕&nbsp;{{ .ReadingTime }}&nbsp;{{ i18n "reading-time" }} </span>
   {{ with .Params.Author }}

@@ -53,13 +53,13 @@
             {{ end }}
             {{ with .startDate }}
               <span class="resume__section--meta">
-                {{ dateFormat (i18n "resume-dateformat") . }}
+                {{ (time.Format (i18n "resume-dateformat") .) }}
               </span>
             {{ end }}
             {{ if .endDate }}
               {{ with .endDate }}
                 <span class="resume__section--meta">
-                  &nbsp;~&nbsp;{{ dateFormat (i18n "resume-dateformat") . }}
+                  &nbsp;~&nbsp;{{ (time.Format (i18n "resume-dateformat") .) }}
                 </span>
               {{ end }}
             {{ else }}

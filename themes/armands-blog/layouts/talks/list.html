@@ -25,7 +25,7 @@
       {{ range .Pages }}
       <li class="archive__li" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
         <span class="talk__date" data-dir="{{ $.Param "languagedir" | default "ltr" }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
-          {{ .PublishDate.Format (i18n "talks-dateformat") }}
+          {{ time.Format (i18n "talks-dateformat") .PublishDate }}
         </span>
         {{ if .Params.disableLink }}
         <div class="talk__title" data-title-wrap="{{ $titleWrap | default "wrap"}}" data-dir="{{ $.Param "languagedir" | default "ltr" }}">{{ .Title }}</div>

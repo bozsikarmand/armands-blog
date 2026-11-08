@@ -27,9 +27,9 @@
         <span class="archive__meta" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
           {{ if ne ($.Param "languagedir") "rtl" }}
             <span class="archive__type">{{ .Type }}</span>
-            <span class="archive__date">{{ .Date.Format (i18n "archive-dateformat") }}</span>
+            <span class="archive__date">{{ (time.Format (i18n "archive-dateformat") .Date) }}</span>
           {{ else }}
-            <span class="archive__date">{{ .Date.Format (i18n "archive-dateformat") }}</span>
+            <span class="archive__date">{{ (time.Format (i18n "archive-dateformat") .Date) }}</span>
             <span class="archive__type">{{ .Type }}</span>
           {{ end }}
         </span>

@@ -1,0 +1,20 @@
+[summary-dateformat]
+other = ":date_medium"
+
+[archive-dateformat]
+other = ":date_medium"
+
+[talks-dateformat]
+other = ":date_medium"
+
+[single-dateformat]
+other = ":date_long"
+
+[pub-dateformat]
+other = "2006-01-02"
+
+[resume-dateformat]
+other = ":date_medium"
+
+[powered-by]
+other = "Powered by <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noreferrer\">Hugo</a> and the <a href=\"https://github.com/zzossig/hugo-theme-zzo\" target=\"_blank\" rel=\"noreferrer\">Zzo theme</a>"
