@@ -2,6 +2,9 @@
 title: Akadálymentességi nyilatkozat
 date: 2026-11-08
 slug: accessibility
+_build:
+  list: never
+  render: always
 ---
 
 Elkötelezett vagyok amellett, hogy az oldal mindenki számára – fogyatékkal

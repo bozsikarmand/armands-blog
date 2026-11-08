@@ -2,6 +2,9 @@
 title: Accessibility statement
 date: 2026-11-08
 slug: accessibility
+_build:
+  list: never
+  render: always
 ---
 
 Armand Viktor Bozsik is committed to ensuring digital accessibility for people
