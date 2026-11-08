@@ -1,0 +1,37 @@
+{{- $c := . -}}
+{{- $abbr := dict
+  "HTML" "HyperText Markup Language"
+  "CSS" "Cascading Style Sheets"
+  "API" "Application Programming Interface"
+  "URL" "Uniform Resource Locator"
+  "HTTP" "HyperText Transfer Protocol"
+  "HTTPS" "HyperText Transfer Protocol Secure"
+  "UEFI" "Unified Extensible Firmware Interface"
+  "GPT" "GUID Partition Table"
+  "SSD" "Solid State Drive"
+  "USB" "Universal Serial Bus"
+  "WiFi" "Wireless Fidelity"
+  "RAM" "Random Access Memory"
+  "CPU" "Central Processing Unit"
+  "GPU" "Graphics Processing Unit"
+  "OS" "Operating System"
+  "VPN" "Virtual Private Network"
+  "DNS" "Domain Name System"
+  "TLS" "Transport Layer Security"
+  "SSH" "Secure Shell"
+  "JSON" "JavaScript Object Notation"
+  "YAML" "YAML Ain't Markup Language"
+  "XML" "eXtensible Markup Language"
+  "ASCII" "American Standard Code for Information Interchange"
+  "SIM" "Subscriber Identity Module"
+  "PIN" "Personal Identification Number"
+  "PDF" "Portable Document Format"
+  "AI" "Artificial Intelligence"
+  "IDE" "Integrated Development Environment"
+  "SDK" "Software Development Kit"
+-}}
+{{- range $k, $v := $abbr -}}
+  {{- $rep := printf `<abbr title="%s">%s</abbr>` $v $k -}}
+  {{- $c = replaceRE (printf `\b%s\b` $k) $rep $c -}}
+{{- end -}}
+{{- $c | safeHTML -}}

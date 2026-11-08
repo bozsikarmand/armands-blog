@@ -18,7 +18,7 @@
       <div class="modal__icon modal__toolbar--close" title="Close" aria-label="Close Button" data-micromodal-close>
         {{ partial "svgs/etc/close.svg" (dict "width" 25 "height" 25) }}
       </div>
-      <main class="modal__cite">
+      <div class="modal__cite">
         {{ $filePath := (print .Permalink "cite.bib" | relLangURL) }}
         {{ if fileExists $filePath }}
           <div class="modal__cite--exist" id="citeContents">
@@ -29,7 +29,7 @@
             cite.bib file not found
           </div>
         {{ end }}
-      </main>
+      </div>
       <button id="copyBtn" class="button modal__copy" data-color="default" aria-label="Cite Copy Button" data-clipboard-target="#citeContents">
         {{ i18n "copy" | default "Copy"}}
       </button>

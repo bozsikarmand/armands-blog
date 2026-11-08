@@ -1,0 +1,100 @@
+// WCAG 2.2 AAA – akadálymentességi kiegészítések
+
+// Ugrás a tartalomra (2.4.1)
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0.5rem;
+  z-index: 2000;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 0.35rem 0.35rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+
+  @include themify($themes) {
+    background-color: themed('dropdown-content-background-color');
+    color: themed('dropdown-item-color');
+    border: 1px solid themed('dropdown-border-top-color');
+  }
+
+  &:focus {
+    top: 0;
+  }
+}
+
+main:focus {
+  outline: none;
+}
+
+// Fókusz-megjelenés AAA (2.4.13): jól látható, ≥2px, 3:1+
+:focus-visible {
+  outline: 3px solid;
+  outline-offset: 2px;
+
+  @include themify($themes) {
+    outline-color: themed('link');
+  }
+}
+
+// Célméret AAA (2.5.5): min. 44×44 CSS px
+.social a,
+.footer__social .social a,
+.theme-toggle,
+.lang-switch__btn,
+.navbar__burger,
+.mobile-search__btn,
+.pagination a,
+.pagination__item,
+.tag,
+.chip,
+a.gtt {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.social a,
+.theme-toggle,
+.lang-switch__btn,
+.mobile-search__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// A szöveg-terköz felulirasoknak ne legyen akadalya (1.4.12):
+// nincs fix magassagu szovegdoboz – az overflow-vagasokat lazitjuk
+.summary-classic__text,
+.single__contents,
+.about__desc,
+.bio__desc {
+  overflow: visible;
+}
+
+// Képernyőolvasó-only segédszövegek
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// terms-szamlalok kontrasztja (1.4.6)
+.theme__dark .terms__len {
+  color: #b9b8b9;
+}
+
+.theme__monolight .terms__len {
+  color: #535153;
+}
+
+// Bio/whoami linkek kattintasi területe (2.5.8)
+.bio a,
+.whoami a {
+  display: inline-block;
+  min-height: 24px;
+}

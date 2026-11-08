@@ -3,7 +3,8 @@
 <header class="header basicflex-column">
   <h3 class="terms__title capitalize h3">{{ $title }}</h3>
 </header>
-<main class="terms main">  
+<main id="main-content" tabindex="-1" class="terms main">
+  <h1 class="sr-only">{{ .Title | default .Site.Title }}</h1>  
   <div class="terms__list">
     {{ range $index, $element := .Data.Terms }}
     {{ if $index }}

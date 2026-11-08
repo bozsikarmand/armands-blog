@@ -5,7 +5,7 @@
     {{ partial "svgs/etc/search.svg" (dict "width" 22 "height" 22) }}
   </span>
   <input id="search" aria-label="Site Search" class="input" type="text" placeholder="{{T "search-placeholder"}}" autocomplete="off">
-  <div id="search-results" class="dropdown">
+  <div id="search-results" class="dropdown" role="status" aria-live="polite">
     <div id="search-menu" class="dropdown-menu" role="menu">
     </div>
   </div>

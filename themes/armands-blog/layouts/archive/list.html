@@ -9,7 +9,8 @@
     {{ .Content }}
   </div>
 </header>
-<main class="main archive">
+<main id="main-content" tabindex="-1" class="main archive">
+  <h1 class="sr-only">{{ .Title | default .Site.Title }}</h1>
   <div class="archive__container">
     {{ $filteredPages := .Site.RegularPages }}
     {{ range $.Param "notAllowedTypesInArchive" }}

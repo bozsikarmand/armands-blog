@@ -34,11 +34,30 @@
     }
   });
   document.addEventListener('keydown', function (e) {
+    var open = document.querySelector('[data-lang-switch].is-open');
+    if (!open) return;
     if (e.key === 'Escape') {
-      document.querySelectorAll('[data-lang-switch].is-open').forEach(function (d) {
-        d.classList.remove('is-open');
-      });
+      open.classList.remove('is-open');
+      var b = open.querySelector('[data-lang-switch-btn]');
+      if (b) b.focus();
+      return;
     }
+    // nyilak az elemek kozott (WCAG 2.1.3)
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      var items = open.querySelectorAll('.lang-switch__item');
+      if (!items.length) return;
+      var idx = Array.prototype.indexOf.call(items, document.activeElement);
+      idx = e.key === 'ArrowDown'
+        ? (idx + 1) % items.length
+        : (idx - 1 + items.length) % items.length;
+      items[idx].focus();
+    }
+  });
+  document.addEventListener('focusin', function (e) {
+    document.querySelectorAll('[data-lang-switch].is-open').forEach(function (d) {
+      if (!d.contains(e.target)) d.classList.remove('is-open');
+    });
   });
 })();
 </script>

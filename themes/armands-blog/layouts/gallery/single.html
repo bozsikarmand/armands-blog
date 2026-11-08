@@ -8,7 +8,7 @@
 
 {{ $root := . }}
 {{ if in (lower .Params.Mode) "one" }}
-<main class="gallery main">
+<main id="main-content" tabindex="-1" class="gallery main">
   <div class="grid gallery__container">
     <div class="grid-sizer"></div>
     {{ if .File.Dir }}
@@ -29,7 +29,7 @@
 </main>
 
 {{ else if eq (lower .Params.mode) "remote" }}
-<main class="gallery main">
+<main id="main-content" tabindex="-1" class="gallery main">
   <div class="grid gallery__container">
     <div class="grid-sizer"></div>
     {{ range .Params.Images }}
@@ -47,7 +47,7 @@
 </main>
 
 {{ else }}
-<main class="gallery main">
+<main id="main-content" tabindex="-1" class="gallery main">
   <div class="grid gallery__container">
     <div class="grid-sizer"></div>
     {{ if .File.Dir }}

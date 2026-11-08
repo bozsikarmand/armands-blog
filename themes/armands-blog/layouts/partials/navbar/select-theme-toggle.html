@@ -1,5 +1,5 @@
 {{ if $.Param "enableThemeChange" }}
-<button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle color theme" title="Toggle color theme">
+<button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Toggle color theme" title="Toggle color theme">
   <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">&#9728;</span>
   <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">&#9790;</span>
 </button>
@@ -15,6 +15,7 @@
     var next = m === 'dark' ? 'monolight' : 'dark';
     localStorage.setItem('theme', next);
     root.className = root.className.replace(/theme__\w+/, 'theme__' + next);
+    btn.setAttribute('aria-pressed', next === 'monolight' ? 'true' : 'false');
     var meta = document.getElementsByName('theme-color')[0];
     if (meta) meta.setAttribute('content', next === 'dark' ? '#2D2A2E' : '#ece7db');
   });

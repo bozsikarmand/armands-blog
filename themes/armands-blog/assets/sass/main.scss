@@ -61,6 +61,7 @@ $viewport_size: {{ .Site.Params.viewportSize | default "normal" }};
 @import 'components/gtt';
 @import 'components/hr';
 @import 'components/lang-switch';
+@import 'components/a11y';
 @import 'components/math';
 @import 'components/notice';
 @import 'components/pagination';

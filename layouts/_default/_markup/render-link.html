@@ -1,0 +1,11 @@
+{{- $href := .Destination | safeURL -}}
+{{- $isExternal := or (hasPrefix $href "http://") (hasPrefix $href "https://") -}}
+{{- $isInternal := hasPrefix $href "/" -}}
+<a href="{{ $href }}"
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+  {{- if and $isExternal (not $isInternal) }} target="_blank" rel="noopener noreferrer"{{ end -}}>
+  {{- .Text | safeHTML -}}
+  {{- if and $isExternal (not $isInternal) -}}
+    <span class="sr-only"> (opens in a new tab)</span>
+  {{- end -}}
+</a>

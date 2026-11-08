@@ -3,8 +3,8 @@
     {{ $params := .Params }}
     <div class="summary-compact__meta">
       <header>
-        <h5 class="title h6"><a href='{{ .Permalink }}'> {{ .Title }}</a> </h5>
-        <h6 class="subtitle caption">
+        <h5 class="title h6"><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+        <p class="subtitle caption">
           <time title="{{ i18n "tooltip-written" }}" dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">📅 {{ .Date.Format (i18n "summary-dateformat") }} </time> 
           {{ if ne (.Date.Format (i18n "summary-dateformat")) (.Lastmod.Format (i18n "summary-dateformat")) }}
             <time title="{{ i18n "tooltip-modified" }}" dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}"> &middot; 📝 {{ .Lastmod.Format (i18n "summary-dateformat") }} </time> 
@@ -13,7 +13,7 @@
           {{ with $params.Author }}
           &middot; <span title="{{ i18n "single-writtenBy" }}" dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">{{ if $params.AuthorEmoji }}{{ $params.AuthorEmoji }}{{ else }}✍️{{ end }}&nbsp;{{ . }}</span>
           {{ end }}
-        </h6>
+        </p>
       </header>
       <div class="summary-compact__tag--wrapper">
         {{ range $params.tags }}

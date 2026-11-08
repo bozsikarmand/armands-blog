@@ -1,5 +1,5 @@
 <div class="grow"></div>
-<nav class="pagination-single">
+<nav class="pagination-single" aria-label="Post navigation">
   {{ if eq ($.Param "languagedir") "rtl" }}
     {{ with .NextInSection }}
     <a href="{{ .Permalink }}" class="pagination-single__right">

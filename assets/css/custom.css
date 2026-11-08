@@ -1,16 +1,47 @@
+/* Tartalmi igazitas (a sorkizaras eltavolitva: WCAG 1.4.8) */
+.single__contents,
 .summary-classic__text {
-    text-align: justify;
+  text-align: left;
 }
-.single__contents {
-    text-align: justify;
+
+/* Olvasasi szelesseg korlat (WCAG 1.4.8: max ~75-80 karakter) */
+.single__contents p,
+.single__contents li,
+.summary__text,
+.summary-classic__text {
+  max-width: 75ch;
 }
-figcaption {
-    text-align: center;
+
+/* Linkek nem csak szinnel kulonboznek (WCAG 1.4.1) */
+.single__contents a,
+.summary a,
+.related a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
-table.center {
-    margin-left: auto !important;
-    margin-right: auto !important;
+
+/* Mozgascokkentes: minden animacio kikapcsolva (WCAG 2.3.3/2.3.1) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
-table.title {
-    text-align: center !important;
+
+/* Fokusz nem takarható a fix fejleccel (WCAG 2.4.12) */
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Linkek aláhúzása a kivonatokban is (1.4.1) */
+.summary-classic a,
+.summary-card a,
+.summary-compact a,
+.single__related a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-<main class="main inner" data-sidebar-position="{{ $.Param "sidebarPosition" }}">
+<main id="main-content" tabindex="-1" class="main inner" data-sidebar-position="{{ $.Param "sidebarPosition" }}">
+  <h1 class="sr-only">{{ .Title | default .Site.Title }}</h1>
   <div class="list__main {{ if $.Param "enableSidebar" }}{{ if eq ($.Param "sidebarPosition") "left" }}mr{{ else }}lm{{ end }}{{ else }}lmr{{ end }}">
     {{ partial "body/breadcrumb" . }}
     <header class="list__header">

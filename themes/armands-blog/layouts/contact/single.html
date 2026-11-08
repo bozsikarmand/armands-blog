@@ -4,7 +4,7 @@
     {{ .Title }}
   </h3>
 </header>
-<main class="main">
+<main id="main-content" tabindex="-1" class="main">
   <div class="contact">
       <article class="single__contents contact__desc" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
         {{ .Content }}

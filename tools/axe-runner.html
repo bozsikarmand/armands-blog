@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>axe-runner</title>
+<body>
+<iframe id="f" style="width:1300px;height:900px"></iframe>
+<pre id="out">START</pre>
+<script>
+var OUT = function (m) { document.getElementById('out').textContent = m; };
+window.onerror = function (m, s, l) { OUT('JSERR: ' + m + ' @' + s + ':' + l); };
+</script>
+<script src="/axe.min.js"></script>
+<script>
+(async function () {
+  try {
+    OUT('axe betoltve: ' + typeof axe);
+    var page = new URLSearchParams(location.search).get('page');
+    var f = document.getElementById('f');
+    f.src = page;
+    await new Promise(function (res, rej) {
+      f.addEventListener('load', res);
+      setTimeout(function () { rej(new Error('load timeout')); }, 8000);
+    });
+    OUT('iframe betoltve');
+    var el = f.contentDocument.documentElement;
+    var results = await axe.run(el);
+    OUT('futtatas kesz: ' + results.violations.length + ' violation');
+    var out = { violations: results.violations.map(function (v) {
+      return { id: v.id, impact: v.impact, help: v.help, count: v.nodes.length,
+        sample: v.nodes.slice(0, 3).map(function (n) { return n.html.slice(0, 160); }) };
+    })};
+    OUT(JSON.stringify(out, null, 1));
+  } catch (e) {
+    OUT('HIBA: ' + e.message);
+  }
+})();
+</script>

@@ -17,8 +17,8 @@
 
     <div class="summary-classic__content">
       <header>
-        <h5 class="title h5"><a href='{{ .Permalink }}'> {{ .Title }}</a> </h5>
-        <h6 class="subtitle caption">
+        <h2 class="title h5"><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+        <p class="subtitle caption">
           <time title="{{ i18n "tooltip-written" }}" dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">📅&nbsp;{{ .Date.Format (i18n "summary-dateformat") }} </time>
           {{ if ne (.Date.Format (i18n "summary-dateformat")) (.Lastmod.Format (i18n "summary-dateformat")) }}
           <time title="{{ i18n "tooltip-modified" }}" dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}"> &middot; 📝&nbsp;{{ .Lastmod.Format (i18n "summary-dateformat") }} </time>
@@ -27,7 +27,7 @@
           {{ with $.Param "author" }}
           &middot; <span title="{{ i18n "single-writtenBy" }}" dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">{{ if $.Param "authorEmoji" }}{{ $.Param "authorEmoji" }}{{ else }}✍️{{ end }}&nbsp;{{ . }}</span>
           {{ end }}
-        </h6>
+        </p>
       </header>
       <div>
         <div class="summary-classic__text p2">

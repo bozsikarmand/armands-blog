@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<main class="single__main {{ if or ($.Param "enableToc") ($.Param "toc") }}{{ if $.Param "hideToc" }}main{{ else if eq ($.Param "tocPosition") "outer" }}main{{ else }}main-main{{ end }}{{ else }}main{{ end }}">
+<main id="main-content" tabindex="-1" class="single__main {{ if or ($.Param "enableToc") ($.Param "toc") }}{{ if $.Param "hideToc" }}main{{ else if eq ($.Param "tocPosition") "outer" }}main{{ else }}main-main{{ end }}{{ else }}main{{ end }}">
   {{ if $.Param "enableBreadcrumb" }}
     {{ partial "body/breadcrumb" . }}
   {{ end }}

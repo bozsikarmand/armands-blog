@@ -19,17 +19,17 @@ A szabvány megfelelőnek bizonyult, mely tényt az idő hivatott igazolni, ugya
 
 Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlást tettek az OSI (Open Systems Interconnection - Nyílt rendszerek összekapcsolása: ez egy olyan, általánosan alkalmazható tervezet, mely a világon előforduló összes hálózatra egyaránt érvényes) fizikai rétegére vonatkozóan. Az eredeti 10BASE5 Ethernet vastag koaxiális kábelt használt, míg az újabb szabványok (802.3i (1990)-től felfelé) már csavart érpárt illetve üvegszálas optikát. Ezen változásokat természetesen az aktív hálózati eszközök is lekövették (switch-ek, HUB-ok, routerek).
 
-{{< figure src="https://armands.blog/images/koax.gif" title="Koax kábel felépítése" >}}
+{{< figure src="https://armands.blog/images/koax.gif" title="Koax kábel felépítése" alt="Koax kábel felépítése" >}}
 
-{{< figure src="https://armands.blog/images/utp.jpg" title="UTP kábel felépítése" >}}
+{{< figure src="https://armands.blog/images/utp.jpg" title="UTP kábel felépítése" alt="UTP kábel felépítése" >}}
 
-{{< figure src="https://armands.blog/images/Image191.gif" title="Optikai kábel" >}}
+{{< figure src="https://armands.blog/images/Image191.gif" title="Optikai kábel" alt="Optikai kábel" >}}
 
-{{< figure src="https://armands.blog/images/cisco-switch.jpg" title="Cisco Switch" >}}
+{{< figure src="https://armands.blog/images/cisco-switch.jpg" title="Cisco Switch" alt="Cisco Switch" >}}
 
-{{< figure src="https://armands.blog/images/100_1891.png" title="Cisco HUB" >}}
+{{< figure src="https://armands.blog/images/100_1891.png" title="Cisco HUB" alt="Cisco HUB" >}}
 
-{{< figure src="https://armands.blog/images/Cisco-1800.jpg" title="Cisco Router" >}}
+{{< figure src="https://armands.blog/images/Cisco-1800.jpg" title="Cisco Router" alt="Cisco Router" >}}
 
 A legelső (még szabadalmaztatás előtti, kísérleti) Ethernet szabvány 2,94 Mbit/s átvitelre volt képes, a jelenlegi leggyorsabb 100 Gbit/s-ra, míg 2017-re 400 Gbit/s-os elméleti maximumot igérnek.
 
@@ -186,7 +186,7 @@ Az Ethernet azóta folytatja világhódító útját. Ma már – a folyamatos f
 
 ## Technológiai háttér
 
-{{< figure src="https://armands.blog/images/iso-osi-tcp.jpg" title="ISO/OSI/TCP" >}}
+{{< figure src="https://armands.blog/images/iso-osi-tcp.jpg" title="ISO/OSI/TCP" alt="ISO/OSI/TCP" >}}
 
 Többször esett már szó az Ethernet fejlődéséről a korábbi oldalakon, azonban technológiai szempontból még nem vizsgáltuk meg. Mint korábban említettem, az Ethernet Carrier sense multiple access with collision detection-t használ (CSMA/CD – vivő érzékeléses többszörös hozzáférés, ütközés detektálással)., mely egy véletlen közeg hozzáférési protokoll.
 
