@@ -13,7 +13,6 @@ backend:
 media_folder: static/images
 public_folder: /images
 
-locale: hu
 
 slug:
   encoding: ascii
