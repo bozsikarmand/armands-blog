@@ -7,3 +7,8 @@
   name = "Privacy"
   url = "/en/privacy/"
   weight = 20
+
+[[main]]
+  name = "About"
+  url = "/en/about/"
+  weight = 10

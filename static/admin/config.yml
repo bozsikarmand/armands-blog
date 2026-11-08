@@ -20,6 +20,21 @@ slug:
   sanitize_replacement: "-"
 
 collections:
+  - name: about
+    label: About / Rólam
+    files:
+      - name: about-en
+        label: About (English)
+        file: content/en/about/index.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: body, label: Body, widget: markdown }
+      - name: about-hu
+        label: Rólam (Magyar)
+        file: content/hu/about/index.hu.md
+        fields:
+          - { name: title, label: Cím, widget: string }
+          - { name: body, label: Tartalom, widget: markdown }
   - name: posts-hu
     label: Posztok (Magyar)
     folder: content/hu/posts

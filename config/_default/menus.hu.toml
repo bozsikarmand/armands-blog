@@ -7,3 +7,8 @@
   name = "Adatkezelés"
   url = "/hu/privacy/"
   weight = 20
+
+[[main]]
+  name = "Rólam"
+  url = "/hu/about/"
+  weight = 10
