@@ -20,6 +20,12 @@
         if (localTheme) {
             document.getElementById('root').className = 'theme__' + localTheme;
         }
+        (function () {
+          var bgs = { dark: '#2d2a2e', monolight: '#f8f5ef' };
+          var cls = document.getElementById('root').className.match(/theme__(\w+)/);
+          var bg = bgs[cls ? cls[1] : 'dark'] || bgs.dark;
+          document.documentElement.style.backgroundColor = bg;
+        })();
     </script>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div id="container">
