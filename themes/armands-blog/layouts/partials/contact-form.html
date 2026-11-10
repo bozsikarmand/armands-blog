@@ -18,9 +18,11 @@
       <label for="bcf-message">{{ i18n "ui.formMessage" | default "Message" }}</label>
       <textarea id="bcf-message" name="message" rows="6" required maxlength="5000"></textarea>
     </div>
+    <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-size="invisible"></div>
     <button type="submit" class="cf-submit">{{ i18n "ui.formSend" | default "Send message" }}</button>
     <p id="bcf-status" role="status" aria-live="polite"></p>
   </form>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <p class="cf-hint">{{ i18n "ui.formPrivacy" | default "Your data is only used to reply to your message." }}</p>
 </section>
 <style>
@@ -65,6 +67,15 @@
     }
     var button = form.querySelector('button[type="submit"]');
     button.disabled = true;
+    var tsDiv = form.querySelector('.cf-turnstile');
+    if (tsDiv && window.turnstile) {
+      data['cf-turnstile-response'] = await new Promise(function (resolve) {
+        var t = setTimeout(function () { resolve(''); }, 10000);
+        try {
+          window.turnstile.execute(tsDiv, { callback: function (tok) { clearTimeout(t); resolve(tok); } });
+        } catch (e) { clearTimeout(t); resolve(''); }
+      });
+    }
     try {
       var response = await fetch('https://armands.site/api/contact', {
         method: 'POST',
