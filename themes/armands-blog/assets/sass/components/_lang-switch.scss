@@ -11,10 +11,12 @@
   justify-content: center;
   background: transparent;
   cursor: pointer;
-  padding: 0.4rem;
-  min-height: 35px;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0 0.7rem;
+  min-height: 44px;
   box-sizing: border-box;
-  border-radius: 0.3rem;
+  border-radius: 6px;
 
   @include themify($themes) {
     border: 1px solid themed('navbar-border-bottom-color');
@@ -24,6 +26,7 @@
   &:hover {
     @include themify($themes) {
       color: themed('navbar-title-hover-color');
+      border-color: themed('navbar-title-hover-color');
     }
   }
 }
@@ -135,10 +138,12 @@
   justify-content: center;
   background: transparent;
   cursor: pointer;
-  padding: 0.4rem;
-  min-height: 35px;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0 0.7rem;
+  min-height: 44px;
   box-sizing: border-box;
-  border-radius: 0.3rem;
+  border-radius: 6px;
 
   @include themify($themes) {
     border: 1px solid themed('navbar-border-bottom-color');
@@ -148,13 +153,14 @@
   &:hover {
     @include themify($themes) {
       color: themed('navbar-title-hover-color');
+      border-color: themed('navbar-title-hover-color');
     }
   }
 }
 
 .theme-toggle__icon {
   display: none;
-  font-size: 19px;
+  font-size: 1rem;
   line-height: 1;
 }
 
@@ -232,12 +238,9 @@ body.theme__monolight .theme-toggle__icon--moon {
 
 // A © sorhoz igazítva: kisebb ikon-gomb a láblécben
 .footer__bar .lang-switch__btn {
-  padding: 0.2rem;
-
-  svg {
-    width: 18px;
-    height: 18px;
-  }
+  padding: 0 0.4rem;
+  min-height: 0;
+  font-size: 0.9rem;
 }
 
 // A menü is a jobb szélen lebeg az ikonsáv mellett – a kereső így a teljes

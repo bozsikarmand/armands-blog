@@ -3,7 +3,7 @@
 {{ if $ctx.Param "enableLangChange" }}
 <div class="lang-switch{{ if $up }} lang-switch--up{{ end }}" data-lang-switch>
   <button type="button" class="lang-switch__btn" data-lang-switch-btn aria-expanded="false" aria-label="Select language">
-    {{ partial "svgs/etc/translate.svg" (dict "width" 22 "height" 22) }}
+    🌐
   </button>
   <div class="lang-switch__menu">
     {{ $pageLang := $ctx.Page.Lang }}
