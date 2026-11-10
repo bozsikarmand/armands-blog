@@ -41,7 +41,7 @@ pubPaginate = 20
 
 # whoami
 myname = "Armand Viktor Bozsik"
-email = "hello@armands.blog"
+email = ""
 bioImageUrl = "/images/whoami/avatar.jpg"
 useGravatar = false
 location = "Hungary"
@@ -120,7 +120,6 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:hello@armands.blog"
   facebook = "https://facebook.com/bozsikarmand"
   twitter = "https://twitter.com/bozsikarmand"
   gitlab = "https://gitlab.com/bozsikarmand"
