@@ -1,7 +1,7 @@
 .navbar {
-  margin: auto;
-  width: inherit;
-  max-width: inherit;
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  max-width: none;
   height: $grid_navbar_height;
   z-index: z('navbar');
   position: fixed;
