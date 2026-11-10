@@ -59,6 +59,11 @@
                 navCollapse.style.maxHeight = 0;
                 navCollapseBtn.classList.remove('is-active');
             }
+            var navBackdrop = document.querySelector('.navbarm__backdrop');
+            if (navBackdrop) {
+                navBackdrop.hidden = true;
+            }
+            document.body.style.overflow = '';
             if (document.getElementsByClassName('navbar__menu')[0]) {
                 document.getElementsByClassName('navbar__menu')[0].classList.remove('is-active');
             }

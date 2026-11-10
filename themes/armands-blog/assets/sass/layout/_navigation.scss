@@ -550,3 +550,40 @@
     }
   }
 }
+// Off-canvas mobilmenü (a .site-mintára: becsúszó panel + backdrop)
+@media only screen and (max-width: 769px) {
+  .navbarm__collapse {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 86vw;
+    max-width: 320px;
+    max-height: none !important;
+    overflow-y: auto;
+    -webkit-transform: translateX(105%);
+    transform: translateX(105%);
+    -webkit-transition: transform 0.24s ease;
+    transition: transform 0.24s ease;
+    z-index: 90;
+    @include themify($themes) {
+      border-left: 1px solid themed('navbar-border-bottom-color');
+      background-color: themed('navbar-background-color');
+    }
+  }
+  .navbarm__collapse[data-open="true"] {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    border-bottom: none;
+  }
+  .navbarm__backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 85;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  .navbarm__backdrop[hidden] {
+    display: none;
+  }
+}

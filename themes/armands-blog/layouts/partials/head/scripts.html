@@ -82,23 +82,27 @@
   document.addEventListener('DOMContentLoaded', function () {
     // ===================== navbar collapse ======================
     var navCollapseBtn = document.querySelector('.navbar__burger');
-    navCollapseBtn ? navCollapseBtn.addEventListener('click', function (e) {
+    var navBackdrop = document.querySelector('.navbarm__backdrop');
+    var setNavCollapse = function (open) {
       var navCollapse = document.querySelector('.navbarm__collapse');
-
-      if (navCollapse) {
-        var dataOpen = navCollapse.getAttribute('data-open');
-
-        if (dataOpen === 'true') {
-          navCollapse.setAttribute('data-open', 'false');
-          navCollapse.style.maxHeight = 0;
-          navCollapseBtn.classList.remove('is-active');
-        } else {
-          navCollapse.setAttribute('data-open', 'true');
-          navCollapse.style.maxHeight = navCollapse.scrollHeight + "px";
-          navCollapseBtn.classList.add('is-active');
-        }
-      }
+      if (!navCollapse || !navCollapseBtn) return;
+      navCollapse.setAttribute('data-open', open ? 'true' : 'false');
+      navCollapse.style.maxHeight = open ? navCollapse.scrollHeight + 'px' : 0;
+      navCollapseBtn.classList.toggle('is-active', open);
+      if (navBackdrop) navBackdrop.hidden = !open;
+      document.body.style.overflow = open ? 'hidden' : '';
+    };
+    navCollapseBtn ? navCollapseBtn.addEventListener('click', function () {
+      var navCollapse = document.querySelector('.navbarm__collapse');
+      setNavCollapse(!(navCollapse && navCollapse.getAttribute('data-open') === 'true'));
     }) : null;
+    navBackdrop ? navBackdrop.addEventListener('click', function () { setNavCollapse(false); }) : null;
+    document.querySelectorAll('.navbarm__collapse a').forEach(function (link) {
+      link.addEventListener('click', function () { setNavCollapse(false); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setNavCollapse(false);
+    });
     // ============================================================
 
 
