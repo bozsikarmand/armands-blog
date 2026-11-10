@@ -55,4 +55,3 @@ Thesis: analysis and digital transition of a bookshop system — C#, WPF, LINQ, 
 - [LinkedIn](https://www.linkedin.com/in/bozsikarmand/)
 - [GitHub](https://github.com/bozsikarmand) · [GitLab](https://gitlab.com/bozsikarmand)
 - [armands.site](https://armands.site) — portfolio
-- Email: [hello@armands.site](mailto:hello@armands.site)

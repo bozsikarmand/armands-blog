@@ -55,4 +55,3 @@ Szakdolgozat: könyvesbolt-működés elemzése és digitális átállása — C
 - [LinkedIn](https://www.linkedin.com/in/bozsikarmand/)
 - [GitHub](https://github.com/bozsikarmand) · [GitLab](https://gitlab.com/bozsikarmand)
 - [armands.site](https://armands.site) — portfólió
-- E-mail: [hello@armands.site](mailto:hello@armands.site)
