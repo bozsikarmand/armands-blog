@@ -132,12 +132,14 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-  border: none;
   cursor: pointer;
   padding: 0.4rem;
+  min-height: 35px;
+  box-sizing: border-box;
   border-radius: 0.3rem;
 
   @include themify($themes) {
+    border: 1px solid themed('navbar-border-bottom-color');
     color: themed('navbar-title-color');
   }
 

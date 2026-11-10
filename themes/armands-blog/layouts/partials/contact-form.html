@@ -33,7 +33,16 @@
   border-radius: 4px;
 }
 .contact-form-section input:focus, .contact-form-section textarea:focus { outline: 2px solid currentColor; outline-offset: 1px; }
-.contact-form-section .cf-submit { font-weight: 700; padding: 0.5rem 1.2rem; border-radius: 4px; cursor: pointer; }
+.contact-form-section .cf-submit {
+  font-weight: 700; padding: 0.85rem 1.2rem; border-radius: 4px; cursor: pointer;
+  width: 100%; text-transform: uppercase; letter-spacing: 0.4px; font-size: 0.95rem;
+  border: 2px solid transparent; transition: background 0.15s ease, color 0.15s ease;
+}
+body.theme__dark .contact-form-section .cf-submit { background: #FFD866; color: #212121; }
+body.theme__light .contact-form-section .cf-submit { background: #2c7788; color: #f8f5ef; }
+body.theme__dark .contact-form-section .cf-submit:hover { background: transparent; color: #FFD866; border-color: #FFD866; }
+body.theme__light .contact-form-section .cf-submit:hover { background: transparent; color: #2c7788; border-color: #2c7788; }
+.contact-form-section .cf-submit[disabled] { opacity: 0.6; cursor: wait; }
 .contact-form-section #bcf-status { margin-top: 0.7rem; font-weight: 600; min-height: 1.4em; }
 .contact-form-section .cf-hint { font-size: 0.85rem; opacity: 0.8; }
 </style>
