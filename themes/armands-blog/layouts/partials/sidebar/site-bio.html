@@ -59,13 +59,16 @@
 
   {{ $links := $.Param "links" }}
   {{ if not $links }}{{ with $.Param "link" }}{{ $links = slice . }}{{ end }}{{ end }}
+  {{ $self := site.BaseURL | strings.TrimSuffix "/" }}
   {{ range $u := $links }}
+  {{ if ne ($u | strings.TrimSuffix "/") $self }}
   <div class="bio__info">
     <div class="bio__info--icon">
       {{ partial "svgs/etc/link.svg" (dict "width" 20 "height" 20) }}
     </div>
     <a href="{{ $u }}" target="_blank" rel="noreferrer">{{ $u }}</a>
   </div>
+  {{ end }}
   {{ end }}
 
   <div class="bio__social">
