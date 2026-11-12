@@ -57,12 +57,14 @@
   </div>
   {{ end }}
 
-  {{ if $.Param "link" }}
+  {{ $links := $.Param "links" }}
+  {{ if not $links }}{{ with $.Param "link" }}{{ $links = slice . }}{{ end }}{{ end }}
+  {{ range $u := $links }}
   <div class="bio__info">
     <div class="bio__info--icon">
       {{ partial "svgs/etc/link.svg" (dict "width" 20 "height" 20) }}
     </div>
-    <a href="{{ $.Param "link" }}" target="_blank" rel="noreferrer">{{ $.Param "link" }}</a>    
+    <a href="{{ $u }}" target="_blank" rel="noreferrer">{{ $u }}</a>
   </div>
   {{ end }}
 

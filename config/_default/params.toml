@@ -46,7 +46,12 @@ bioImageUrl = "/images/whoami/avatar.jpg"
 useGravatar = false
 location = "Hungary"
 organization = "Software Developer · ERP, Oracle APEX, PL/SQL"
-link = "https://armands.site"
+links = [
+  "https://armands.blog",
+  "https://armands.cv",
+  "https://armands.dev",
+  "https://armands.site",
+]
 
 # sidebar
 enableBio = true
