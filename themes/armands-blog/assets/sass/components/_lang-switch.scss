@@ -218,8 +218,9 @@ body.theme__monolight .theme-toggle__icon--moon {
   > .lang-switch {
     position: absolute;
     left: 0.5rem;
-    top: 50%;
-    transform: translateY(-50%);
+    // alsó éle 0.5rem-re a sor aljától: pont egyvonalba kerül a gtt négyzet aljával
+    // (a #gtt a .footer közvetlen gyermeke, a .gtt abszolút pozíciója az oldalaljához igazodik)
+    bottom: 0.5rem;
     margin: 0;
   }
 
