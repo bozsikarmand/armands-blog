@@ -236,11 +236,10 @@ body.theme__monolight .theme-toggle__icon--moon {
   margin: 0;
 }
 
-// A © sorhoz igazítva: kisebb ikon-gomb a láblécben
+// Lábléc: a gomb magassága és ikonmérete megegyezik a navbaréval
+// (csak a vízszintes belső margó marad szűkebb a © sorhoz)
 .footer__bar .lang-switch__btn {
   padding: 0 0.4rem;
-  min-height: 0;
-  font-size: 0.9rem;
 }
 
 // A menü is a jobb szélen lebeg az ikonsáv mellett – a kereső így a teljes
