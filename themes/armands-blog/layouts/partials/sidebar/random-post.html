@@ -1,0 +1,30 @@
+{{ if and ($.Param "enableRandomPost") ($.Param "enableSearch") }}
+<section class="sidebar-random">
+  <button type="button" class="sidebar-random__btn" data-random-post
+          data-index="{{ "index.json" | relLangURL }}"
+          aria-label="{{ i18n "random-post" | default "Random post" }}">
+    {{ i18n "random-post" | default "🎲 Random post" }}
+  </button>
+</section>
+<hr class="hr-fade sidebar-hr" />
+<script>
+(function () {
+  if (window.__randomPostInit) return;
+  window.__randomPostInit = true;
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-random-post]');
+    if (!btn) return;
+    btn.disabled = true;
+    fetch(btn.getAttribute('data-index'))
+      .then(function (r) { return r.json(); })
+      .then(function (items) {
+        var posts = (items || []).filter(function (i) { return i && i.uri && i.section === 'posts'; });
+        var pool = posts.length ? posts : (items || []);
+        if (!pool.length) throw new Error('empty index');
+        window.location.href = pool[Math.floor(Math.random() * pool.length)].uri;
+      })
+      .catch(function () { btn.disabled = false; });
+  });
+})();
+</script>
+{{ end }}

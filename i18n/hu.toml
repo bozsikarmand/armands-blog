@@ -100,6 +100,9 @@ other = "Az oldal JavaScript-vel működik a legjobban"
 [posts-by-order]
 other = "NÉPSZERŰ BEJEGYZÉSEK"
 
+[random-post]
+other = "🎲 Véletlen bejegyzés"
+
 [powered-by]
 other = "Üzemeltetve: <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noreferrer\">Hugo</a> és a <a href=\"https://github.com/zzossig/hugo-theme-zzo\" target=\"_blank\" rel=\"noreferrer\">Zzo téma</a>"
 

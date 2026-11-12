@@ -22,3 +22,9 @@
   "author": { "@type": "Person", "name": "Armand Viktor Bozsik" }
 }
 </script>
+
+{{/* Cloudflare Web Analytics (privacy-barát, cookie nélkül) – a tokent a
+     config params.cfBeaconToken-ban kell megadni. */}}
+{{ with site.Params.cfBeaconToken }}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ . }}"}'></script>
+{{ end }}

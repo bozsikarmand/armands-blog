@@ -25,11 +25,11 @@ Az Ethernet szabványokban sokféle kábelezési és jeltovábbítási ajánlás
 
 {{< figure src="https://armands.blog/images/Image191.gif" title="Optikai kábel" alt="Optikai kábel" >}}
 
-{{< figure src="https://armands.blog/images/cisco-switch.jpg" title="Cisco Switch" alt="Cisco Switch" >}}
+{{< figure src="https://armands.blog/images/cisco-switch.webp" title="Cisco Switch" alt="Cisco Switch" >}}
 
 {{< figure src="https://armands.blog/images/100_1891.png" title="Cisco HUB" alt="Cisco HUB" >}}
 
-{{< figure src="https://armands.blog/images/Cisco-1800.jpg" title="Cisco Router" alt="Cisco Router" >}}
+{{< figure src="https://armands.blog/images/Cisco-1800.webp" title="Cisco Router" alt="Cisco Router" >}}
 
 A legelső (még szabadalmaztatás előtti, kísérleti) Ethernet szabvány 2,94 Mbit/s átvitelre volt képes, a jelenlegi leggyorsabb 100 Gbit/s-ra, míg 2017-re 400 Gbit/s-os elméleti maximumot igérnek.
 

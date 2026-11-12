@@ -14,6 +14,31 @@
 
 {{ end }}<script>
 (function () {
+  if (window.__searchShortcutInit) return;
+  window.__searchShortcutInit = true;
+  document.addEventListener('keydown', function (e) {
+    var isSlash = e.key === '/';
+    var isCtrlK = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k';
+    if (!isSlash && !isCtrlK) return;
+    var tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || e.target.isContentEditable) return;
+    e.preventDefault();
+    var desktop = document.getElementById('search');
+    var mobileBtn = document.getElementById('mobileSearchBtn');
+    if (window.innerWidth >= 770 && desktop) {
+      desktop.focus();
+    } else if (mobileBtn) {
+      mobileBtn.click();
+      var mobile = document.getElementById('search-mobile');
+      if (mobile) mobile.focus();
+    } else if (desktop) {
+      desktop.focus();
+    }
+  });
+})();
+</script>
+<script>
+(function () {
   if (window.__searchAnnouncerInit) return;
   window.__searchAnnouncerInit = true;
   document.addEventListener('DOMContentLoaded', function () {

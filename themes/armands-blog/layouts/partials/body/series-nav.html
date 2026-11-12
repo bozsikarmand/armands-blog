@@ -1,0 +1,31 @@
+{{ $series := .Params.series }}
+{{ if $series }}
+  {{ $seriesName := (index $series 0) | default $series }}
+  {{ $seriesPages := slice }}
+  {{ range (where site.RegularPages ".Params.series" "intersect" (slice $seriesName)) }}
+    {{ $seriesPages = $seriesPages | append . }}
+  {{ end }}
+  {{ $seriesPages = sort $seriesPages "Date" "asc" }}
+  {{ if gt (len $seriesPages) 1 }}
+    {{ $cur := 0 }}
+    {{ range $idx, $p := $seriesPages }}
+      {{ if eq $p.RelPermalink $.RelPermalink }}{{ $cur = $idx }}{{ end }}
+    {{ end }}
+    {{ $prev := index $seriesPages (sub $cur 1) }}
+    {{ $next := index $seriesPages (add $cur 1) }}
+    <nav class="series-nav" aria-label="{{ i18n "series" | default "Series" }}">
+      <div class="series-nav__title">
+        {{ i18n "series" | default "Series" }}: <a href="{{ "/series/" | relLangURL }}{{ $seriesName | urlize }}/">{{ $seriesName }}</a>
+        · {{ add $cur 1 }}/{{ len $seriesPages }}
+      </div>
+      <div class="series-nav__links">
+        {{ if gt $cur 0 }}
+        <a href="{{ $prev.RelPermalink }}" class="series-nav__prev">← {{ $prev.Title }}</a>
+        {{ end }}
+        {{ if lt $cur (sub (len $seriesPages) 1) }}
+        <a href="{{ $next.RelPermalink }}" class="series-nav__next">{{ $next.Title }} →</a>
+        {{ end }}
+      </div>
+    </nav>
+  {{ end }}
+{{ end }}

@@ -2,6 +2,7 @@
 <div class="sidebar">
     {{ partial "sidebar/site-bio" . }}
     {{ partial "sidebar/custom-home" . }}
+    {{ partial "sidebar/random-post" . }}
     {{ partial "sidebar/list/posts-by-order" . }}
 
     {{ if and ($.Param "itemsPerCategory") ($.Param "enableHomeSidebarTitles") }}

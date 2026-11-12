@@ -50,6 +50,15 @@
     <meta property="twitter:title" content="{{ $.Param "title" }}">
     <meta property="twitter:description" content="{{ $.Param "description" }}">
   {{ end }}
+{{ else }}
+  {{ with ($.Param "ogDefaultImage" | default "/images/og-default.png") }}
+    <meta property="og:image" content="{{ . | absURL }}">
+    <meta property="og:image:url" content="{{ . | absURL }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:app:name:iphone" content="{{ $.Site.Title }}">
+    <meta property="twitter:title" content="{{ $.Param "title" }}">
+    <meta property="twitter:description" content="{{ $.Param "description" }}">
+  {{ end }}
 {{ end }}
 {{ hugo.Generator }}
 <meta name="msapplication-TileColor" content="{{ $.Scratch.Get "themeTitleColor" | default "#fff" }}">

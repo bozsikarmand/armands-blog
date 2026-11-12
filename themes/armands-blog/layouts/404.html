@@ -3,7 +3,71 @@
   <div class="not-found">
     <h1 class="h1 title">404</h1>
     <h6 class="h6 subtitle">Page not found</h6>
+    <p class="not-found__hint">Try searching for what you were looking for:</p>
+    <div class="search not-found__search">
+      <span class="icon">
+        {{ partial "svgs/etc/search.svg" (dict "width" 22 "height" 22) }}
+      </span>
+      <input id="search-404" aria-label="Site Search" class="input" type="text" placeholder="{{T "search-placeholder"}}" autocomplete="off">
+      <div id="search-404-results" class="dropdown">
+        <div id="search-404-menu" class="dropdown-menu" role="menu"></div>
+      </div>
+    </div>
+    <p class="not-found__hint"><a href="{{ "/" | relLangURL }}">{{ i18n "tooltip-home" | default "Home" }}</a></p>
   </div>
 </main>
+<script>
+(function () {
+  var input = document.getElementById('search-404');
+  var results = document.getElementById('search-404-results');
+  var menu = document.getElementById('search-404-menu');
+  if (!input || !results || !menu) return;
+
+  var data = null;
+  var fuse = null;
+
+  function ensureFuse() {
+    if (fuse || !data || !window.Fuse) return;
+    fuse = new Fuse(data, {
+      keys: ['title', 'description', 'content'],
+      threshold: 0.4,
+      maxPatternLength: 32,
+      minMatchCharLength: 1,
+    });
+  }
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '{{ "index.json" | relLangURL }}');
+  xhr.onload = function () {
+    if (xhr.status === 200) {
+      try { data = JSON.parse(xhr.responseText); } catch (e) { data = null; }
+      ensureFuse();
+    }
+  };
+  xhr.send();
+
+  input.addEventListener('input', function () {
+    while (menu.firstChild) menu.removeChild(menu.firstChild);
+    var q = input.value.trim();
+    ensureFuse();
+    if (!q || !fuse) { results.classList.remove('is-active'); return; }
+    fuse.search(q).slice(0, 8).forEach(function (r) {
+      var item = r.item ? r.item : r;
+      var a = document.createElement('a');
+      a.className = 'dropdown-item';
+      a.href = item.uri;
+      a.textContent = item.title;
+      menu.appendChild(a);
+    });
+    results.classList.add('is-active');
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!results.contains(e.target) && e.target !== input) {
+      results.classList.remove('is-active');
+    }
+  });
+})();
+</script>
 {{ partial "script/home-script" . }}
 {{ end }}
