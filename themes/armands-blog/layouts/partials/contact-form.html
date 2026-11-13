@@ -37,7 +37,9 @@
 .contact-form-section input:focus, .contact-form-section textarea:focus { outline: 2px solid currentColor; outline-offset: 1px; }
 .contact-form-section .cf-submit {
   font-weight: 700; padding: 0.85rem 1.2rem; border-radius: 4px; cursor: pointer;
-  width: 100%; text-transform: uppercase; letter-spacing: 0.4px; font-size: 0.95rem;
+  /* a mezőkhöz (max 34rem) igazodik – a teljes szélességű gomb furán festett */
+  width: 100%; max-width: 34rem; box-sizing: border-box;
+  text-transform: uppercase; letter-spacing: 0.4px; font-size: 0.95rem;
   border: 2px solid transparent; transition: background 0.15s ease, color 0.15s ease;
 }
 .theme__dark .contact-form-section .cf-submit { background: #FFD866; color: #212121; }
