@@ -1,5 +1,1 @@
-# Minden létező fájl közvetlenül szolgálódik ki; az ismeretlen útvonalakra
-# a root 404.html TARTALMA megy 404-es státusszal (GitLab Pages /_redirects,
-# Netlify-szintaxis). A beépített custom-error-page mechanizmus a "clean URL"
-# 307-es redirect miatt üres választ ad – ezért kell ez a megoldás.
 /* /404.html 404
