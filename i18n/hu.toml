@@ -107,6 +107,7 @@ other = "🎲 Véletlen bejegyzés"
 other = "Üzemeltetve: <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noreferrer\">Hugo</a> és a <a href=\"https://github.com/zzossig/hugo-theme-zzo\" target=\"_blank\" rel=\"noreferrer\">Zzo téma</a>"
 
 [ui]
+skipToContent = "Ugrás a főtartalomra"
   contactForm = "Kapcsolat"
     formName = "Név"
     formEmail = "Email-címed"
@@ -123,3 +124,9 @@ other = "Ugrás a keresőbe (Ctrl+K vagy /)"
 
 [search-shortcut-key]
 other = "Ctrl K"
+
+[not-found-title]
+other = "Az oldal nem található"
+
+[not-found-hint]
+other = "Keresd meg, amit kerestél:"

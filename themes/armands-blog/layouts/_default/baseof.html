@@ -30,7 +30,7 @@
           document.documentElement.style.backgroundColor = bg;
         })();
     </script>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <a class="skip-link" href="#main-content">{{ i18n "ui.skipToContent" | default "Skip to main content" }}</a>
     <div id="container">
         {{ partial "body/main-left" . }}
         <div class="wrapper" data-type="{{ .Type }}" data-kind="{{ .Kind }}">

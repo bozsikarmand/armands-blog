@@ -2,8 +2,8 @@
 <main id="main-content" tabindex="-1" class="main">
   <div class="not-found">
     <h1 class="h1 title">404</h1>
-    <h6 class="h6 subtitle">Page not found</h6>
-    <p class="not-found__hint">Try searching for what you were looking for:</p>
+    <h6 class="h6 subtitle">{{ i18n "not-found-title" | default "Page not found" }}</h6>
+    <p class="not-found__hint">{{ i18n "not-found-hint" | default "Try searching for what you were looking for:" }}</p>
     <div class="search not-found__search">
       <span class="icon">
         {{ partial "svgs/etc/search.svg" (dict "width" 22 "height" 22) }}
