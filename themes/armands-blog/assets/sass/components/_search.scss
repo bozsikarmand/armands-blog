@@ -46,6 +46,13 @@
     }
   }
 
+  // Fókusz: sárga kiemelés a keresődoboz keretén (mint a CV-n)
+  &:focus-within {
+    @include themify($themes) {
+      border-color: themed('search-focus-border-color');
+    }
+  }
+
   .input {
     width: 100%;
     font-size: 0.9rem;
