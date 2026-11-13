@@ -99,3 +99,8 @@ other = "자바스크립트를 활성화 해주세요"
 
 [posts-by-order]
 other = "TOP POSTS"
+[search-shortcut-hint]
+other = "Jump to search (Ctrl+K or /)"
+
+[search-shortcut-key]
+other = "Ctrl K"

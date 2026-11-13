@@ -30,15 +30,15 @@
 .contact-form-section .cf-row { margin-bottom: 0.8rem; }
 .contact-form-section label { display: block; font-weight: 700; margin-bottom: 0.25rem; }
 .contact-form-section input, .contact-form-section textarea {
-  width: 100%; max-width: 34rem; box-sizing: border-box;
+  width: 100%; box-sizing: border-box;
   padding: 0.5rem 0.65rem; font-size: 1rem; font-family: inherit;
   border-radius: 4px;
 }
 .contact-form-section input:focus, .contact-form-section textarea:focus { outline: 2px solid currentColor; outline-offset: 1px; }
 .contact-form-section .cf-submit {
   font-weight: 700; padding: 0.85rem 1.2rem; border-radius: 999px; cursor: pointer;
-  /* a mezőkhöz (max 34rem) igazodik – a teljes szélességű gomb furán festett */
-  width: 100%; max-width: 34rem; box-sizing: border-box;
+  /* minden űrlap teljes szélességű – a gomb is a mezőkkel együtt */
+  width: 100%; box-sizing: border-box;
   text-transform: uppercase; letter-spacing: 0.4px; font-size: 0.95rem;
   border: 3px solid transparent;
   transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease, border-color 0.15s ease;

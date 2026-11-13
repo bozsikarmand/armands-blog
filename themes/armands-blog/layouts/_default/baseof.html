@@ -17,9 +17,12 @@
 <body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">
     <script>
         var localTheme = localStorage.getItem('theme');
-        if (localTheme) {
-            document.getElementById('root').className = 'theme__' + localTheme;
+        if (localTheme !== 'dark' && localTheme !== 'monolight') {
+            // Alapértelmezés: a rendszer dark/light beállítását követi
+            var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+            localTheme = prefersLight ? 'monolight' : 'dark';
         }
+        document.getElementById('root').className = 'theme__' + localTheme;
         (function () {
           var bgs = { dark: '#2d2a2e', monolight: '#f8f5ef' };
           var cls = document.getElementById('root').className.match(/theme__(\w+)/);

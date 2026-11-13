@@ -27,12 +27,32 @@
     }
   }
 
+  // Ctrl+K / "/" felhívó billentyű-jelzés a keresőmezőben
+  &__kbd {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: $title-font;
+    font-size: 0.68rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    pointer-events: none;
+
+    @include themify($themes) {
+      color: themed('search-placeholder-color');
+      border: 1px solid themed('search-placeholder-color');
+    }
+  }
+
   .input {
     width: 100%;
     font-size: 0.9rem;
     border: none;
     outline: none;
-    padding-right: 1rem;
+    // hely a jobb oldali kbd-jelzésnek
+    padding-right: 4.2rem;
 
     @include truncate($grid_main_side_width + $grid_main_side_unit);
     @include themify($themes) {

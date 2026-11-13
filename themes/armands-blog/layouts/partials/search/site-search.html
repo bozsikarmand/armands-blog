@@ -5,6 +5,7 @@
     {{ partial "svgs/etc/search.svg" (dict "width" 22 "height" 22) }}
   </span>
   <input id="search" aria-label="Site Search" class="input" type="text" placeholder="{{T "search-placeholder"}}" autocomplete="off">
+  <kbd class="search__kbd" title="{{ i18n "search-shortcut-hint" | default "Jump to search (Ctrl+K or /)" }}" aria-hidden="true">{{ i18n "search-shortcut-key" | default "Ctrl K" }}</kbd>
   <div id="search-status" class="sr-only" role="status" aria-live="polite"></div>
   <div id="search-results" class="dropdown">
     <div id="search-menu" class="dropdown-menu" role="menu">

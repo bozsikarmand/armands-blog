@@ -102,3 +102,8 @@ other = "TOP POSTS"
 
 [random-post]
 other = "🎲 Random post"
+[search-shortcut-hint]
+other = "Jump to search (Ctrl+K or /)"
+
+[search-shortcut-key]
+other = "Ctrl K"

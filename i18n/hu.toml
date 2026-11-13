@@ -117,3 +117,9 @@ other = "Üzemeltetve: <a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"no
     formError = "Küldés sikertelen. Próbáld újra, vagy keress LinkedInen."
     formInvalid = "Kérlek, töltsd ki minden mezőt érvényes email-címmel."
     formNotConfigured = "Az űrlap még nincs beállítva – kérem, használja a LinkedInt."
+
+[search-shortcut-hint]
+other = "Ugrás a keresőbe (Ctrl+K vagy /)"
+
+[search-shortcut-key]
+other = "Ctrl K"
