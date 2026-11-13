@@ -26,6 +26,19 @@
   <p class="cf-hint">{{ i18n "ui.formPrivacy" | default "Your data is only used to reply to your message." }}</p>
 </section>
 <style>
+/* A mezők és a segédszöveg a téma színeit veszi fel (dark / monolight) */
+.theme__dark .contact-form-section input,
+.theme__dark .contact-form-section textarea {
+  color: #fcfcfa; border: 1px solid #6e7072; background-color: #4d4a4e;
+}
+.theme__dark .contact-form-section input:focus,
+.theme__dark .contact-form-section textarea:focus { outline: none; border-color: #ffd866; }
+.theme__monolight .contact-form-section input,
+.theme__monolight .contact-form-section textarea {
+  color: #3d3a40; border: 1px solid #917f5a; background-color: #ece7db;
+}
+.theme__monolight .contact-form-section input:focus,
+.theme__monolight .contact-form-section textarea:focus { outline: none; border-color: #2c7788; }
 .contact-form-section { margin-top: 2.5rem; }
 .contact-form-section .cf-row { margin-bottom: 0.8rem; }
 .contact-form-section label { display: block; font-weight: 700; margin-bottom: 0.25rem; }
