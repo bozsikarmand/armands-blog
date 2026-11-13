@@ -11,8 +11,6 @@
     <description>Recent content in Desktop on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 20 Sep 2015 10:32:13 +0000</lastBuildDate>
     
@@ -24,7 +22,7 @@
         <title>Install Ubuntu 15.04 (UEFI and GPT on SSD)</title>
         <link>https://armands.blog/en/posts/install-ubuntu-15-04-uefi-and-gpt-on-ssd/</link>
         <pubDate>Sun, 20 Sep 2015 10:32:13 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Sun, 20 Sep 2015 10:32:13 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/install-ubuntu-15-04-uefi-and-gpt-on-ssd/</guid>
         <description>&lt;p&gt;I was searching for days to answer all of my questions related to this topic, but I had no success, until I asked it on PROHARDVER!.&lt;/p&gt;

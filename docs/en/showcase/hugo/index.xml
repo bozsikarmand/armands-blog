@@ -11,8 +11,6 @@
     <description>Recent content in Hugo on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 19 Jan 2020 21:04:11 +0900</lastBuildDate>
     
@@ -26,12 +24,12 @@
         <title>Hugo Zzo Theme</title>
         <link>https://armands.blog/en/showcase/hugo/hugo-theme-zzo/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
         <guid>https://armands.blog/en/showcase/hugo/hugo-theme-zzo/</guid>
         <description></description>
         
-        <dc:creator>Armand Bozsik</dc:creator>
+        <dc:creator>Armand Viktor Bozsik</dc:creator>
         
         
         
@@ -44,12 +42,12 @@
         <title>Hugo zDoc Theme</title>
         <link>https://armands.blog/en/showcase/hugo/hugo-theme-zdoc/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
         <guid>https://armands.blog/en/showcase/hugo/hugo-theme-zdoc/</guid>
         <description></description>
         
-        <dc:creator>Armand Bozsik</dc:creator>
+        <dc:creator>Armand Viktor Bozsik</dc:creator>
         
         
         

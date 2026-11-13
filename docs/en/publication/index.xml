@@ -11,8 +11,6 @@
     <description>Recent content in Publications on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
@@ -26,12 +24,12 @@
         <title>article</title>
         <link>https://armands.blog/en/publication/article/</link>
         <pubDate>Thu, 05 Mar 2020 14:08:48 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Thu, 05 Mar 2020 14:08:48 +0000</atom:modified>
         <guid>https://armands.blog/en/publication/article/</guid>
         <description></description>
         
-        <dc:creator>Armand Bozsik</dc:creator>
+        <dc:creator>Armand Viktor Bozsik</dc:creator>
         
         
         
@@ -44,12 +42,12 @@
         <title>book</title>
         <link>https://armands.blog/en/publication/book/</link>
         <pubDate>Thu, 05 Mar 2020 14:08:48 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Thu, 05 Mar 2020 14:08:48 +0000</atom:modified>
         <guid>https://armands.blog/en/publication/book/</guid>
         <description></description>
         
-        <dc:creator>Armand Bozsik</dc:creator>
+        <dc:creator>Armand Viktor Bozsik</dc:creator>
         
         
         
@@ -62,12 +60,12 @@
         <title>misc</title>
         <link>https://armands.blog/en/publication/misc/</link>
         <pubDate>Thu, 05 Mar 2020 14:08:48 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Thu, 05 Mar 2020 14:08:48 +0000</atom:modified>
         <guid>https://armands.blog/en/publication/misc/</guid>
         <description></description>
         
-        <dc:creator>Armand Bozsik</dc:creator>
+        <dc:creator>Armand Viktor Bozsik</dc:creator>
         
         
         

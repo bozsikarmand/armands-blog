@@ -11,8 +11,6 @@
     <description>Recent content in Plugins on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 14 Jul 2015 16:56:03 +0000</lastBuildDate>
     
@@ -24,7 +22,7 @@
         <title>Newfound security vulerabilities threatening WordPress users</title>
         <link>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</link>
         <pubDate>Tue, 14 Jul 2015 16:56:03 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Tue, 14 Jul 2015 16:56:03 +0000</atom:modified>
         <guid>https://armands.blog/en/posts/newfound-security-vulerabilities-threatening-wordpress-users/</guid>
         <description>&lt;p&gt;&lt;strong&gt;Two widely used extension of WordPress contains pretty severe errors. Unfortunately not every security hole can be fixed.&lt;/strong&gt;&lt;/p&gt;

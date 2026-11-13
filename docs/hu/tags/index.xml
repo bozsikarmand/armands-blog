@@ -11,43 +11,23 @@
     <description>Recent content in Tags on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hu</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 17 Sep 2021 20:11:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Dec 2015 13:07:17 +0000</lastBuildDate>
     
         <atom:link href="https://armands.blog/hu/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       <item>
-        <title>Index</title>
-        <link>https://armands.blog/hu/tags/index/</link>
-        <pubDate>Fri, 17 Sep 2021 20:11:39 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
-        
-        <guid>https://armands.blog/hu/tags/index/</guid>
-        <description></description>
-        
-        <dc:creator>Armand Bozsik</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-    
-      <item>
         <title>Recept</title>
         <link>https://armands.blog/hu/tags/recept/</link>
         <pubDate>Thu, 03 Dec 2015 13:07:17 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         
         <guid>https://armands.blog/hu/tags/recept/</guid>
         <description></description>
         
-        <dc:creator>Armand Bozsik</dc:creator>
+        <dc:creator>Bozsik Armand Viktor</dc:creator>
         
         
         

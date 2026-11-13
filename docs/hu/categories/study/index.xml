@@ -11,8 +11,6 @@
     <description>Recent content in Study on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hu</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 10 Sep 2015 12:26:39 +0000</lastBuildDate>
     
@@ -24,7 +22,7 @@
         <title>Az Ethernet szabvány áttekintése és időrendi fejlődése</title>
         <link>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</link>
         <pubDate>Thu, 10 Sep 2015 12:26:39 +0000</pubDate>
-        <author>hello@armands.blog (Armand Bozsik)</author>
+        
         <atom:modified>Thu, 10 Sep 2015 12:26:39 +0000</atom:modified>
         <guid>https://armands.blog/hu/posts/az-ethernet-szabvany-attekintese-es-idorendi-fejlodese/</guid>
         <description>&lt;p&gt;&lt;em&gt;Beadandó munkámban az Ethernet szabványt kívánom áttekinteni, a történelmi és technikai háttért figyelembe véve.&lt;/em&gt;&lt;/p&gt;

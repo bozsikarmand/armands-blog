@@ -11,8 +11,6 @@
     <description>Recent content in Series on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hu</language>
-    <managingEditor>hello@armands.blog (Armand Bozsik)</managingEditor>
-    <webMaster>hello@armands.blog (Armand Bozsik)</webMaster>
     <copyright>&amp;copy;2015-{year}, All Rights Reserved</copyright>
     
         <atom:link href="https://armands.blog/hu/series/index.xml" rel="self" type="application/rss+xml" />
