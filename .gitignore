@@ -2,3 +2,5 @@
 # Hugo build artifacts
 .hugo_build.lock
 resources/_gen/
+# wrangler dev
+.wrangler/
