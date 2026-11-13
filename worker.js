@@ -1,12 +1,12 @@
 // Egységes 404-kezelés: nyelv az útvonalból (/en/*, /hu/*) vagy Accept-Language
-// fejlécből (root útvonalak). A tematikus, keresős /{lang}/404.html szolgál ki
+// fejlécből (root útvonalak). A tematikus, keresős /{lang}/404 oldalt szolgálja ki
 // 404-es státusszal – redirect és kétnyelvű villanás nélkül, pixelre ugyanaz,
 // mint amit a nyelvi útvonalak kapnak.
 
-// Nyelvenkénti 404 útvonalak (a CV-n az angol a gyökérben él)
+// Nyelvenkénti 404 útvonalak (clean URL – a CV-n az angol a gyökérben él)
 const NOT_FOUND_PAGES = {
-  en: '/en/404.html',
-  hu: '/hu/404.html',
+  en: '/en/404',
+  hu: '/hu/404',
 };
 
 export default {

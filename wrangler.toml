@@ -4,6 +4,7 @@ compatibility_date = "2026-11-04"
 
 [assets]
 directory = "docs"
+binding = "ASSETS"
 # A 404-kezelést a worker.js végzi (Accept-Language alapján tematikus, keresős oldal)
 not_found_handling = "none"
 
