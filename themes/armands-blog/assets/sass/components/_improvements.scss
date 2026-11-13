@@ -77,3 +77,16 @@
   position: relative;
   text-align: left;
 }
+
+// Egységes "Back to home" gomb a 404-es oldalon
+.not-found__home { margin: 1.4rem 0 0; }
+.not-found__btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+
+  .theme__dark & { background: #ffd866; color: #212121; }
+  .theme__monolight & { background: #2c7788; color: #f8f5ef; }
+}

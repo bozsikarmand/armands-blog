@@ -107,3 +107,12 @@ other = "Jump to search (Ctrl+K or /)"
 
 [search-shortcut-key]
 other = "Ctrl K"
+
+[not-found-title]
+other = "The page you are looking for does not exist."
+
+[not-found-hint]
+other = "Try searching for what you were looking for:"
+
+[not-found-home]
+other = "Back to home"

@@ -126,7 +126,10 @@ other = "Ugrás a keresőbe (Ctrl+K vagy /)"
 other = "Ctrl K"
 
 [not-found-title]
-other = "Az oldal nem található"
+other = "A keresett oldal nem létezik."
 
 [not-found-hint]
 other = "Keresd meg, amit kerestél:"
+
+[not-found-home]
+other = "Vissza a főoldalra"
