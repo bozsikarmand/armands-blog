@@ -40,8 +40,11 @@
   /* a mezőkhöz (max 34rem) igazodik – a teljes szélességű gomb furán festett */
   width: 100%; max-width: 34rem; box-sizing: border-box;
   text-transform: uppercase; letter-spacing: 0.4px; font-size: 0.95rem;
-  border: 2px solid transparent; transition: background 0.15s ease, color 0.15s ease;
+  border: 2px solid transparent;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
+.contact-form-section .cf-submit:hover { transform: scale(1.04); }
+.contact-form-section .cf-submit:active { transform: scale(0.98); }
 .theme__dark .contact-form-section .cf-submit { background: #FFD866; color: #212121; }
 .theme__monolight .contact-form-section .cf-submit { background: #2c7788; color: #f8f5ef; }
 .theme__dark .contact-form-section .cf-submit:hover { background: transparent; color: #FFD866; border-color: #FFD866; }
