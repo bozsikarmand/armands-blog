@@ -4,3 +4,5 @@
 resources/_gen/
 # wrangler dev
 .wrangler/
+public-visual/
+node_modules/
