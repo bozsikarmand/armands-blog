@@ -34,6 +34,7 @@ $cursive-font: {{ site.Data.font.cursive_font }};
 $viewport_size: {{ .Site.Params.viewportSize | default "normal" }};
 
 @import 'abstracts/variables';
+@import 'armands-ui'; /* v0.1 közös réteg – csak strukturális tokenek + au-* primitívek, színeket nem definiál (lásd a partial fejléce) */
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'abstracts/flexbox';
