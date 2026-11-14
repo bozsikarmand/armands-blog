@@ -254,3 +254,11 @@ body.theme__monolight .theme-toggle__icon--moon {
     margin: 0;
   }
 }
+
+// armands-ui v1.2.2: a váltók a mobil panel alján; a sávbeli slot rejtve
+@media only screen and (max-width: 769px) {
+  .navbar__theme-slot { display: none; }
+  .navbarm__tools > *,
+  .navbarm__tools .lang-switch__btn,
+  .navbarm__tools .theme-toggle { width: 100%; min-height: 44px; justify-content: center; }
+}
