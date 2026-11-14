@@ -680,3 +680,10 @@
 
 /* Nyelvváltó wrapper-shim. */
 .lang-switch { margin-left: 10px; }
+
+/* ---- v1.6 (2026-11-15) ---- */
+
+/* Univerzális border-box: a v1.5-ös halott-kód-tisztítás a dev/site
+   csillag-szabályát is eltávolította – a block-gombok paddinggel a
+   wrap-ükből csúsztak ki. Innentől a réteg adja az alapot. */
+*, *::before, *::after { box-sizing: border-box; }
