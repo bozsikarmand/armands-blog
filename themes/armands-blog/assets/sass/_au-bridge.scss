@@ -1,0 +1,30 @@
+// armands-ui szín-híd (2026-11-14)
+// A zzo sémái build-time SCSS-mapok – ezek a CSS-változók kötik be őket
+// az armands-ui szerződéses tokenjeibe, így a .au-* primitívek a blogon is
+// témázhatók. Értékek: a többi armands-oldal tokenjeivel azonosak.
+.theme__dark {
+  --bg: #2D2A2E;
+  --bg-alt: #212121;
+  --text: #FCFCFA;
+  --muted: #bdbdbd;
+  --accent: #FFD866;
+  --accent-text: #212121;
+  --link: #FFD866;
+  --link-hover: #ff9bb4;
+  --border: #7e8082;
+  --input-bg: #403E41;
+  --input-text: #FCFCFA;
+}
+.theme__monolight {
+  --bg: #f8f5ef;
+  --bg-alt: #ddd6c8;
+  --text: #3d3a40;
+  --muted: #5a5140;
+  --accent: #2c7788;
+  --accent-text: #f8f5ef;
+  --link: #215966;
+  --link-hover: #8e2f57;
+  --border: #9a8864;
+  --input-bg: #ece7db;
+  --input-text: #3d3a40;
+}
