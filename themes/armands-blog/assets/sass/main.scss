@@ -35,7 +35,6 @@ $viewport_size: {{ .Site.Params.viewportSize | default "normal" }};
 
 @import 'abstracts/variables';
 @import 'armands-ui';
-@import 'au-bridge'; /* armands-ui szín-híd (szerződéses tokenek a zzo sémáiból) */ /* v0.1 közös réteg – csak strukturális tokenek + au-* primitívek, színeket nem definiál (lásd a partial fejléce) */
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'abstracts/flexbox';
