@@ -673,6 +673,16 @@
       }
     }
 
+    function makeSearchHint() {
+      var hu = (document.documentElement.lang || '').indexOf('hu') === 0;
+      var bar = document.createElement('div');
+      bar.className = 'au-search__hint';
+      bar.innerHTML = hu
+        ? '<span><b>&uarr;&darr;</b> navigálás</span><span><b>&crarr;</b> nyitás</span><span><b>esc</b> bezárás</span>'
+        : '<span><b>&uarr;&darr;</b> navigate</span><span><b>&crarr;</b> open</span><span><b>esc</b> close</span>';
+      return bar;
+    }
+
     function renderSearchResultsSide(searchText, results) {
       searchResults = document.getElementById('search-results');
       searchMenu = document.getElementById('search-menu');
@@ -719,6 +729,7 @@
       }
       
       searchMenu.appendChild(ul);
+      searchMenu.appendChild(makeSearchHint());
     }
 
     function renderSearchHighlightResultsSide(searchText, results) {
@@ -792,6 +803,7 @@
         );
       }
       searchMenu.appendChild(ul);
+      searchMenu.appendChild(makeSearchHint());
     }
 
     function renderSearchResultsMobile(searchText, results) {
@@ -1175,6 +1187,9 @@
 
           searchResult ? searchResult.setAttribute('data-display', 'block') : null;
           summaryContainer ? summaryContainer.setAttribute('data-display', 'none') : null;
+          var oldHint = searchBody.querySelector('.au-search__hint');
+          if (oldHint) oldHint.remove();
+          searchBody.appendChild(makeSearchHint());
         }
       }
 
@@ -1197,6 +1212,9 @@
 
           searchResult ? searchResult.setAttribute('data-display', 'block') : null;
           summaryContainer ? summaryContainer.setAttribute('data-display', 'none') : null;
+          var oldHint = searchBody.querySelector('.au-search__hint');
+          if (oldHint) oldHint.remove();
+          searchBody.appendChild(makeSearchHint());
         }
       }
 

@@ -31,9 +31,13 @@
     fuse = new Fuse(data, {
       keys: ['title', 'description', 'content'],
       threshold: 0.4,
+      // Fuse 3.x: ignoreLocation helyett (tartalmi találatok is jöjjenek)
+      distance: 100000,
       maxPatternLength: 32,
       minMatchCharLength: 1,
     });
+    // ha az index megérkezése előtt gépeltek, újrarenderelünk
+    if (input.value.trim()) { render(input.value.trim()); }
   }
 
   var xhr = new XMLHttpRequest();
@@ -46,10 +50,8 @@
   };
   xhr.send();
 
-  input.addEventListener('input', function () {
+  function render(q) {
     while (menu.firstChild) menu.removeChild(menu.firstChild);
-    var q = input.value.trim();
-    ensureFuse();
     if (!q || !fuse) { results.classList.remove('is-active'); return; }
     fuse.search(q).slice(0, 8).forEach(function (r) {
       var item = r.item ? r.item : r;
@@ -59,12 +61,41 @@
       a.textContent = item.title;
       menu.appendChild(a);
     });
+    var hint = document.createElement('div');
+    hint.className = 'au-search__hint';
+    hint.innerHTML = '<span><b>&uarr;&darr;</b> navigálás</span><span><b>&crarr;</b> nyitás</span><span><b>esc</b> bezárás</span>';
+    menu.appendChild(hint);
     results.classList.add('is-active');
+  }
+
+  input.addEventListener('input', function () {
+    ensureFuse();
+    render(input.value.trim());
   });
 
   document.addEventListener('click', function (e) {
     if (!results.contains(e.target) && e.target !== input) {
       results.classList.remove('is-active');
+    }
+  });
+
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { results.classList.remove('is-active'); input.blur(); return; }
+    if (!results.classList.contains('is-active')) return;
+    var items = menu.querySelectorAll('.dropdown-item');
+    if (!items.length) return;
+    var idx = Array.prototype.indexOf.call(items, menu.querySelector('.dropdown-item.is-active'));
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (idx >= 0) items[idx].classList.remove('is-active');
+      idx = e.key === 'ArrowDown'
+        ? (idx + 1) % items.length
+        : (idx <= 0 ? items.length - 1 : idx - 1);
+      items[idx].classList.add('is-active');
+      items[idx].scrollIntoView({ block: 'nearest' });
+    } else if ((e.key === 'Enter' || e.key === 'NumpadEnter') && idx >= 0) {
+      e.preventDefault();
+      location.href = items[idx].getAttribute('href');
     }
   });
 })();

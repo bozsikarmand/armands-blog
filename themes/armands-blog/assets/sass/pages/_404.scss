@@ -17,3 +17,56 @@
     }
   }
 }
+
+.not-found__search {
+  // a lenyíló ne a zzo .search (35px, flex) containerében nyomorogjon:
+  // absolute az input alá, a gombot ideiglenesen átfedheti
+  position: relative;
+  z-index: 999;
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  // a 404-es kereső lenyílója (nincs a zzo-ban általános .dropdown-rejtés)
+  .dropdown {
+    display: none;
+
+    &.is-active {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      box-sizing: border-box;
+      margin-top: 0.25rem;
+      max-height: 60vh;
+      overflow-y: auto;
+      border-radius: 0.1rem;
+      text-align: left;
+      @include themify($themes) {
+        background-color: themed('search-content-background-color');
+        border: 1px solid themed('hr-color');
+      }
+
+      .dropdown-item {
+        display: block;
+        padding: 0.5rem 0.75rem;
+        line-height: 1.4;
+        white-space: normal;
+        text-decoration: none;
+        @include themify($themes) {
+          color: themed('link-color');
+        }
+
+        &:hover,
+        &.is-active {
+          @include themify($themes) {
+            background-color: themed('navbar-background-color');
+          }
+        }
+      }
+    }
+  }
+}
