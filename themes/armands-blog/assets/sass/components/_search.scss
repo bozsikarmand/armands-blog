@@ -464,8 +464,11 @@
     grid-row: 1;
   }
 
+  /* ≤1280px: a jobb oldali sáv (menüpont ~68px + eszközök ~110px +
+     térközek ≈ 193px) – a 6rem (96px) kevés volt: a kereső a menüpontra és
+     a téma-gombra csúszott; 12.5remmel (~200px) a menüpont előtt véget ér */
   @media only screen and (max-width: 1280px) {
-    margin-right: 6rem;
+    margin-right: 12.5rem;
   }
 
   .input {
