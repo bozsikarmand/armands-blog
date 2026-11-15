@@ -8,7 +8,6 @@
   <span aria-hidden="true"></span>
 </a>
 <div class="navbarm__collapse" data-open="false">
-  <button type="button" class="navbarm__close" aria-label="{{ i18n "close" | default "Close menu" }}" data-nav-close>✕</button>
   <ul dir="{{ $.Param "languagedir" | default "ltr" }}">
     {{ $current := . }}
     {{ range $index, $menu := .Site.Menus.main }}

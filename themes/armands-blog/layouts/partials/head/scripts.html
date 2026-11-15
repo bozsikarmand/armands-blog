@@ -97,8 +97,6 @@
     (mqNav.addEventListener ? mqNav.addEventListener.bind(mqNav, 'change') : mqNav.addListener.bind(mqNav))(function () {
       if (mqNav.matches) setNavCollapse(false);
     });
-    var navCloseBtn = document.querySelector('[data-nav-close]');
-    navCloseBtn ? navCloseBtn.addEventListener('click', function () { setNavCollapse(false); }) : null;
     navCollapseBtn ? navCollapseBtn.addEventListener('click', function () {
       var navCollapse = document.querySelector('.navbarm__collapse');
       setNavCollapse(!(navCollapse && navCollapse.getAttribute('data-open') === 'true'));
