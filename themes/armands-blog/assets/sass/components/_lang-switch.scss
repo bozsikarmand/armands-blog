@@ -262,3 +262,19 @@ body.theme__monolight .theme-toggle__icon--moon {
   .navbarm__tools .lang-switch__btn,
   .navbarm__tools .theme-toggle { width: 100%; min-height: 44px; justify-content: center; }
 }
+
+// BLOG-01: a bezáró X a mobil drawer jobb felső sarkában
+@media only screen and (max-width: 769px) {
+  .navbarm__close {
+    position: absolute; top: 0.6rem; right: 0.8rem;
+    width: 44px; height: 44px;
+    background: transparent; border: 1px solid var(--border, #7e8082);
+    border-radius: 8px; color: inherit; font-size: 1.1rem;
+    cursor: pointer; z-index: 10;
+  }
+}
+
+// BLOG-02: a közösségi ikonok egyenletes tördelése
+@media only screen and (max-width: 1200px) {
+  .sidebar .social-icon-container { justify-content: flex-start; }
+}

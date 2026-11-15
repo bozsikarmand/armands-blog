@@ -52,3 +52,12 @@ $grid_max: $grid_max_width + $grid_max_unit;
     }
   }
 }
+// BLOG-02: a sidebar 1024px alatt a tartalom ala kerul (a ~230px-es
+// osszenyomott oldalsav helyett)
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+  .wrapper { grid-template-columns: 1fr !important; }
+  .wrapper__right { display: none; }
+  .header-main { grid-area: auto; }
+  main.main { grid-area: auto; }
+  .wrapper .main { grid-column: 1 / -1; max-width: 46rem; margin: 0 auto; width: 100%; }
+}
