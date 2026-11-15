@@ -99,3 +99,8 @@ $viewport_size: {{ .Site.Params.viewportSize | default "normal" }};
 @import 'pages/wrapper';
 @import 'pages/publication';
 @import 'pages/resume';
+/* A zzo-s részek több helyen 100vw-t használnak (navbar, wrapper oldalai,
+   kereső-modal) – a helyfoglaló görgetősáv ~15px-cel kinyomná az oldalt
+   vízszintesen (lásd az ökoszisztéma-szabályt). A clip (nem hidden!) nem
+   hoz létre scroll-containert, a sticky TOC működik tovább. */
+html, body { overflow-x: clip; }

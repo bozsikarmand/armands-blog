@@ -152,8 +152,9 @@
     height: 100%;
 
     &-link {
-      width: 40px;
-      height: 40px;
+      /* 44px érintési cél (a11y), a navbar 50px magas */
+      width: 44px;
+      height: 44px;
       padding: 0.1rem;
       margin: auto 0.25rem;
       @include flex-shrink(0);
