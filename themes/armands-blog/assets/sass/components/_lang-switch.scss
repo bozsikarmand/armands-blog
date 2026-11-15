@@ -261,6 +261,9 @@ body.theme__monolight .theme-toggle__icon--moon {
   .navbarm__tools > *,
   .navbarm__tools .lang-switch__btn,
   .navbarm__tools .theme-toggle { width: 100%; min-height: 44px; justify-content: center; }
+  /* a réteg .lang-switch { margin-left: 10px }-e a panel klónján is élt –
+     10px-el kitolta a teljes szélességű gombot a sorból */
+  .navbarm__tools .lang-switch { margin-left: 0; }
 }
 
 // BLOG-01: a bezáró X a mobil drawer jobb felső sarkában

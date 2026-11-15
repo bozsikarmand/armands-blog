@@ -644,11 +644,11 @@
 .au-field > label { margin-bottom: 0.4rem; }
 .form-contact label { display: block; margin-bottom: 0.4rem; }
 
-/* BUG-03: a mobil drawer aljának váltói egymás mellé (2 oszlop),
-   ne teljes szélességű, üres téglalapok legyenek. */
-.au-menu-tools { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
-.au-menu-tools > * { width: 100%; }
-.au-menu-tools .au-lang__btn { width: 100%; justify-content: center; }
+/* ---- v1.7.3 (2026-11-15) ---- */
+
+/* A BUG-03-as 2 oszlopos .au-menu-tools TÖRÖLVE: a v1.7 óta a váltók egymás
+   alatt, teljes szélességűek minden oldalon – a ráérvenyesült grid a blog
+   navbarm__tools-án még 2 oszlopot csinált. */
 /* ---- v1.7 (2026-11-15) ---- */
 
 /* A mobil panel-mód viewport-alapúra vált (a container query a site kétpaneles
