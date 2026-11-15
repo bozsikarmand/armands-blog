@@ -593,6 +593,13 @@
   letter-spacing: -0.03em;
 }
 .introduction .self-identification { color: var(--identification); }
+
+/* ---- v1.7.4 (2026-11-15) ---- */
+
+/* A gépelő tagline inline-block: inline elemen a typewriter.js min-width-je
+   érvénytelen – szóváltáskor a span üresen összeesett, és az alatta levő
+   tartalom ugrált (a .site oldalon jelentett remegés). */
+.introduction .self-identification[data-typewriter] { display: inline-block; }
 .introduction .privacy-policy { color: var(--identification); }
 .introduction .cookie-policy { color: var(--identification); }
 
