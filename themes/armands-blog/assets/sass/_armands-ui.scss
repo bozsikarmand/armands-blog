@@ -702,3 +702,9 @@
 
 /* A mező-sorok (au-field) egymás utáni térköze – az űrlapok ne érjenek össze. */
 .au-field + .au-field { margin-top: var(--au-space-3); }
+
+/* ---- v1.7.2 (2026-11-15) ---- */
+
+/* A küldőgomb ne tapadjon az utolsó mezőhöz: a mező és a gomb közé
+   (invisible) Turnstile-widget is kerülhet – general sibling a ~. */
+.au-field ~ button.au-pill { margin-top: var(--au-space-3); }
