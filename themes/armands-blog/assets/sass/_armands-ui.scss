@@ -697,3 +697,8 @@
     background: var(--overlay-bg-soft, rgba(0, 0, 0, 0.45));
   }
 }
+
+/* ---- v1.7.1 (2026-11-15) ---- */
+
+/* A mező-sorok (au-field) egymás utáni térköze – az űrlapok ne érjenek össze. */
+.au-field + .au-field { margin-top: var(--au-space-3); }
