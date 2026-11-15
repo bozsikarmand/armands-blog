@@ -6,3 +6,5 @@ resources/_gen/
 .wrangler/
 public-visual/
 node_modules/
+visual/baseline/
+visual/actual/
