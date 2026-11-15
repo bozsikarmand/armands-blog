@@ -46,10 +46,7 @@
   text-underline-offset: 2px;
 }
 
-/* Contact form: a 75ch olvasási oszlophoz igazodik (ne lógjon ki a gomb) */
-.single__contents .contact-form-section {
-  max-width: 75ch;
-}
+/* A contact form teljes szélességű (a többi oldallal harmonizálva) */
 
 /* Reszponzív videó (WCAG 1.4.10 reflow) */
 .video-wrapper {
