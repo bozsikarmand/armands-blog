@@ -12,3 +12,8 @@
   name = "About"
   url = "/en/about/"
   weight = 10
+
+[[main]]
+  name = "Labs"
+  url = "https://labs.armands.dev"
+  weight = 20

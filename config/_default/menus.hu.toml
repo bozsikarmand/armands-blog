@@ -12,3 +12,8 @@
   name = "Rólam"
   url = "/hu/about/"
   weight = 10
+
+[[main]]
+  name = "Laborok"
+  url = "https://labs.armands.dev"
+  weight = 20
