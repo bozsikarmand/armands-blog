@@ -1,3 +1,9 @@
+{{/* A CSS-érkezés előtti festés a téma színére – lassú él-TTFB-nél nem fehér
+   villanás a betöltés */}}
+<style>
+  html { background: #2D2A2E; color-scheme: dark; }
+  @media (prefers-color-scheme: light) { html { background: #f8f5ef; } }
+</style>
 {{ $main_options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
 {{ $main_template := resources.Get "sass/main.scss" }}
 {{ $main_style := $main_template | resources.ExecuteAsTemplate "main_parsed.scss" . | css.Sass $main_options | resources.Minify | resources.Fingerprint }}
